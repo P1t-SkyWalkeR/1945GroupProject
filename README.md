@@ -57,8 +57,9 @@ and against the LLM. See [`spot_check/README.md`](spot_check/README.md).
 | Human spot check | **waiting for two annotators** | `spot_check/` |
 | Recommender (methods A / B / C) and evaluation | not started | — |
 
-Known caveat in the experiment: only the Perceptron uses class weighting (sklearn's KNN/MLP do not support
-it), which favours it under macro-F1. See METHODOLOGY section 4, step 4.
+Class balance: the Perceptron uses class weighting; KNN and MLP were re-run with random oversampling inside
+each training fold (`knn_bal`, `mlp_bal`). Balancing helps the MLP (0.30 → 0.34 / 0.35 → 0.40) but BoW +
+Perceptron stays best. See METHODOLOGY section 4, step 4.
 
 ## ⚠️ Spot check: do not open the answer file
 

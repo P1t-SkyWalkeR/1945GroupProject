@@ -7,17 +7,24 @@ Tasks           : full  = predict the LLM label including `unknown` (detection +
                   level = predict the level only, on reviews the LLM labeled (non-unknown)
 Metrics         : macro-F1 and accuracy on pooled out-of-fold predictions; std of fold macro-F1
 
+Class balance: macro-F1 rewards models that predict minority classes. The Perceptron uses
+class_weight="balanced"; sklearn's KNN and MLP have no such option, so `knn_bal` and `mlp_bal` randomly
+oversample every class in the training fold up to the size of the largest class (test folds untouched).
+The unbalanced `knn` and `mlp` are kept to show the effect of balancing.
+
 Important: the target is the LLM label, so this measures agreement with the LLM, not with the truth.
 All fitted preprocessing (vocabulary, scaling) is fitted on the training fold only.
 
 Requires the GloVe file at ~/gensim-data/glove-wiki-gigaword-100/glove-wiki-gigaword-100.gz
 (gensim-data release "glove-wiki-gigaword-100"; downloaded with curl because gensim's index fetch failed).
 
-Usage: python src/classic_models.py
+Usage: python src/classic_models.py [model ...]   # e.g. knn_bal mlp_bal; default: all models
+       Results for the listed models replace earlier rows for those models; other rows are kept.
 Writes cleaned/experiments/classic_results.csv, classic_folds.csv, oof_predictions.csv
 """
 
 import re
+import sys
 import time
 from pathlib import Path
 
@@ -57,10 +64,22 @@ def classifiers(rep: str) -> dict:
         "perceptron": Perceptron(max_iter=1000, class_weight="balanced", random_state=SEED),
         "knn": KNeighborsClassifier(n_neighbors=15, metric="cosine" if rep == "bow" else "minkowski", weights="distance"),
         "mlp": MLPClassifier(hidden_layer_sizes=(64,), early_stopping=True, max_iter=200, random_state=SEED),
+        "knn_bal": KNeighborsClassifier(n_neighbors=15, metric="cosine" if rep == "bow" else "minkowski", weights="distance"),
+        "mlp_bal": MLPClassifier(hidden_layer_sizes=(64,), early_stopping=True, max_iter=200, random_state=SEED),
     }
 
 
+def oversample(y: np.ndarray, seed: int) -> np.ndarray:
+    """Row indices that random-oversample every class to the size of the largest class."""
+    rng = np.random.default_rng(seed)
+    classes, counts = np.unique(y, return_counts=True)
+    return np.concatenate([np.concatenate([np.flatnonzero(y == c),
+                                           rng.choice(np.flatnonzero(y == c), counts.max() - n, replace=True)])
+                           for c, n in zip(classes, counts)])
+
+
 def main() -> None:
+    only = set(sys.argv[1:])
     OUT.mkdir(parents=True, exist_ok=True)
     df = pd.read_csv(ROOT / "cleaned" / "reviews_clean.csv", keep_default_na=False).set_index("hash")
     labels = pd.read_csv(ROOT / "cleaned" / "review_labels.csv", keep_default_na=False).set_index("hash").loc[df.index]
@@ -88,7 +107,7 @@ def main() -> None:
             keep = np.ones(len(y_all), bool) if task == "full" else (y_all != "unknown")
             for rep in ["bow", "glove"]:
                 for name in classifiers(rep):
-                    if name == "majority" and rep == "glove":
+                    if (name == "majority" and rep == "glove") or (only and name not in only):
                         continue  # baseline does not depend on the representation
                     t0, pred, true, idx, fold_f1 = time.time(), [], [], [], []
                     for k, (tr, te) in enumerate(folds):
@@ -96,7 +115,11 @@ def main() -> None:
                         if mte.sum() == 0 or len(set(y_all[tr][mtr])) < 2:
                             continue
                         Xtr, Xte = feats[k][rep]
-                        clf = classifiers(rep)[name].fit(Xtr[mtr], y_all[tr][mtr])
+                        Xk, yk = Xtr[mtr], y_all[tr][mtr]
+                        if name.endswith("_bal"):
+                            o = oversample(yk, SEED + k)
+                            Xk, yk = Xk[o], yk[o]
+                        clf = classifiers(rep)[name].fit(Xk, yk)
                         p = clf.predict(Xte[mte])
                         pred += list(p); true += list(y_all[te][mte]); idx += list(te[mte])
                         fold_f1.append(f1_score(y_all[te][mte], p, average="macro", zero_division=0))
@@ -113,10 +136,17 @@ def main() -> None:
                     print(f"{d:22s} {task:5s} {model:16s} macroF1={results[-1]['macro_f1']:.3f} "
                           f"acc={results[-1]['accuracy']:.3f} ({time.time() - t0:.0f}s)", flush=True)
 
-    pd.DataFrame(results).to_csv(OUT / "classic_results.csv", index=False)
-    pd.DataFrame(fold_rows).to_csv(OUT / "classic_folds.csv", index=False)
-    pd.DataFrame(oof_rows).to_csv(OUT / "oof_predictions.csv", index=False)
-    res = pd.DataFrame(results)
+    new = {"classic_results.csv": pd.DataFrame(results), "classic_folds.csv": pd.DataFrame(fold_rows),
+           "oof_predictions.csv": pd.DataFrame(oof_rows)}
+    for fname, frame in new.items():
+        path = OUT / fname
+        if only and path.exists():
+            old = pd.read_csv(path, keep_default_na=False)
+            col = "model" if "model" in old.columns else None
+            old_models = old[col] if fname != "classic_folds.csv" else old["model"]
+            frame = pd.concat([old[~old_models.astype(str).str.split("+").str[-1].isin(only)], frame])
+        frame.to_csv(path, index=False)
+    res = pd.read_csv(OUT / "classic_results.csv")
     for task in ["full", "level"]:
         print(f"\nmacro-F1, task={task}")
         print(res[res.task == task].pivot(index="dimension", columns="model", values="macro_f1").to_string())
