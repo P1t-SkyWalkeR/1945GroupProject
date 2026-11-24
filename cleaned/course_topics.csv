@@ -1,0 +1,151 @@
+course,course_name,topic_categories,topic_keywords
+ACCT1010,"Accounting, Business and Society",business_finance,accounting; financial statements; cash flow; introduction to accounting; inventory; stockholder's equity; income statement; balance sheet
+BIEN1010,Introduction to Biomedical Engineering,engineering_technology; life_sciences_health,bioinstrumentation; bioimaging; drug delivery; immunity; biomolecular engineering; biomedical engineering; covid-19; cancer
+CENG1500,A First Course on Materials Science and Applications,engineering_technology; physical_sciences,polymers; atomic structure; phase diagrams; materials science; chemistry; semiconductors; crystal structure; diffusion
+CENG1600,Biotechnology and Its Business Opportunities,life_sciences_health; business_finance,biotechnology; biology; central dogma; biotech business; recombinant dna; crispr; guest speakers; monoclonal antibodies
+CENG1700,Introduction to Environmental Engineering,engineering_technology; environment_sustainability,air pollution; environmental chemistry; environmental engineering; wastewater; mass balance; solar energy; solid waste; water pollution
+CENG1800,Introduction to Food Science and Technology,life_sciences_health; physical_sciences,nutrition; food processing; food chemistry; food science; food safety; food additives; food technology; food preservation
+CHEM1002,Introduction to Chemistry of Cosmetics,physical_sciences,cosmetics; skincare; surfactants; hair care; hair coloring; chemical ingredients; hair dye; skin whitening
+CHEM1004,Chemistry in Everyday Life,physical_sciences,chemistry; organic chemistry; basic chemistry; air; metals; fuels; chemical calculations; dse chemistry
+CIVL1160,Civil Engineering and Modern Society,engineering_technology,civil engineering; construction materials; bridges; drainage; transportation; structural principles; urban planning; marine structures
+CIVL1170,"Big History, Sustainability and Climate Change",history_culture; environment_sustainability,big history; climate change; human development
+COMP1001,Exploring Multimedia and Internet Computing,computing_programming,app development; office software; multimedia; internet computing; html; image editing; block programming; multimedia editing
+COMP1021,Introduction to Computer Science,computing_programming,python; turtle graphics; recursion; loops; functions; dictionaries; programming; turtle
+COMP1022P,Introduction to Computing with Java,computing_programming,java; recursion; object-oriented programming; arrays; stacks and queues; data structures; abstract data types; file i/o
+COMP1942,Exploring and Visualizing Data,computing_programming; mathematics_statistics,clustering; association; classification; pca; data mining; xlminer; data warehouse; machine learning
+COMP1943,Creative Sound and Video Design,arts_music_film; computing_programming,video editing; sound design; green screen; commentary videos; video production; music remix; peer review; peer grading
+COMP1944,Artificial Intelligence Ethics,computing_programming; philosophy_religion,ai ethics; privacy; fairness and bias; ai policy; ai in military; bias; debate; algorithmic censorship
+COMP2711,Discrete Mathematical Tools for Computer Science,mathematics_statistics; computing_programming,probability; logic; counting; number theory; graphs; induction; cryptography; discrete mathematics
+CORE1411,Elementary Putonghua for Non-Chinese Language Background Students,language_literature_writing,putonghua; conversation; greetings; shopping
+CORE1421,Chinese Communication in the Digital Era,language_literature_writing,chinese communication; new media; digital communication
+ECON2103,Principles of Microeconomics,economics,microeconomics; elasticity; monopoly; supply and demand; oligopoly; externalities; demand and supply; international trade
+ECON2123,Macroeconomics,economics,is-lm; macroeconomics; open economy; as-ad; economic growth; labor market; gdp; phillips curve
+ELEC1010,Electronic and Information Technology,engineering_technology,signals; networks; wireless communications; information theory; digitization; source coding; digital communication; signal processing
+ENGG1110,Engineering Solutions to Grand Challenges of the 21st Century,engineering_technology,social issues; engineering solutions; projects; grand challenges; engineering problems; feasibility; sustainability
+ENGG1150,"Information Technology Revolution: Past, Present and Future",computing_programming; engineering_technology,information theory; internet; programming; cryptography; information security; it history; technology history; transistors
+ENGG1200,Engineering Team Design Experience,engineering_technology; arts_music_film,3d modelling; blender; virtual production; design thinking; storyboard; animation; engineering design; 3d modeling
+ENGG1300,Design Thinking for Health Innovation,engineering_technology; life_sciences_health,prototyping; design thinking; 3d modelling; figma; app design; stress; mental health; prototype design
+ENTR1001,Entrepreneurship 1001: Designing Your Future,management_entrepreneurship,entrepreneurship; design thinking; product design; business models; prototyping; pitching; financing; business stories
+ENVR1030,Environment and Health,environment_sustainability; life_sciences_health,toxicology; environmental epidemiology; environmental policy; water quality; air quality; radiation; environmental health; environment
+ENVR1080,The Smart Consumer - Uncovering the Hidden Story behind the Product Label,environment_sustainability; business_finance,sustainability; consumer behaviour; sustainable consumption; life cycle assessment; government policy; consumer heuristics; public campaign; esg
+ENVR1150,Climate Change Impacts and Extreme Weather Events,environment_sustainability; physical_sciences,climate change; extreme weather; climate models; adaptation; greenhouse gases; data analysis; excel; graphs
+ENVR1170,"Science, Environment and Society - From Big Bang to Big Data",environment_sustainability; history_culture,climate change; big history; sapiens; ipcc report; hong kong climate action plan; big bang; evolution; environmental issues
+ENVR2020,Urban Air Pollution,environment_sustainability; physical_sciences,atmospheric gases; air pollution meteorology; particulate matter; carbon footprint; indoor air quality; urban air pollution; risk assessment; pollutants
+FINA1303,Introduction to Financial Markets and Institutions,business_finance,financial markets; interest rates; financial institutions; finance; commercial banks; investment banks; asset pricing; banking
+HART1012,Introduction to Photography,arts_music_film,photography
+HUMA1000A,"Cultures and Values: Language, Communication and Society",language_literature_writing; social_sciences,language; identity; language policy; communication; intercultural communication; culture; speech
+HUMA1000B,"Cultures and Values: Righteousness, Destiny and Well-being",philosophy_religion,confucianism; philosophy; ethics; utilitarianism; kantianism; daoism; chinese philosophy; humanities
+HUMA1001B,Foundational Texts in the Humanities: The Four Books - Zhu Xi's Reading,philosophy_religion; language_literature_writing,four books; zhu xi; confucianism
+HUMA1010,Introduction to Language,language_literature_writing,linguistics; phonetics; ipa; phonology; morphology; semantics; syntax; word classes
+HUMA1030,Structure of the Chinese Language,language_literature_writing,chinese phonology; morphology; syntax; linguistic diversity; language contact; ipa; chinese dialects
+HUMA1060,Introduction to Mandarin Chinese Grammar,language_literature_writing,mandarin grammar; syntax; morphology; word classes
+HUMA1100,Music of the World,arts_music_film,world music; african music; indian music; music history; elements of music; musical instruments; islamic culture; transliterated terms
+HUMA1102,Enjoyment of Classical Music,arts_music_film,classical music; music history; baroque; composers; classical music history; music theory; western music history; opera
+HUMA1210,Chinese Women on Screen,arts_music_film; social_sciences,gender; chinese cinema; women; film; women's issues; chinese film
+HUMA1231,Popular Culture of East Asia,arts_music_film; history_culture,east asian popular culture; k-pop; anime; film; tv drama; j-pop; globalization; hong kong culture
+HUMA1301,World Literature and Film,language_literature_writing; arts_music_film,film adaptation; world literature; film analysis; novels; literature; film techniques
+HUMA1430,"History of P. R. China's Diplomacy, 1949-1989",history_culture,chinese diplomacy; korean war; diplomatic history; current affairs; chinese history; modern chinese history; chinese civil war; cold war
+HUMA1440,Modern China,history_culture,qing dynasty; modern chinese history; chinese history; cultural revolution; reform and opening up; modernity; opium war; chinese nationalism
+HUMA1520,Modern East Asia,history_culture,modern east asia; opium wars; cultural revolution; east asian history; cold war hong kong; modern chinese history; ming-qing china; korean war
+HUMA1639,"Marriage, Family and Kinship in Cross-cultural Perspectives",history_culture; social_sciences,marriage; family; kinship; chinese lineage; romantic love
+HUMA1650,Appreciation of Western Art,arts_music_film,western art; art genres; renaissance art; baroque art; impressionism; art history
+HUMA1660,Introduction to Chinese Art,arts_music_film; history_culture,chinese art; jade; ceramics; calligraphy; buddhist art; bronze; chinese painting; dynasties
+HUMA1710,The Art of Thinking in the Hong Kong Context,philosophy_religion,fallacies; critical thinking; symbolic logic; categorical syllogisms; logic; logico-linguistic analysis; categorical syllogism; linguistic analysis
+HUMA1811,History of Chinese Philosophy,philosophy_religion,chinese philosophy; confucius; feng youlan; classical chinese; confucianism; daoism; buddhism; legalism
+HUMA1920,Introduction to Moral Philosophy,philosophy_religion,virtue ethics; utilitarianism; deontology; moral philosophy; ethics; kantian deontology; moral realism; moral relativism
+HUMA2010,Metaphors in English and Chinese,language_literature_writing,conceptual metaphor; metonymy; time as space; chinese and english; metaphor; language; abstract concepts
+HUMA2031,The Cantonese Language,language_literature_writing,cantonese; syntax; language history; phonology; phonetics; morphology; sociolinguistics; jyutping
+HUMA2050,Classical Chinese,language_literature_writing,classical chinese; classical poetry; confucianism; classical prose; chinese history; poetry; language analysis; laozi
+HUMA2101,Enjoyment of Western Opera,arts_music_film,opera; music history; opera production; music terminology; composers; opera history; music listening; opera archetypes
+HUMA2104,Music Theory I: Introduction to Tonal Music,arts_music_film,music theory; chords; composition; keys and scales; intervals; harmonic analysis; ear training; music notation
+HUMA2105,"Music, Drama, and Theatre",arts_music_film,musical theatre; scriptwriting; dance; singing; performance
+HUMA2107,Introduction to Electronic Music Composition,arts_music_film; computing_programming,synthesis; electronic music; digital audio; mixing; sampling; electronic music composition; reaper; modular synthesizer
+HUMA2240,Reading Chinese Literature: Dreams of the Red Chamber,language_literature_writing,dream of the red chamber; chinese literature; cultural metaphor; values; classical novel; cao xueqin; character analysis; philosophy
+HUMA2250,Modern Chinese Fiction (1917-1949),language_literature_writing,modern chinese fiction; republican-era novels; jin yong
+HUMA2300,Traditional Chinese Poetry: Early Chinese Poetry,language_literature_writing,early chinese poetry; classical poems; traditional chinese poetry; poetry history; poem recitation
+HUMA2330,Anime,arts_music_film; history_culture,anime; japanese animation; mecha; shojo; otaku culture
+HUMA2340,Between Old and New: Chinese Stories and Their Reinventions,language_literature_writing; history_culture,chinese stories; lu xun; mandate of heaven; female representation
+HUMA2440,20th-Century China in Documentary Films,history_culture; arts_music_film,20th-century china; documentary films; cultural revolution; chinese history; qing dynasty; 1911 revolution; research paper; documentary film
+HUMA2588,"Nazism and German Society, 1914-1945",history_culture,nazi germany; weimar republic; hitler; holocaust; propaganda; german society; history
+HUMA2590,The Making of the Modern World: Renaissance to the Present,history_culture,world war i; european history; world war ii; cold war; modern european history; history; western history; french revolution
+HUMA2621,Culture and Environment,history_culture; environment_sustainability,anthropology; cultural ecology; fengshui; adaptive strategies; culture and environment; history; pastoralism; resource management
+HUMA2632,Chinese Culture and Society in Anthropological Perspectives,history_culture,hong kong culture; chinese customs; rural development; fieldwork; anthropology; chinese family and lineage; religion; urbanization
+HUMA2635,Cultural Diversity in China,history_culture,ethnic cultures; cultural identity; china
+HUMA2638,Peoples and Cultures in Southeast Asia,history_culture,southeast asia; thailand; cambodia; vietnam; culture; religion; southeast asian cultures; laos
+HUMA2640,Unofficial China: Social History 1800s-1930s,history_culture,chinese social history; violence; unofficial history; gender inequality; chinese society; women's lives; opium; prostitution
+HUMA2660,Introduction to Chinese Painting,arts_music_film,chinese painting; landscape painting; literati painting; art appreciation; art critique; song and yuan painting; ming and qing painting; warring states to qing
+HUMA2661,Chinese Oil Painting,arts_music_film; history_culture,chinese oil painting; art history; chinese history; mao zedong; socialist art; cultural revolution art; chinese avant-garde; political pop
+HUMA2670,Understanding Western Painting,arts_music_film,western painting; art history; renaissance; baroque; impressionism; modern art; greek to contemporary art; artistic periods
+HUMA2680,Understanding Western Architecture,arts_music_film,western architecture; gothic; renaissance; modernism; greek architecture; gothic architecture; contemporary architecture; architecture history
+HUMA2840,Buddhism and the Chinese Intellectual Tradition,philosophy_religion,buddhism; buddhist doctrine; buddhist philosophy; mahayana; four noble truths; chinese buddhism; life of the buddha; buddhist theory
+HUMA2911,Buddhism: Origin and Growth,philosophy_religion,buddhist philosophy; chan buddhism; no-self; emptiness; mahayana; indian buddhism; nagarjuna; dependent origination
+HUMA2921,Ethical Theories and Contemporary Issues,philosophy_religion,ethics; utilitarianism; kant; moral theory; ethical theories; contemporary issues; justice; virtue ethics
+HUMA3030,"Language, Communication and Culture",language_literature_writing,pragmatics; speech acts; politeness; communication; implicature; language contact; linguistics; biological linguistics
+HUMA3050,Psychology of Language,language_literature_writing; social_sciences,psycholinguistics; speech perception; mental lexicon; bilingualism; brain and language
+HUMA3201,Animation: A Global Perspective,arts_music_film,animation history; disney; czech animation; japanese animation; rotoscoping; stop-motion; japanese anime; chinese animation
+HUMA3210,Traditional Chinese Poetry: Tang and Song Poetry,language_literature_writing,poetry appreciation; tang and song poetry; poetry recitation; tang poetry; song poetry
+HUMA3220,Modern Chinese Poetry,language_literature_writing,modern chinese poetry; symbolism; hong kong poetry; taiwan poetry; chinese poetry; poetry analysis; modernism; poetry translation
+HUMA3430,Reading Modern Chinese History Historically,history_culture,chinese history; historical analysis; critical debate
+HUMA3630,Community and Cultural Identity,history_culture,community; chinese history; cultural identity
+HUMA3680,Contemporary Architecture: The Pritzker Prize Winners,arts_music_film,architectural styles; contemporary architecture; pritzker prize; architects; architecture; architectural research
+HUMA3800,Guided Studies in Chinese Philosophical Classics,philosophy_religion,chinese philosophy; buddhism; confucianism; metaphysics
+HUMA3810,Taoism and the Chinese Tradition,philosophy_religion,taoism; laozi; zhuangzi; political philosophy; dialectics
+HUMA3821,Classical Chinese Philosophy (in English),philosophy_religion,chinese philosophy; chinese classics
+HUMA3900,Philosophical Inquiry into the Modern World,philosophy_religion,modern philosophy; rationalism; metaphysics; epistemology; kant; enlightenment; philosophy; descartes
+IEDA2010,Introduction of Industrial Engineering and Decision Analytics,engineering_technology; mathematics_statistics,forecasting; optimization; probability; inventory management; industrial engineering; linear programming; revenue management; supply chain
+ISDN2000,What is Design and Why Design?,arts_music_film; engineering_technology,design principles; design styles; architectural design; industrial design; design
+ISOM1090,Social Media: Collective Intelligence & Creativity,business_finance; computing_programming,web 2.0; collective intelligence; crowdsourcing; social media; ai; long tail; user generated content; fake news
+ISOM1380,Technology and Innovation: Social and Business Perspectives,management_entrepreneurship; business_finance,innovation; open innovation; disruptive innovation; s-curves; technological innovation; network externalities; technology innovation; business models
+ISOM1500,Insightful Decisions,business_finance; mathematics_statistics,decision making; statistics; uncertainty; ambiguity; cognitive bias; measurement; quantitative analysis
+ISOM1700,Critical Issues in Business Operations,business_finance,sustainability; supply management; social business; business operations; inventory and quality; case studies; supply chain; operations
+ISOM2310,"Fundamentals of E-Commerce: Business, Technology, and the Society",business_finance; computing_programming,e-commerce; business models; disruptive innovation; fintech; blockchain; cryptography; management; e-commerce history
+ISOM2400,Global Information Infrastructure and Policy,computing_programming; social_sciences,information infrastructure; telecommunications; deregulation; web 2.0; wto; telecommunication; networking; telecom policy
+LIFS1010,Introduction to Biological Sciences,life_sciences_health,human biology; evolution; genetics; biology; ecology; biodiversity; chinese medicine; cell biology
+LIFS1020,Biology of Human Health,life_sciences_health,human health; biology; social topics; environment; nutrition
+MARK1220,Marketing and Society,business_finance,marketing; sustainability; consumer psychology; social media; creative analysis; csr; consumerism; case studies
+MATH1003,Calculus and Linear Algebra,mathematics_statistics,matrices; integration; calculus; derivatives; annuities; financial mathematics; compound interest; differentiation
+MATH1012,Calculus IA,mathematics_statistics,calculus; limits; derivatives; integrals; differentiation; integration; functions; dse m2
+MATH1013,Calculus I,mathematics_statistics,calculus; limits; derivatives; integrals; differentiation; functions; mean value theorem; integration
+MATH1020,Accelerated Calculus,mathematics_statistics,calculus ii; conic sections; polar integration
+MATH1023,Honors Calculus I,mathematics_statistics,limits; continuity; taylor expansion; sequences; differentiation; mean value theorem; proofs; derivatives
+MECH1902,Energy Systems in a Sustainable World,engineering_technology; environment_sustainability,energy; sustainability; wind power; nuclear energy; solar energy; batteries; sustainable energy; domestic energy
+MECH1905,Buildings for Contemporary Living,engineering_technology,building systems; buildings; green buildings; smart buildings; hvac; heat transfer; air conditioning; iot sensors
+MECH1906,Mechanical Engineering for Modern Life,engineering_technology,aerospace engineering; materials; mechanics; thermofluids; design and manufacturing; manufacturing; thermodynamics; fluid mechanics
+MGMT1110,Introduction to Management,management_entrepreneurship,management; leadership; motivation; decision making; organizational culture; human resource management; polc; external environment
+MGMT1120,Developing the Leader in You,management_entrepreneurship,leadership; leadership styles; mbti; personality tests; time management; delegation; conflict management; ethical decisions
+MGMT1130,Traps and Pitfalls in Judgment and Decision Making,management_entrepreneurship; social_sciences,decision making; perception; memory; cognitive biases; human cognition; daily life examples; anchoring; overconfidence
+OCES1030,Environmental Science,environment_sustainability; physical_sciences,biomes; biodiversity; water pollution; air pollution; microplastics; climate change; climate; geography
+PHYS1001,Physics and the Modern Society,physical_sciences,energy; medical technology; environmental issues; waves; physics; physics concepts; everyday physics; semiconductors
+PHYS1002,Introduction to Astrophysics and Astronomy,physical_sciences,astronomy; stars; galaxies; cosmology; black holes; universe; physics; astrophysics
+PHYS1003,Energy and Related Environmental Issues,physical_sciences; environment_sustainability,energy; thermodynamics; electricity; engines; renewable energy; physics; nuclear power; climate change
+PHYS1007,Quantum Information for Everyone,physical_sciences; computing_programming,quantum algorithms; linear algebra; quantum error correction; quantum cryptography; quantum gates; quantum information; quantum computing; complex numbers
+PHYS1111,General Physics I,physical_sciences,waves; kinematics; newton's laws; thermodynamics; physics; rotational motion; mechanics; high school physics
+PHYS1112,General Physics I with Calculus,physical_sciences,thermodynamics; waves; gravitation; mechanics; physics; rigid body dynamics; newton's laws; newtonian mechanics
+PHYS1312,Honors General Physics I,physical_sciences,mechanics; thermodynamics; waves; entropy; physics olympiad; physics; general physics; differential equations
+PPOL2110,"Science, Technology and Society in China",social_sciences; history_culture,chinese science history; technology; industrial revolution; innovation; science and society; chinese development; innovation systems; innovation policy
+RMBI1010,Risk Management in Financial Institutions,business_finance,risk management; financial institutions; bank balance sheets; market risk; credit risk; value at risk; excel; risk analysis
+RMBI1020,Business Intelligence for Data-Driven Decisions,business_finance; mathematics_statistics,excel; regression; data analysis; statistics; optimization; business intelligence; classification; clustering
+SCIE1120,Chemistry and Life,physical_sciences; life_sciences_health,chemistry; dna; proteins; biology; sugars; biochemistry; molecular genetics; cells
+SOSC1270,International Law,social_sciences,international law; human rights; use of force; treaties; law of the sea; legal cases; environmental law; history
+SOSC1300,The World of Politics,social_sciences,international relations; comparative politics; political science; politics; world politics; korean history; prisoners' dilemma; international political economy
+SOSC1350,Contemporary China: Continuity and Change,social_sciences,politics; china; economy; society; culture; contemporary china; economic reform; documentaries
+SOSC1400,Hong Kong and the Greater Bay Area,social_sciences,greater bay area; history; social problems; policies; urbanization
+SOSC1420,Poverty,social_sciences,poverty; inequality; welfare policy; social exclusion; education; causes of poverty; anti-poverty policy; development economics
+SOSC1440,Introduction to Economics,economics,microeconomics; macroeconomics; economics; supply and demand; monetary policy; inflation; gdp; elasticity
+SOSC1510,Politics Through Film,social_sciences; arts_music_film,politics; film; political history
+SOSC1662,Contemporary Hong Kong Society,social_sciences,hong kong society; inequality; identity; family; sociology; modernization theory; modernization; hong kong history
+SOSC1700,What Is Democracy?,social_sciences; philosophy_religion,democracy; political theory; sovereignty; human rights; political philosophy; critical reasoning; justice; political concepts
+SOSC1780,Population and Development in China,social_sciences,fertility; migration; population growth; mortality; china; demographics; population studies; demographic trends
+SOSC1840,"Government, Law and Society in China",social_sciences,chinese law; petitions; legal institutions; government; courts; society; lawyers; chinese legal institutions
+SOSC1850,Understanding Society,social_sciences,class inequality; family and gender; deviance; sociological theories; sociology; education; socialization; politics
+SOSC1860,Population and Society,social_sciences,demography; mortality; migration; fertility; population; population growth; spreadsheets; excel
+SOSC1960,Introduction to Psychology,social_sciences,psychology; memory; psychological disorders; neuroscience; social psychology; personality; perception; research methods
+SOSC1980,Psychology of Personal Growth,social_sciences; life_sciences_health,personal growth; romantic love; coping; psychology; personality; the self; emotion; psychology research
+SOSC2130,Education and Society,social_sciences,sociology of education; labelling theory; social class; gender; hong kong education; ethnicity; educational reform
+SOSC2290,Understanding Globalization,social_sciences,globalization; history; transnationalism; culture; conflict; global current affairs
+SOSC2330,Environmental Politics and Policy,social_sciences; environment_sustainability,environmental politics; political concepts; pollution; social structure; environmental policy; collective action; political economy; government
+SOSC2740,Gender and Society,social_sciences,gender; feminism; inequality; gender inequality; lgbtq+; political economy; labour; sociology
+SOSC3130,Hong Kong Culture,social_sciences; history_culture,hong kong culture; identity; public spaces; conservation; history; hong kong popular culture; conservation history
+SOSC3630,Democracy and Democratization around the World,social_sciences,democracy; schumpeter; political thought; democratization
+SOSC3880,Social Inequality and Social Mobility,social_sciences,social inequality; social mobility; education; gender inequality; employment
+SUST1000,Sustainability Fundamentals,environment_sustainability,sustainability; environmental issues; planetary boundaries; energy; circular economy; lifestyles; anthropogenic impact; tipping points

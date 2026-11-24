@@ -1,0 +1,588 @@
+{
+ "3CNnzgXxdwxxmZSJdVhwVifC8jD16WCQ": {
+  "instructor_in_text": "Henry",
+  "kw": [
+   "logic",
+   "functions",
+   "limits",
+   "derivatives",
+   "mean value theorem",
+   "epsilon-delta"
+  ],
+  "analytical": [
+   "high",
+   "with a lot of proof questions"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "His notes are very neat and complete."
+  ],
+  "assessment_difficulty": [
+   "high",
+   "The homework is very difficult"
+  ],
+  "workload": [
+   "high",
+   "It takes about a few days to complete."
+  ]
+ },
+ "69WdU1zrNgC7IZ7ufhjhDgmIgEDHCK9f": {
+  "instructor_in_text": "Henry",
+  "kw": [
+   "calculus",
+   "proofs"
+  ],
+  "analytical": [
+   "high",
+   "average 1013 content + more and more proof"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "speaking speed isn't fast, pretty easy to follow."
+  ],
+  "workload": [
+   "high",
+   "high workload compare to other lecture."
+  ],
+  "grading_leniency": [
+   "mixed",
+   "actually similar to other lecture, I mean the difficulty of getting the grade you aim."
+  ]
+ },
+ "zTgAk95F6BLE39cUu3tSXIBSSO7Oe7Sl": {
+  "instructor_in_text": "CHENG",
+  "kw": [
+   "logic",
+   "set theory",
+   "functions",
+   "limits",
+   "differentiability",
+   "mean value theorem"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "Dr. CHENG's explanations of these points in class were also very clear."
+  ],
+  "assessment_difficulty": [
+   "varies",
+   "For the midterm, I think its enough to learn the material from homework. But for the final, I think it's really hard"
+  ],
+  "workload": [
+   "high",
+   "I spent a lot of time doing assignments and understanding the materials."
+  ]
+ },
+ "TJnZJNY55Hpqi7wuol61mJduyrkmMh4s": {
+  "instructor_in_text": "Prof Cheng",
+  "kw": [
+   "calculus"
+  ],
+  "background": [
+   "beginner_friendly",
+   "making the lecture very friendly to people like me who haven't studied math very throughly in high school"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "prof Cheng explains many basic things in detail"
+  ],
+  "assessment_difficulty": [
+   "varies",
+   "most of the homework questions are harder than the exam"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "Grading is fairly good; I got B without much studying"
+  ],
+  "workload": [
+   "medium",
+   "The workload is suitable"
+  ]
+ },
+ "siDzaLtLnLgio4GRkuwTK49xiXMwa4z7": {
+  "instructor_in_text": null,
+  "kw": [
+   "logic",
+   "set theory",
+   "functions",
+   "limits",
+   "differentiability",
+   "mean value theorem"
+  ],
+  "analytical": [
+   "high",
+   "students are expected to be able to write simple proofs apart from doing mere computations"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "he makes everyone understand his words during lectures"
+  ]
+ },
+ "0Ff8P4ZKQSBcBsjp5ZpXNl0GjWEuspNV": {
+  "instructor_in_text": "Prof. Cheng",
+  "kw": [
+   "limits",
+   "differentiation",
+   "proofs"
+  ],
+  "analytical": [
+   "high",
+   "L1's content mostly include some prove such as prove of limit, prove of differentiation"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "he always provide some good examples for us in order to help us understand the rationale"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "~65% can guarantee an A range for L1"
+  ],
+  "workload": [
+   "low",
+   "No very heavy for L1."
+  ],
+  "recording": [
+   "yes",
+   "you can still watch the lecture videos in canvas"
+  ]
+ },
+ "AhrhORezoTI9IabilFrU2sZgDxlMEXdo": {
+  "instructor_in_text": null,
+  "kw": [
+   "functions",
+   "limits",
+   "derivatives",
+   "mean value theorem"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "His teaching is exceptionally clear and easy to follow."
+  ],
+  "grading_leniency": [
+   "mixed",
+   "the grade is not too bad"
+  ]
+ },
+ "8PWwzeQTtJ6dDmYARHG1VSQfAXvIiOTx": {
+  "instructor_in_text": null,
+  "kw": [
+   "calculus",
+   "DSE M2"
+  ],
+  "background": [
+   "background_dependent",
+   "for a M1 student, it is super hard."
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "he explains in detail, but those content are not tested in the exam and mid term"
+  ],
+  "assessment_difficulty": [
+   "high",
+   "final exam (Super hard)"
+  ]
+ },
+ "blZO3G6brEGVLMyVTUM7IakfwG5te48T": {
+  "instructor_in_text": "Mr. Cheng",
+  "kw": [
+   "functions",
+   "limits",
+   "derivatives",
+   "mean value theorem"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "He explains concepts clearly"
+  ],
+  "grading_leniency": [
+   "strict",
+   "ranking in the middle range could only get C+ is too harsh"
+  ],
+  "workload": [
+   "high",
+   "The workload is heavy, one assignment per weeks."
+  ]
+ },
+ "6gtOSNMCnPi65HKsMSZg2rCSbpEIkfq4": {
+  "instructor_in_text": null,
+  "kw": [
+   "limits",
+   "derivatives",
+   "Riemann sums",
+   "integrals",
+   "Newton's method"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "i found half of his recordings were useful."
+  ],
+  "assessment_difficulty": [
+   "high",
+   "our paper was much more difficult than those in the past"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "they are going to be below the \"85%/70%/40%\" lines considering the difficulty of our final exam"
+  ],
+  "recording": [
+   "yes",
+   "you can watch recordings afterwards."
+  ]
+ },
+ "H1kQDWAOcBqDRhEG7feZxwoBGO3OSTy2": {
+  "instructor_in_text": "Henry",
+  "kw": [
+   "calculus",
+   "intermediate value theorem",
+   "proofs"
+  ],
+  "analytical": [
+   "high",
+   "much more thinking is required but not just calculations"
+  ],
+  "assessment_difficulty": [
+   "varies",
+   "The mid term was easy and I scored 96/100, many people got 100 marks."
+  ],
+  "grading_leniency": [
+   "lenient",
+   "the cut offs are adjusted and conservatively 89%, rather than 95%, was the cut off of A+"
+  ]
+ },
+ "PX54ZQNVoXlOzXgQllfiO7HzeKheku4Z": {
+  "instructor_in_text": null,
+  "kw": [
+   "limits",
+   "differentiation",
+   "integration",
+   "mean value theorem"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "explain the content clearly with steps in the lecture"
+  ],
+  "workload": [
+   "medium",
+   "Just weekly webwork exercise, each may take 2-3 hours"
+  ]
+ },
+ "aULT9o5WUJxLIhatrOnMi82hzoXmaZ5f": {
+  "instructor_in_text": null,
+  "kw": [
+   "differentiation",
+   "integration",
+   "limits",
+   "mean value theorem",
+   "Riemann sums"
+  ],
+  "background": [
+   "background_helpful",
+   "For students with a background in DSE M2, a significant portion of the material will be familiar, making the overall difficulty manageable."
+  ],
+  "grading_leniency": [
+   "mixed",
+   "The grading is semi-absolute, which is considered much fairer than a strict curve."
+  ],
+  "workload": [
+   "medium",
+   "The workload is moderate to high but manageable"
+  ]
+ },
+ "F9kN8u9YFJQWpRRJbqrJ6XY9CBbagYZu": {
+  "instructor_in_text": null,
+  "kw": [
+   "epsilon-delta",
+   "limits",
+   "derivatives",
+   "mean value theorem",
+   "Newton's method"
+  ],
+  "analytical": [
+   "high",
+   "学的内容有epsilon delta证明连续性，可导性"
+  ],
+  "assessment_difficulty": [
+   "high",
+   "模考一年更比一年难"
+  ],
+  "grading_leniency": [
+   "strict",
+   "跟上1023的朋友比作业给分给的不好"
+  ],
+  "workload": [
+   "high",
+   "一个作业一做就是三四小时，遇到卡壳的得花好半天"
+  ]
+ },
+ "GXUYFrufSq1LC1E5dCcOlKdqdngnxUqF": {
+  "instructor_in_text": "Henry",
+  "kw": [
+   "logic",
+   "set theory",
+   "sequences",
+   "limits",
+   "mean value theorem"
+  ],
+  "analytical": [
+   "medium",
+   "L1: Simple proof stuff"
+  ],
+  "background": [
+   "background_helpful",
+   "Simple proof stuff, maybe hard for newcomers"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "Henry's notes, lectures, sometimes with jokes, and extra problem sets are easy to follow."
+  ],
+  "grading_leniency": [
+   "strict",
+   "UST grading is always like that, ever disappointing."
+  ]
+ },
+ "5vx4RQItXWXv6wuNpiEQzEGnctMAd3ja": {
+  "instructor_in_text": null,
+  "kw": [
+   "basic calculus"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "best teacher ever"
+  ],
+  "grading_leniency": [
+   "strict",
+   "A+整个堂只有4个，A加起来也一共只有十个左右"
+  ],
+  "workload": [
+   "conditional_mixed",
+   "感觉作业会比较复杂，但是如果你对数学本身就比较感兴趣的话倒是还好"
+  ]
+ },
+ "8mlfAe6zKkEZMMbDLtglAwi4ebYk5Z4L": {
+  "instructor_in_text": "Henry Cheng",
+  "kw": [
+   "trigonometric differentiation",
+   "integration",
+   "DSE M2"
+  ],
+  "memorization": [
+   "medium",
+   "remember to recite the values of special angles in trigonometric functions"
+  ],
+  "background": [
+   "background_helpful",
+   "It will be hard for M1 students to study this course."
+  ],
+  "teaching_clarity": [
+   "clear",
+   "He is able to explain everything in the slides and lecture clearly."
+  ],
+  "assessment_difficulty": [
+   "varies",
+   "The mid-term exam is relatively easy, but the final exam is ultra hard."
+  ]
+ },
+ "ip3cYsTuNq1My5wsQSm5I6ljsV2LfO6Q": {
+  "instructor_in_text": null,
+  "kw": [
+   "differentiation",
+   "integration",
+   "DSE M2"
+  ],
+  "background": [
+   "background_helpful",
+   "对读m1的人不太友好"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "香港名师教学，教学水平杠杠滴。"
+  ],
+  "workload": [
+   "low",
+   "只用写webwork，可以无限次尝试"
+  ]
+ },
+ "e0zqdR3phvx1S7s75WHoto4K2cnewbp0": {
+  "instructor_in_text": null,
+  "kw": [
+   "functions",
+   "calculus"
+  ],
+  "analytical": [
+   "low",
+   "not very much calculation and proving."
+  ],
+  "assessment_difficulty": [
+   "low",
+   "No challenging questions"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "easy to reach arange"
+  ],
+  "workload": [
+   "low",
+   "light, don’t take much time."
+  ]
+ },
+ "LIqSv9SsiBJaOFEkcnPagkbMJHsyQI55": {
+  "instructor_in_text": "Henry",
+  "kw": [
+   "calculus",
+   "proofs"
+  ],
+  "analytical": [
+   "high",
+   "L01 requires students' ability to write simple proofs."
+  ],
+  "teaching_clarity": [
+   "clear",
+   "he explains everything in detail with a clear accent"
+  ],
+  "assessment_difficulty": [
+   "varies",
+   "the midterm is much easier than the final"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "I think the grading is quite generous."
+  ],
+  "workload": [
+   "conditional_mixed",
+   "the workload pretty much depends on your mathematical skill"
+  ]
+ },
+ "VZOTQp5s7EUmkG0372OXicRMsHiyntjC": {
+  "instructor_in_text": null,
+  "kw": [
+   "calculus",
+   "DSE M2"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "Very detailed explanation"
+  ],
+  "workload": [
+   "low",
+   "quite chill for UST student"
+  ],
+  "recording": [
+   "yes",
+   "you still can watch the recording for your own revision"
+  ]
+ },
+ "WVefk4yX9X9hqfaLdlPJBw9JHzSahnOJ": {
+  "instructor_in_text": null,
+  "kw": [
+   "calculus"
+  ],
+  "background": [
+   "background_helpful",
+   "if you have studied DSE M2, it will be very helpful to you"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "The professor is very patient and teaches very carefully."
+  ],
+  "grading_leniency": [
+   "lenient",
+   "Overall, the grading is pretty good."
+  ],
+  "workload": [
+   "low",
+   "overall very few"
+  ]
+ },
+ "JeOeb7ggHDOW9DGCvyhwwpdlSAJS7PiP": {
+  "instructor_in_text": null,
+  "kw": [
+   "calculus",
+   "DSE M2"
+  ],
+  "background": [
+   "background_helpful",
+   "M1人要多小小時間去學返M2啲野"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "解釋得算清楚,上堂唔會淨係講ppt"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "基本上你有上堂同上tutorial,至少功課做齊,有B range"
+  ],
+  "workload": [
+   "low",
+   "功課唔算好多"
+  ]
+ },
+ "krxjrlQeHcTuxwqKyKMoxEPM0SRYVpPJ": {
+  "instructor_in_text": null,
+  "kw": [
+   "calculus"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "the teaching is good"
+  ],
+  "assessment_difficulty": [
+   "high",
+   "the homework is so complicated and difficult"
+  ],
+  "grading_leniency": [
+   "strict",
+   "the grading is sooooo bad"
+  ],
+  "workload": [
+   "high",
+   "the workload is high"
+  ]
+ },
+ "qPzeTREjpmiaEL2i1hJeCOSdy3sk15TG": {
+  "instructor_in_text": "Henry Cheng",
+  "kw": [
+   "calculus"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "Good teaching only for Henry Cheng"
+  ],
+  "assessment_difficulty": [
+   "high",
+   "the finals is very hard"
+  ],
+  "grading_leniency": [
+   "mixed",
+   "Not too bad"
+  ],
+  "workload": [
+   "high",
+   "Very heavy workload in studying for the finals and midterms."
+  ]
+ },
+ "eLJU1BvPlqm7oUQiAfWJdhnLlOvLVcGH": {
+  "instructor_in_text": "Henry",
+  "kw": [
+   "logic",
+   "set theory",
+   "limits",
+   "differentiability",
+   "mean value theorem"
+  ],
+  "analytical": [
+   "high",
+   "You may affraid of the word\"show that\" and\"prove that\" after this course"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "nice note, nice ppt and nice teaching"
+  ],
+  "assessment_difficulty": [
+   "high",
+   "hw problem is “disgusting”"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "It is enough for u to get B range if you finish all ez question in Exam"
+  ]
+ }
+}

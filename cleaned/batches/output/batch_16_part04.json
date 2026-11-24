@@ -1,0 +1,385 @@
+{
+ "ZQcFjjg0LBuB8GsTWQUMonQOwQ5zTcMe": {
+  "kw": [
+   "quantum information",
+   "linear algebra",
+   "tensor product",
+   "Bloch sphere",
+   "quantum error correction"
+  ],
+  "instructor_in_text": null,
+  "memorization": [
+   "low",
+   "作為純理科，要背的東西其實很少"
+  ],
+  "analytical": [
+   "high",
+   "這一科是相當之看重理數學能力的"
+  ],
+  "background": [
+   "background_dependent",
+   "但對於那些害怕數學的人來說便是地獄模式了"
+  ],
+  "assessment_difficulty": [
+   "varies",
+   "Homework 的題目說實話挺難的，難道遠遠高於 midterm final"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "極其仁慈！"
+  ]
+ },
+ "5M2OFpWBDmEFMZFY2ZmDjf21bteio8M4": {
+  "kw": [
+   "quantum algorithms",
+   "linear algebra",
+   "complex numbers",
+   "quantum cryptography",
+   "error correction"
+  ],
+  "instructor_in_text": "Prof. Huang",
+  "analytical": [
+   "high",
+   "The steps for these algorithms are very complicated"
+  ],
+  "background": [
+   "background_dependent",
+   "Otherwise, it is very hard to catch up on the course materials and easy to get lost."
+  ],
+  "workload": [
+   "medium",
+   "Overall, the workload for this course is a B, with some workload from plenty of computation time on the Homework."
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "His teaching needs improvement since his voice is not strong enough, and he also fails to explain the content clearly"
+  ],
+  "assessment_difficulty": [
+   "varies",
+   "the Midterm Exam has a lower mean compared to the Final Exam"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "the grading is generally very generous"
+  ]
+ },
+ "uRiZwQBs7enx2QOp7obXPZOD9ZXpspKJ": {
+  "kw": [
+   "quantum information",
+   "quantum key distribution",
+   "quantum algorithms"
+  ],
+  "instructor_in_text": "Shiloh",
+  "background": [
+   "beginner_friendly",
+   "it is not so hard for a non-physics student, but need to work hard!"
+  ],
+  "workload": [
+   "low",
+   "I think the workload is pretty light?"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "I think it is good but sometimes will use handwriting note"
+  ],
+  "assessment_difficulty": [
+   "varies",
+   "final is far easier than midterm"
+  ]
+ },
+ "qGRyDMvGLQkDqPLx3io8pLDe8L4Lqfm1": {
+  "kw": [
+   "quantum computing",
+   "quantum gates",
+   "RSA encryption",
+   "quantum cryptography",
+   "quantum error correction"
+  ],
+  "instructor_in_text": null,
+  "analytical": [
+   "high",
+   "they are sometimes computationally intensive"
+  ],
+  "workload": [
+   "medium",
+   "The homework assignments can be a bit time consuming"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "Would be better if there were less trivial mistakes in his lecture notes"
+  ]
+ },
+ "pRUBYxgjFG1mny3MugpPoIciZylURTAq": {
+  "kw": [
+   "quantum algorithms",
+   "quantum circuits",
+   "linear algebra"
+  ],
+  "instructor_in_text": "Shilin",
+  "analytical": [
+   "high",
+   "The exam was essentially all raw mechanics (spamming computation and calculations)."
+  ],
+  "background": [
+   "background_dependent",
+   "Do not enroll if you're e.g. a business student. You will die a horrible death."
+  ],
+  "teaching_clarity": [
+   "unclear",
+   "his lessons feel so desultory that it felt so hard to connect what he was saying into a coherent picture"
+  ],
+  "recording": [
+   "yes",
+   "watched lecture videos for around half the lectures"
+  ]
+ },
+ "H7BZ9XtIEbIlYLRZ8HzRbecjQzzC82HE": {
+  "kw": [
+   "matrices",
+   "complex numbers",
+   "boolean algebra",
+   "quantum circuits",
+   "Grover's algorithm"
+  ],
+  "instructor_in_text": "professor HUANG",
+  "analytical": [
+   "high",
+   "呢個course涉及大量matrix，complex number，vector operation同boolean algebra"
+  ],
+  "background": [
+   "background_dependent",
+   "沒有相關知識的同學，快逃！你們會追的好辛苦的"
+  ],
+  "workload": [
+   "conditional_mixed",
+   "對於理科人其實都幾chill"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "不過可惜係lecture 只有professor手寫notes，有時show 下lecture material，有時就手寫，就難d溫書"
+  ],
+  "assessment_difficulty": [
+   "varies",
+   "非常簡單，suppose每人滿分，可以直接丟比ai做"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "但係grading都算good grade"
+  ]
+ },
+ "jM7ZseScFg25x2cAOf89yZfnPCBlhOLP": {
+  "kw": [],
+  "instructor_in_text": null,
+  "workload": [
+   "low",
+   "Very light, one assignment every 2-3 weeks"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "Teaching is not bad just from what I saw from RVC."
+  ],
+  "grading_leniency": [
+   "mixed",
+   "B+ is very easy but A-range is hard"
+  ],
+  "recording": [
+   "yes",
+   "just from what I saw from RVC"
+  ]
+ },
+ "Mq0SzrTKwZ6GqcCDjxlisswbHswPhu00": {
+  "kw": [
+   "quantum gates",
+   "quantum algorithms",
+   "encryption",
+   "quantum error correction"
+  ],
+  "instructor_in_text": "Prof. Huang",
+  "background": [
+   "background_helpful",
+   "it is TRUELY USEFUL if you know them already"
+  ],
+  "workload": [
+   "medium",
+   "OK la"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "he prefer to use hand written notes in class (so sometimes he needs to stand there and think what to write)"
+  ],
+  "grading_leniency": [
+   "mixed",
+   "ok easy to get B range but difficult to get A range"
+  ],
+  "recording": [
+   "yes",
+   "there are recordings so It is OK If I miss"
+  ]
+ },
+ "vSpnLVLhYrV60qDgB3rxSMYsZYJbXTcw": {
+  "kw": [
+   "qubit states",
+   "Deutsch's algorithm",
+   "quantum communication",
+   "quantum error correction",
+   "Grover's algorithm"
+  ],
+  "instructor_in_text": null,
+  "workload": [
+   "low",
+   "such light workload"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "fine teaching but quite boring."
+  ],
+  "assessment_difficulty": [
+   "varies",
+   "projects and hws are easy to get full marks"
+  ],
+  "grading_leniency": [
+   "strict",
+   "this course has less A- and more B+"
+  ]
+ },
+ "1jhg7B5iurkWvLwSUESr5ZIxKPMhZytd": {
+  "kw": [
+   "quantum gates",
+   "quantum algorithms",
+   "RSA encryption",
+   "quantum cryptography",
+   "linear algebra"
+  ],
+  "instructor_in_text": "Professor Zeng",
+  "analytical": [
+   "high",
+   "Heavy linear algebra calculations."
+  ],
+  "background": [
+   "background_helpful",
+   "Having experience in boolean algebra and logic gates would be advantageous."
+  ],
+  "workload": [
+   "high",
+   "The homework are quite challenging and time consuming"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "Her handwritten notes are quite useful during revision."
+  ],
+  "assessment_difficulty": [
+   "high",
+   "The homework are quite challenging"
+  ],
+  "grading_leniency": [
+   "strict",
+   "Very competitive in grading."
+  ]
+ },
+ "PKtOXLVBbBfUR1TKpk6fE5qBoh2XBSqs": {
+  "kw": [
+   "physics",
+   "high school physics"
+  ],
+  "instructor_in_text": null,
+  "background": [
+   "background_helpful",
+   "内地高考生学起来会比较轻松"
+  ],
+  "workload": [
+   "low",
+   "还好。平时题目很简单。"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "老师英语很标准，发音清晰"
+  ],
+  "assessment_difficulty": [
+   "low",
+   "平时作业基本能拿满"
+  ],
+  "recording": [
+   "yes",
+   "看课程回放基本要1.5或2倍速"
+  ]
+ },
+ "BXtKLgF5zgFsV70btMujpBCGytLKziUu": {
+  "kw": [
+   "physics",
+   "mechanics"
+  ],
+  "instructor_in_text": null,
+  "background": [
+   "background_helpful",
+   "内容只要中学有学习过物理并有较好成绩都可以轻松理解"
+  ],
+  "workload": [
+   "medium",
+   "可以应付，作业总数量较多占分也较高"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "光是讲解便清晰易懂"
+  ]
+ },
+ "aBqi9K7Rfx2cKNpxfv6ZeNgZBDMwQLjl": {
+  "kw": [],
+  "instructor_in_text": "Fai Fai",
+  "memorization": [
+   "low",
+   "可以帶手寫 notes 去考試"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "TA好好人有的話都會比唔會難爲你"
+  ]
+ },
+ "YzcC6qqdbTqPeHlWzeCqCSTThJ0ftdrt": {
+  "kw": [
+   "mechanics",
+   "waves",
+   "heat",
+   "physics"
+  ],
+  "instructor_in_text": "Yee Fai",
+  "memorization": [
+   "medium",
+   "只是一味地记忆每节课的内容"
+  ],
+  "background": [
+   "background_helpful",
+   "相当于前半部分复习高考内容（比高考简单多了）"
+  ],
+  "workload": [
+   "low",
+   "一周的作业周一就能写完（一周就五六道题）"
+  ],
+  "teaching_clarity": [
+   "unclear",
+   "他会把公式的推导过程“展示”给我们看，但是不会讲解"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "没啥好说的，高考生都能A+"
+  ]
+ },
+ "RPUcSlEMpNPXqJBVvLUfIaLRwH0QA2UQ": {
+  "kw": [
+   "thermal properties",
+   "physics"
+  ],
+  "instructor_in_text": null,
+  "workload": [
+   "low",
+   "still easy to handle"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "Professer explains knowledge carefully. Esay to understand."
+  ],
+  "assessment_difficulty": [
+   "low",
+   "Carefully reading them and do some hw quetions is enough for midterm and final."
+  ]
+ }
+}

@@ -1,0 +1,690 @@
+{
+ "FYRCh2ajGQsenxU1iRyLaOLEVSDn0l6v": {
+  "instructor_in_text": "Kaila",
+  "kw": [
+   "music theory",
+   "ear training",
+   "composition",
+   "chords"
+  ],
+  "memorization": [
+   "low",
+   "*唔需要背*一堆 德文，意大利文 既術語"
+  ],
+  "background": [
+   "background_helpful",
+   "以中小學music 堂為基礎，如果你不是音痴(sorry)，可以哼到D音出黎其實都有大幫助"
+  ],
+  "workload": [
+   "high",
+   "一般都會覺得workload幾大，畢竟都係得1 - 2日時間做"
+  ],
+  "writing": [
+   "medium",
+   "要你分析，大約350字就夠"
+  ],
+  "participation": [
+   "required_or_graded",
+   "教到chord 同key 嗰幾堂亦會叫我地分批唱個chord 或者旋律出黎"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "有時都會去做下比喻，解釋唔同theory背後原理"
+  ],
+  "assessment_difficulty": [
+   "low",
+   "功課難就唔算難，多數錯都可能會係大意寫錯"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "只要跟足佢畀你既指示，攞高分唔難"
+  ]
+ },
+ "EWdPPW2lsCC7ET1L9ie3fIyCjVf7rIQy": {
+  "instructor_in_text": null,
+  "kw": [
+   "Western art music",
+   "music history",
+   "analytical listening"
+  ],
+  "workload": [
+   "low",
+   "the workload is very low"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Attendance & participation 15%"
+  ]
+ },
+ "jMiHKHYKWNZkOQTgVw4NLSfI7Y3UHoU5": {
+  "instructor_in_text": "Kaila",
+  "kw": [
+   "music theory",
+   "musical terms",
+   "composition"
+  ],
+  "background": [
+   "background_dependent",
+   "Might be abstract and difficult to catch up for non-musicians."
+  ],
+  "workload": [
+   "conditional_mixed",
+   "Very low workload for musicians, while looking like a 4-cred course for non-musicians."
+  ],
+  "writing": [
+   "medium",
+   "Composition and concert report may be more demanding"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Attendance/participation 15%"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "He explains musical terms and concepts clearly."
+  ],
+  "grading_leniency": [
+   "lenient",
+   "it is easy to get a good grade"
+  ]
+ },
+ "6XayzTmcU3wPIz3Vgx2ql2naBbQuNmLe": {
+  "instructor_in_text": "Kaila",
+  "kw": [
+   "music theory",
+   "composition",
+   "concert report"
+  ],
+  "background": [
+   "background_helpful",
+   "for non-musical background, you have to learn very quick to catch up with the course"
+  ],
+  "workload": [
+   "conditional_mixed",
+   "Super huge workload for non-musical background"
+  ],
+  "participation": [
+   "required_or_graded",
+   "randomly asks students to answer questions from time to time"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "teaches easily understandable concepts"
+  ],
+  "assessment_difficulty": [
+   "low",
+   "Midterm and final is super easy"
+  ],
+  "grading_leniency": [
+   "strict",
+   "Absolute grading, definitely harsh."
+  ]
+ },
+ "a7OtBy3DdT0Ti4czWRxQcw29NFJMYUCK": {
+  "instructor_in_text": null,
+  "kw": [
+   "music theory",
+   "piano composition",
+   "ABRSM grade 5"
+  ],
+  "writing": [
+   "medium",
+   "finish a concert report(full credits if submitted)"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Attendance/participation 15%"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "TA and prof explain things very clearly"
+  ],
+  "assessment_difficulty": [
+   "low",
+   "the midterm and final are extremely easy"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "It's almost a guaranteed a-range."
+  ]
+ },
+ "fAz1agX59VXvNxTIhkqczRTzNzXOMc5U": {
+  "instructor_in_text": "Ilari",
+  "kw": [
+   "music notation",
+   "keys and scales",
+   "intervals",
+   "chords",
+   "harmonic analysis"
+  ],
+  "memorization": [
+   "medium",
+   "Some content must be memorized (circle of fifths -> identify key, inversions)"
+  ],
+  "background": [
+   "background_helpful",
+   "If you have never studied music theory before, good luck."
+  ],
+  "workload": [
+   "conditional_mixed",
+   "If you have studied ABRSM music theory before, congratulations, this is probably one of the lowest workload course you'll ever take in HKUST."
+  ],
+  "writing": [
+   "medium",
+   "Term paper (min. 350w) is fine"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Sometimes he draws names from the box to encourage students to engage in class."
+  ]
+ },
+ "33YEwPw7659nASvv9nRKQTcjJfXBnjKu": {
+  "instructor_in_text": null,
+  "kw": [
+   "tonal music",
+   "music notation",
+   "scales",
+   "dictation",
+   "composition"
+  ],
+  "background": [
+   "background_helpful",
+   "it may be a bit fast for people without prior knowledge and experience"
+  ],
+  "workload": [
+   "conditional_mixed",
+   "The level of workload on this course is highly subjective depending on prior knowledge and ability."
+  ],
+  "writing": [
+   "medium",
+   "You will also be required to attend a concert to write a concert report"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Attendance/participation 15%"
+  ],
+  "assessment_difficulty": [
+   "low",
+   "The difficulty of the midterm and final exam is generally not hard if you listen properly to the lecture content"
+  ],
+  "grading_leniency": [
+   "strict",
+   "the curve will likely require a 90+ percent to get a high grade"
+  ]
+ },
+ "9Y1vPR6sQh8Cldre6FvDXvI17x5pfkSz": {
+  "instructor_in_text": null,
+  "kw": [
+   "rhythmic notation",
+   "keys and scales",
+   "intervals",
+   "triads",
+   "composition"
+  ],
+  "background": [
+   "background_dependent",
+   "I wouldn't recommend if you are new to music theory."
+  ],
+  "workload": [
+   "high",
+   "There are assignments every week. Its tiring"
+  ],
+  "writing": [
+   "medium",
+   "he expects us to write professionally"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Attendance/participation 15%"
+  ]
+ },
+ "ad2o8Ibg8xT36oAR88CIBlrXoSoLxRht": {
+  "instructor_in_text": "Llari",
+  "kw": [
+   "music notation",
+   "rhythm",
+   "chords",
+   "dictation"
+  ],
+  "workload": [
+   "medium",
+   "The workload is okay."
+  ],
+  "participation": [
+   "required_or_graded",
+   "Attendance/participation  15%"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "Professor Llari's teaching is very clear."
+  ],
+  "grading_leniency": [
+   "strict",
+   "The course is quite competitive since there are a bunch of ppls with musical backgrounds"
+  ]
+ },
+ "tS9Q8KLegtXeXKMxF6Z6RKGhx6dRDEC2": {
+  "instructor_in_text": "Ilari",
+  "kw": [
+   "music theory",
+   "composition",
+   "ear training",
+   "dictation"
+  ],
+  "memorization": [
+   "low",
+   "There are only a few simple things you need to memorize"
+  ],
+  "background": [
+   "background_helpful",
+   "If you don’t have prior knowledge, it’s challenging, but very doable."
+  ],
+  "workload": [
+   "medium",
+   "The workload is reasonable."
+  ],
+  "writing": [
+   "medium",
+   "Write 1-2 pages, minimum 350 words"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Attendance/participation  15%"
+  ],
+  "assessment_difficulty": [
+   "varies",
+   "I didn’t have enough time to check my paper and got kicked out of A range. Meanwhile you will have more than enough time for the final exam."
+  ]
+ },
+ "92tpQweFTEmxq5LbnEKF9L1FhmCL0Y2o": {
+  "instructor_in_text": null,
+  "kw": [
+   "music theory",
+   "rhythm",
+   "intervals",
+   "triads"
+  ],
+  "workload": [
+   "low",
+   "Low workload."
+  ],
+  "teaching_clarity": [
+   "clear",
+   "Explains everything clear and nicely."
+  ],
+  "grading_leniency": [
+   "lenient",
+   "Easy A range."
+  ]
+ },
+ "SzUOV52yei6yUbDWXHDf0PwxwdvZQt90": {
+  "instructor_in_text": "Ilari",
+  "kw": [
+   "rhythm notation",
+   "keys and scales",
+   "intervals",
+   "chords",
+   "harmonic analysis"
+  ],
+  "background": [
+   "beginner_friendly",
+   "The content is friendly for students learning music from scratch."
+  ],
+  "workload": [
+   "conditional_mixed",
+   "The workload may be higher (say C) for people without a musical background"
+  ],
+  "writing": [
+   "medium",
+   "The minimum word count is 350, which is very easy to achieve."
+  ],
+  "participation": [
+   "required_or_graded",
+   "Ilari also has a box of names to pick students to answer questions during lectures."
+  ]
+ },
+ "PbfqlzKqeUYj0HTfWqyCRFggvwnBwzGg": {
+  "instructor_in_text": "Ilari",
+  "kw": [
+   "music theory",
+   "scales",
+   "chords",
+   "ear training"
+  ],
+  "background": [
+   "background_helpful",
+   "it would be easy if you have all of the following"
+  ],
+  "workload": [
+   "high",
+   "Pretty considerable load."
+  ],
+  "writing": [
+   "medium",
+   "attend to a concert and write a report"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Good luck not getting picked to answer questions at lecture (as they use lotteries to pick students)."
+  ]
+ },
+ "Gqcl2APrVl9OISCHfPh1fdjcePEZ94h3": {
+  "instructor_in_text": "Kaila",
+  "kw": [
+   "music theory",
+   "ear training",
+   "composition"
+  ],
+  "background": [
+   "background_helpful",
+   "I strongly recommend you to do a little pre-study if you don’t really have some music background"
+  ],
+  "workload": [
+   "medium",
+   "The workload is fine for me"
+  ],
+  "writing": [
+   "medium",
+   "Concert report requires you to listen to a piece or a concert then analyse it from different perspectives"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Attendance/participation 15%"
+  ],
+  "assessment_difficulty": [
+   "low",
+   "generally are very easy (for students with music background)"
+  ]
+ },
+ "qH23TxFc4LKW4jM1s9d0NZ1173kBpRDH": {
+  "instructor_in_text": null,
+  "kw": [
+   "music theory"
+  ],
+  "background": [
+   "background_helpful",
+   "easy for those with foundation"
+  ],
+  "workload": [
+   "low",
+   "1 assignment per week(won't take long time)"
+  ],
+  "participation": [
+   "required_or_graded",
+   "15% Attendance and Participation"
+  ],
+  "assessment_difficulty": [
+   "high",
+   "exams are hard, you need to be really skilled to get a good grade"
+  ]
+ },
+ "Fo7s2mi7leVmLODQoJBzzzX3hN19DesC": {
+  "instructor_in_text": null,
+  "kw": [
+   "music theory"
+  ],
+  "background": [
+   "background_dependent",
+   "only suitable for those with a foundation in music"
+  ],
+  "workload": [
+   "high",
+   "huge workload"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "It's taught so quickly that the difficulty goes completely up a notch"
+  ],
+  "grading_leniency": [
+   "strict",
+   "If you study really hard you might get an average grade"
+  ]
+ },
+ "Gw2oYZvcARORwVyrpIsfRBUnNStWOqcQ": {
+  "instructor_in_text": null,
+  "kw": [
+   "music theory",
+   "ABRSM grade 5",
+   "composition"
+  ],
+  "background": [
+   "background_helpful",
+   "If not, but you are a instrument learner, you are hardworking, you can still enroll this."
+  ],
+  "workload": [
+   "high",
+   "Quite a lot because you get homework almost every lectures in the first month."
+  ],
+  "writing": [
+   "medium",
+   "write your refelction"
+  ],
+  "participation": [
+   "required_or_graded",
+   "You also need to answer questions when your name is picked in lectures."
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "I can sadly just understood 70% of what he said."
+  ],
+  "grading_leniency": [
+   "mixed",
+   "Fair grading as it is absolute grading."
+  ]
+ },
+ "2UCYiZL5HkP8leW5NYQODOpoo4Z0JdUY": {
+  "instructor_in_text": null,
+  "kw": [
+   "rhythmic notation",
+   "keys and scales",
+   "intervals",
+   "harmonic analysis",
+   "cadences"
+  ],
+  "workload": [
+   "medium",
+   "It seems heavy, but it is not that bad."
+  ],
+  "writing": [
+   "medium",
+   "The concert report only require 350 words with no citation"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "The teaching is good, but kinda messy for me."
+  ],
+  "assessment_difficulty": [
+   "low",
+   "The assignments are easy, most of them only have one single page"
+  ],
+  "grading_leniency": [
+   "strict",
+   "just be careful as the marking is very strict"
+  ]
+ },
+ "mVkq2levcBRi1kg2llm2gEXh0IY38KQf": {
+  "instructor_in_text": "Snowden",
+  "kw": [
+   "music notation",
+   "keys and scales",
+   "chords",
+   "harmonic analysis",
+   "composition"
+  ],
+  "background": [
+   "background_helpful",
+   "it is a bit too much for those without a musical background"
+  ],
+  "workload": [
+   "low",
+   "they are all relatively short so not really a high workload"
+  ],
+  "writing": [
+   "medium",
+   "write a listening report"
+  ],
+  "participation": [
+   "required_or_graded",
+   "they will randomly ask you questions though especially in tutorial"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "sometimes he could make things a bit complicated and hard to understand for those without musical background"
+  ],
+  "assessment_difficulty": [
+   "medium",
+   "They were fine for me but a lot of people struggled"
+  ]
+ },
+ "CDIICWrfAbXjDa0kAl1CmRZPkvsNVjQi": {
+  "instructor_in_text": "Snowden",
+  "kw": [
+   "music theory",
+   "keys and scales",
+   "intervals",
+   "harmonic analysis",
+   "ear training"
+  ],
+  "background": [
+   "background_helpful",
+   "Having absolute pitch (絕對音感) is definitely helpful in this course"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Attendance/participation 10%"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "explain the stuff in a quite clear way"
+  ]
+ },
+ "faUPJOGfqEbtZJV3M5rUGDg6rkADpmVa": {
+  "instructor_in_text": "Snowden",
+  "kw": [
+   "rhythm notation",
+   "keys and scales",
+   "intervals",
+   "chords",
+   "harmonic analysis"
+  ],
+  "workload": [
+   "medium",
+   "Moderate workload for me."
+  ],
+  "writing": [
+   "medium",
+   "Only need to write about 350 words and no need any citations"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "I personally don't prefer his style of teaching, but I could still understand what he has demonstrated in his lecture."
+  ],
+  "grading_leniency": [
+   "strict",
+   "Absolute grading, the threshold cutoff is quite high."
+  ]
+ },
+ "NH20AoQ524VRfOpsKv0O6zQFoSnG3wRw": {
+  "instructor_in_text": null,
+  "kw": [
+   "music theory",
+   "scales",
+   "chords",
+   "cadence"
+  ],
+  "background": [
+   "background_helpful",
+   "If you have learned music before, or passed the grade 5 theory exam, this will be an easy class for you."
+  ],
+  "writing": [
+   "medium",
+   "write around 350 words"
+  ],
+  "assessment_difficulty": [
+   "low",
+   "you can finish in 1.5 hrs but you are allowed with 3 hrs"
+  ]
+ },
+ "8CRoO2G6EuAtxg9IgR4tO7WPMYq8193M": {
+  "instructor_in_text": null,
+  "kw": [
+   "music theory",
+   "piano"
+  ],
+  "memorization": [
+   "high",
+   "there are still lots to remember"
+  ],
+  "background": [
+   "background_helpful",
+   "Content is easier for ones who have taken piano courses"
+  ],
+  "workload": [
+   "high",
+   "If you are finding a light course, it is definitely not a smart choice."
+  ],
+  "writing": [
+   "medium",
+   "write essay about them"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "The teaching is fine"
+  ],
+  "recording": [
+   "yes",
+   "Videos of each lecture will be recorded and uploaded on canvas"
+  ]
+ },
+ "GWKwrIc9GWNR0cubxlWrwQJNSwodqd85": {
+  "instructor_in_text": null,
+  "kw": [
+   "keys and scales",
+   "chords",
+   "harmonic analysis"
+  ],
+  "background": [
+   "background_helpful",
+   "especially for those who have taken the Grade 5 piano theory exam"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Attendance/Participation: 15%"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "The professor and TA explain the topics clearly"
+  ],
+  "assessment_difficulty": [
+   "low",
+   "the exam will not be difficult for you"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "It's easy to get an A if you attend all the lessons and submit all the homework."
+  ]
+ },
+ "kM0HYJdcQsQwlIlG1Ke7Zlnc789MOaO8": {
+  "instructor_in_text": null,
+  "kw": [
+   "music theory",
+   "ear training"
+  ],
+  "background": [
+   "background_helpful",
+   "easy for those with foundation"
+  ],
+  "workload": [
+   "low",
+   "1 assignment per week(won't take long time)"
+  ],
+  "participation": [
+   "required_or_graded",
+   "15% Attendance and Participation"
+  ],
+  "assessment_difficulty": [
+   "high",
+   "exams are hard, you need to be really skilled to get a good grade"
+  ]
+ }
+}

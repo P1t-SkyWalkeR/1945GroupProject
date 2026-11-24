@@ -1,0 +1,53 @@
+course,instructor_in_text,resolved_instructor,method,note
+ACCT1010,DAI Ting,"DAI, Ting",new_from_text,full name not in registered list
+BIEN1010,Terence,,unresolved,first name only; no registered match
+CIVL1160,Ben,,unresolved,first name only; possibly CHAN Yui Bun but uncertain
+COMP1021,Alex Lam,"LAM, Ngok",alias,Alex/Nogk = LAM Ngok (batch 02 report)
+COMP1021,Cecia,"CHAN, Ki Cecia",registered_match,
+COMP1021,David,"ROSSITER, David",registered_match,
+COMP1021,David Rossiter,"ROSSITER, David",registered_match,
+COMP1021,Rossiter,"ROSSITER, David",registered_match,
+COMP1021,Gibson,"LAM, Gibson",registered_match,
+COMP1021,Gibson Lam,"LAM, Gibson",registered_match,
+COMP1021,Lam Gibson,"LAM, Gibson",registered_match,
+COMP1021,James Chueng,,unresolved,surname CHEUNG matches several registered instructors
+COMP1022P,Desmond,"TSOI, Yau Chat",alias,Desmond Tsoi = TSOI Yau Chat
+COMP2711,Kenneth Leung,"LEUNG, Kenneth",registered_match,see name variants: LEUNG Kenneth / LEUNG Wai Ting
+COMP2711,Kenneth Wai-Ting,"LEUNG, Wai Ting",registered_match,see name variants: LEUNG Kenneth / LEUNG Wai Ting
+ECON2103,Robin,"GONG, Robin Kaiji",registered_match,
+ECON2123,Zhang Chen,"CHEN, Zhang",registered_match,
+ENVR2020,Prof. Zhang Yang,"ZHANG, Yang",new_from_text,full name not in registered list
+HUMA1100,"SHAO, Yifan","SHAO, Yifan",new_from_text,full name not in registered list
+HUMA1100,Shao YiFan,"SHAO, Yifan",new_from_text,
+HUMA1100,Shao Yifan,"SHAO, Yifan",new_from_text,
+HUMA1100,YiFan SHAO,"SHAO, Yifan",new_from_text,
+HUMA1102,Hin Yan Austin,,unresolved,no surname given
+HUMA1639,Professor Ma,,unresolved,surname only; no registered instructors for this course
+HUMA1920,"WONG, Tung Tin (Sigmund)","WONG, Tung Tin",new_from_text,full name not in registered list
+HUMA2300,Li,"LI, Siya",registered_match,only registered instructor with this surname
+HUMA2440,"LIN, Zhuyun","LIN, Zhuyun",registered_match,
+HUMA2921,Plato Tse,"TSE, Plato",new_from_text,full name not in registered list (pilot finding)
+HUMA3430,Virgil,"HO, Virgil Kit Yiu",registered_match,
+HUMA3900,Professor Tsz,,unresolved,no registered match
+MATH1003,Quan Xueyang,"QUAN, Xueyang",registered_match,
+MATH1012,Phyllis LIANG,"LIANG, Shixin Phyllis",registered_match,
+MATH1013,Dr. Cheng,"CHENG, Kam Hang",registered_match,only registered instructor with this surname
+MATH1013,Dr. Lam,"LAM, Tsz Kin",registered_match,only registered instructor with this surname
+MATH1013,Fengmiao BIAN,"BIAN, Fengmiao",registered_match,
+MATH1013,Henry,,unresolved,ambiguous: CHENG Kam Hang (alias Henry) and CHANG Henry are both registered
+MATH1013,Henry (Prof Lam),,unresolved,text names two different people
+MATH1013,Junbang LIU,"LIU, Junbang",registered_match,
+MATH1013,Ken HUNG,"HUNG, Ken",new_from_text,full name not in registered list
+MATH1013,Professor Harry,,unresolved,no registered match
+MATH1013,Xueyang QUAN,"QUAN, Xueyang",registered_match,
+MATH1013,wang ke,"WANG, Ke",registered_match,
+MATH1023,FF,,unresolved,nickname only
+MGMT1110,Amanda; Mingyu,"CHEN, Zaidan Amanda; LI, Mingyu",new_from_text,full names given in another review of the same course
+MGMT1110,Li Mingyu; CHEN Zaidan Amanda,"CHEN, Zaidan Amanda; LI, Mingyu",new_from_text,co-taught; split into two instructors
+MGMT1120,Young,"YOUNG, Mark",registered_match,
+MGMT1130,Carmen,,unresolved,first name only; no registered match
+PHYS1112,"CHEUNG, Man Fung","CHEUNG, Man Fung",registered_match,
+PHYS1112,Dr. Chen,"CHEN, Tian Wen",registered_match,only registered instructor with this surname
+PHYS1112,Manzoni,,unresolved,surname only; not registered
+SOSC1860,Professor Stuart,"GIETEL-BASTEN, Stuart Arthur",registered_match,
+SOSC2740,Professor Julian,"GROVES, Julian Mcallister",registered_match,

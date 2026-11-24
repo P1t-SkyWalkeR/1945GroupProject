@@ -1,0 +1,637 @@
+{
+ "v9I3OdfQBv2JnJCuRW4m46mzT6bsPwut": {
+  "instructor_in_text": null,
+  "kw": [
+   "music theory"
+  ],
+  "background": [
+   "background_dependent",
+   "If you havent learned music theory before i dont recommend you take this course cause your peers are all pro guys"
+  ],
+  "workload": [
+   "conditional_mixed",
+   "You need to put lots of effort and time into this course if you are a rookie"
+  ],
+  "grading_leniency": [
+   "mixed",
+   "If you are a rookie, getting an A range is difficult but if you are a pro guy a range is easy for u"
+  ]
+ },
+ "ZjzpFEJtn3JwzugeuUnT3oOS1H2RxvDv": {
+  "instructor_in_text": null,
+  "kw": [
+   "musical theatre",
+   "scriptwriting",
+   "dance",
+   "singing",
+   "performance"
+  ],
+  "workload": [
+   "high",
+   "The workload was absolutely horrible"
+  ],
+  "group_work": [
+   "required",
+   "You get split into groups to come up with an idea and pitch it to the class."
+  ],
+  "participation": [
+   "required_or_graded",
+   "you have to sing and dance a short performance"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "they till gave very good grades at the end."
+  ]
+ },
+ "DKCBRgXvGrTSbKvnXxomI29RN7eVYATU": {
+  "instructor_in_text": "Page",
+  "kw": [
+   "electronic music",
+   "sound design",
+   "REAPER DAW",
+   "synthesis",
+   "musique concrete"
+  ],
+  "background": [
+   "background_helpful",
+   "As a beginner in music production, you may find it difficult and need extra time to familiarize yourself with Reaper."
+  ],
+  "participation": [
+   "required_or_graded",
+   "To get full credits for attendance, remember to raise questions or answer questions in class"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "He explains everything clearly"
+  ]
+ },
+ "GtQjcSZWJpaDIlktqnmkWctgeXKikFPP": {
+  "instructor_in_text": "Page",
+  "kw": [
+   "electronic music composition",
+   "REAPER",
+   "modular synthesizer",
+   "MIDI"
+  ],
+  "background": [
+   "background_helpful",
+   "there are some complicated things you have to learn if you dont have any previous knowledge"
+  ],
+  "workload": [
+   "high",
+   "Very high, especially for those who havent learnt composing b4"
+  ],
+  "writing": [
+   "medium",
+   "For writing report (500 words), you have to listen a 5 min music and make comment on it"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "sometimes the theory part would be too long and I cant really understand about it only through listening"
+  ],
+  "grading_leniency": [
+   "strict",
+   "which make it extremely diffcult to get A range"
+  ]
+ },
+ "T3eVTOAWxWQkP12WgxIwtDGPfkGSmxvw": {
+  "instructor_in_text": "Snowden",
+  "kw": [
+   "digital audio",
+   "mixing",
+   "synthesis",
+   "sampling",
+   "electronic music"
+  ],
+  "memorization": [
+   "low",
+   "he try hard to let us understand the concept instead of memorising stuff"
+  ],
+  "workload": [
+   "high",
+   "Very high workload for a summer course."
+  ]
+ },
+ "FdyVIJzHriMHGbUG1EQF5XusXLY3aahG": {
+  "instructor_in_text": "刘老师",
+  "kw": [
+   "Dream of the Red Chamber",
+   "Chinese literature",
+   "classical novel"
+  ],
+  "background": [
+   "background_helpful",
+   "对于初读红楼或者传统文化底子较弱的同学可能接受上有难度"
+  ],
+  "workload": [
+   "conditional_mixed",
+   "对没读过红楼的同学，需要一周读十章"
+  ],
+  "reading": [
+   "high",
+   "需要一周读十章，在一个学期内把一本书读完，阅读量还是蛮大的"
+  ],
+  "participation": [
+   "required_or_graded",
+   "课上主要是小组讨论"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "感觉还不错，我们组绝大多数大部分都拿了A。"
+  ]
+ },
+ "NFrC5j2HtLMxpFBhnTbynSUJ3uvbfu9K": {
+  "instructor_in_text": null,
+  "kw": [
+   "Dream of the Red Chamber",
+   "Chinese literature",
+   "Cao Xueqin"
+  ],
+  "background": [
+   "background_helpful",
+   "因此如果已經讀過紅樓夢的人會輕鬆很多。"
+  ],
+  "workload": [
+   "conditional_mixed",
+   "如果是沒有讀過紅樓夢的人，workload會很大"
+  ],
+  "reading": [
+   "high",
+   "每周十回紅樓夢小説"
+  ],
+  "participation": [
+   "required_or_graded",
+   "還要在上課前做準備，以便在討論時言之有物。"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "對紅樓夢的精神内涵的解説有點“玄”，有些難以理解。"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "grade都不會差"
+  ]
+ },
+ "4BqSc3H6yxEtULkl05aWKGCqPdHH6swj": {
+  "instructor_in_text": "刘老师",
+  "kw": [
+   "Dream of the Red Chamber",
+   "Chinese literature",
+   "cultural metaphor"
+  ],
+  "memorization": [
+   "high",
+   "mc会考细节，本人读过三四遍红楼考卷上也有不确定的题……真的太细了"
+  ],
+  "workload": [
+   "conditional_mixed",
+   "若此前阅读过红楼，workload较轻"
+  ],
+  "reading": [
+   "high",
+   "每周阅读十章原著"
+  ],
+  "participation": [
+   "required_or_graded",
+   "只要举手发言or在canvas的论坛上发言就有分"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "个人认为好grade"
+  ],
+  "recording": [
+   "yes",
+   "课下自行听刘老师录制的视频课"
+  ]
+ },
+ "i47Ret9bYHUIJUxr9m2hXje8tURyRJL3": {
+  "instructor_in_text": "刘老师",
+  "kw": [
+   "Dream of the Red Chamber",
+   "character analysis",
+   "philosophy"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "老师会带着我们分析红楼梦的人物和情节，讲的很好"
+  ],
+  "assessment_difficulty": [
+   "low",
+   "还有一场final，难度不大"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "认识的人大部分都是A"
+  ]
+ },
+ "p7DemeZsIyrfyu6vPFP4SRtFSPmGoC9G": {
+  "instructor_in_text": null,
+  "kw": [
+   "Dream of the Red Chamber",
+   "Chinese literature",
+   "values"
+  ],
+  "memorization": [
+   "medium",
+   "mc會考很多紅樓夢之中嘅小細節"
+  ],
+  "workload": [
+   "conditional_mixed",
+   "如果未睇過紅樓夢，則要每星期追10回小說"
+  ],
+  "reading": [
+   "high",
+   "每星期追10回小說"
+  ],
+  "participation": [
+   "required_or_graded",
+   "每節課都會有一些問題讓同學分組討論"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "老師用普通話教，很清晰"
+  ],
+  "assessment_difficulty": [
+   "low",
+   "考試相當容易"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "比分好鬆手"
+  ]
+ },
+ "iibl00XHxwiWuH8mH8i23nns1ZqDjy68": {
+  "instructor_in_text": null,
+  "kw": [
+   "modern Chinese fiction",
+   "Republican-era novels",
+   "Jin Yong"
+  ],
+  "workload": [
+   "medium",
+   "Decent for a huma course."
+  ],
+  "reading": [
+   "high",
+   "Every week, 100 chapters of talentless work"
+  ],
+  "writing": [
+   "high",
+   "Regular papers and reports"
+  ]
+ },
+ "sqbBsxiOV7fAtgc9bo7FpcFVSwDtF6IK": {
+  "instructor_in_text": null,
+  "kw": [
+   "early Chinese poetry",
+   "classical poems"
+  ],
+  "memorization": [
+   "high",
+   "in the final exam has to recite 20 詩and詞, quite a lot for a deadline fighter"
+  ],
+  "workload": [
+   "low",
+   "Basically no assignment throughout the semester."
+  ],
+  "teaching_clarity": [
+   "clear",
+   "Good teaching and try to talk different aspects of the poem."
+  ],
+  "assessment_difficulty": [
+   "low",
+   "two assignments which are pretty simple and straightforward"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "The Professor really try his best to give out good grade to everyone."
+  ]
+ },
+ "IvdicCqHOpHZCGNXzjpZC4PlZhngvUmX": {
+  "instructor_in_text": "Li",
+  "kw": [
+   "traditional Chinese poetry",
+   "poetry history",
+   "poem recitation"
+  ],
+  "memorization": [
+   "high",
+   "80% test: poem reciting and question answering."
+  ],
+  "writing": [
+   "medium",
+   "a singing assignment and a creative writing"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "we could get a whole view of the traditional Chinese poem history through his precise and clear explanation"
+  ],
+  "grading_leniency": [
+   "lenient",
+   "The grades were quite high, at least was higher than I imagined."
+  ]
+ },
+ "6fp8vLLTJbyysJENXc1O1FRB0DmzTGbh": {
+  "instructor_in_text": "Daisy",
+  "kw": [
+   "anime",
+   "Japanese animation",
+   "mecha",
+   "shojo",
+   "otaku culture"
+  ],
+  "workload": [
+   "low",
+   "Nearly no workload during the semester"
+  ],
+  "reading": [
+   "low",
+   "Readings are not required."
+  ],
+  "participation": [
+   "required_or_graded",
+   "She encourages us to talk more in order to earn participation score."
+  ],
+  "assessment_difficulty": [
+   "low",
+   "Quiz consists only one question each week, multiple choice, very straightforward, one minute."
+  ],
+  "grading_leniency": [
+   "strict",
+   "93.46% get B range, maybe many students get higher than me."
+  ]
+ },
+ "u6GeLO6cIR2dfiD5I0a4Lie53bEmI35b": {
+  "instructor_in_text": null,
+  "kw": [
+   "Chinese stories",
+   "Lu Xun",
+   "Mandate of Heaven",
+   "female representation"
+  ],
+  "workload": [
+   "conditional_mixed",
+   "Would say it's kind of heavy if you're in a busy semester"
+  ],
+  "reading": [
+   "medium",
+   "Weekly reading,"
+  ],
+  "writing": [
+   "medium",
+   "Final Essay on certain topics."
+  ],
+  "group_work": [
+   "required",
+   "Mid-Term group project based presentation."
+  ],
+  "participation": [
+   "required_or_graded",
+   "Class participation also matters."
+  ],
+  "grading_leniency": [
+   "lenient",
+   "Grading very ease at my opinion."
+  ]
+ },
+ "uxGrSLGxkTCildkrPhrvkiP9nWiMKK2d": {
+  "instructor_in_text": null,
+  "kw": [
+   "Chinese history",
+   "documentary films",
+   "research paper"
+  ],
+  "workload": [
+   "high",
+   "HEAVY"
+  ],
+  "writing": [
+   "high",
+   "Final research paper. 25%"
+  ],
+  "group_work": [
+   "required",
+   "In the presentation, the teacher said we did well on video editing"
+  ],
+  "grading_leniency": [
+   "strict",
+   "grading is not transparent. I handed in all the assignments, and I eventually got a D."
+  ]
+ },
+ "B8r6CX5kZUFoG7bB5PCbunmFpPJG9tb9": {
+  "instructor_in_text": null,
+  "kw": [
+   "20th-century China",
+   "Qing dynasty",
+   "Great Leap Forward",
+   "Cultural Revolution",
+   "Mao era"
+  ],
+  "workload": [
+   "high",
+   "Astronomical."
+  ],
+  "reading": [
+   "high",
+   "Weekly readings and documentary viewing. Takes me a whole day to complete that."
+  ],
+  "writing": [
+   "high",
+   "Weekly timeline, biographies, notes for readings and documentaries: 20%"
+  ],
+  "group_work": [
+   "required",
+   "if your group is doing someone most people know about"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Attendance and Participation: 5%"
+  ],
+  "grading_leniency": [
+   "mixed",
+   "Just doing those requirements are not enough, they actually go through all of the things in detail."
+  ]
+ },
+ "KTZ4K8bJDdEQE8gXdkS8LGs55AHrqwl6": {
+  "instructor_in_text": null,
+  "kw": [
+   "20th-century China",
+   "1911 Revolution",
+   "Cultural Revolution",
+   "documentary films"
+  ],
+  "workload": [
+   "high",
+   "HUGE. I would say it's appropriate if it is a 6 credit course."
+  ],
+  "reading": [
+   "high",
+   "You have to read hundreds pages of book and hours of movies every week"
+  ],
+  "writing": [
+   "high",
+   "Need to write a timeline summary every week (4-5 pages in word doc)"
+  ],
+  "group_work": [
+   "required",
+   "Grades from my groupmates:"
+  ],
+  "grading_leniency": [
+   "strict",
+   "I got very low grades in some of my assignments and film reviews for reasons I don't know."
+  ]
+ },
+ "JVxtHuauMtqAdmf2l7qhUd276ittqd5H": {
+  "instructor_in_text": null,
+  "kw": [
+   "1911 Revolution",
+   "Communist Revolution",
+   "Cultural Revolution",
+   "Reform and Opening-Up"
+  ],
+  "workload": [
+   "high",
+   "Heavy workload."
+  ],
+  "reading": [
+   "high",
+   "You have to read the documentaries and watch some films to finish the assignment every week."
+  ],
+  "grading_leniency": [
+   "mixed",
+   "Fair."
+  ]
+ },
+ "tyhlyEbU4CSN6RDcF0qyJ586nPpNZwT8": {
+  "instructor_in_text": null,
+  "kw": [
+   "Chinese history",
+   "documentary films"
+  ],
+  "workload": [
+   "high",
+   "The workload is quite big"
+  ],
+  "reading": [
+   "high",
+   "ten weekly assignments with readings and documentaries to watch at home"
+  ],
+  "writing": [
+   "high",
+   "two film reviews and a final project that includes a research paper"
+  ],
+  "grading_leniency": [
+   "mixed",
+   "the grading is fair"
+  ]
+ },
+ "PT7pIzSlbw5GqvfyB28pXDdZIJGChNoi": {
+  "instructor_in_text": "Chang",
+  "kw": [
+   "20th-century China",
+   "documentary films",
+   "historical research"
+  ],
+  "workload": [
+   "high",
+   "It's a course that has heavy workload."
+  ],
+  "reading": [
+   "high",
+   "ten weekly assignments which require you to watch films and read reading materials every week"
+  ],
+  "writing": [
+   "high",
+   "two film reviews(800-1200 words) and one final paper(1800-2500 words in English) are required."
+  ],
+  "grading_leniency": [
+   "lenient",
+   "I think it's pretty easy to get a good grade for students who are not good at writing and Chinese contemporary history"
+  ]
+ },
+ "x3YI7r6oqriUWdvBUbpw2LCE3NcJrGLn": {
+  "instructor_in_text": "Chang",
+  "kw": [
+   "20th-century China",
+   "critical thinking",
+   "documentary film"
+  ],
+  "workload": [
+   "high",
+   "It is time consuming as sometimes you need to watch 2 2hrs films."
+  ],
+  "reading": [
+   "high",
+   "10 weekly assignments in total, you need to read the chapters and watch films."
+  ],
+  "writing": [
+   "high",
+   "final research paper 25%"
+  ]
+ },
+ "aZnzeW782XXIvTpU4Y67bVkVH1zPabkZ": {
+  "instructor_in_text": "Chang",
+  "kw": [
+   "20th-century China",
+   "Chinese history",
+   "documentaries"
+  ],
+  "reading": [
+   "medium",
+   "you do need to do some readings and watches documentaries or films every week"
+  ],
+  "grading_leniency": [
+   "mixed",
+   "If you finish the task on time and take it seriously, you can get a satisfactory grade."
+  ]
+ },
+ "PqxxYKbvHPqmYnKRo8qv4HCxFQIFPd2M": {
+  "instructor_in_text": "Chang",
+  "kw": [
+   "20th-century China",
+   "May Fourth Movement",
+   "Mao years",
+   "Deng Xiaoping reforms"
+  ],
+  "workload": [
+   "high",
+   "the workload is actually quite large"
+  ],
+  "reading": [
+   "high",
+   "it requires you to read two to three readings and watch films every week"
+  ],
+  "teaching_clarity": [
+   "clear",
+   "Professor Chang has a very decent accent and can be easily followed during the lesson."
+  ],
+  "grading_leniency": [
+   "lenient",
+   "if you follow all the instructions clearly, it is not hard to get full marks"
+  ]
+ },
+ "BNNqsnfozGtQlcsg8pWK57fJ3GDi7ump": {
+  "instructor_in_text": "Lin",
+  "kw": [
+   "20th-century China",
+   "documentary films",
+   "Cultural Revolution"
+  ],
+  "writing": [
+   "medium",
+   "two paper and one video"
+  ],
+  "group_work": [
+   "required",
+   "Group short film based on final research paper 25%"
+  ],
+  "participation": [
+   "required_or_graded",
+   "Class participation 15%"
+  ],
+  "teaching_clarity": [
+   "mixed",
+   "The professor Lin is lectures are average"
+  ]
+ }
+}

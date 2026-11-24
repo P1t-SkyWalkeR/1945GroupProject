@@ -1,0 +1,5 @@
+dimension,rule_labeled,llm_labeled,both_labeled,agreement,cohen_kappa,rule_only,llm_only
+group_work,402,505,392,0.936,0.57,10,113
+participation,229,423,158,0.88,0.401,71,265
+recording,281,457,265,0.883,0.646,16,192
+writing,308,475,203,0.7,0.333,105,272

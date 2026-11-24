@@ -1,0 +1,13 @@
+# environment
+.venv/
+__pycache__/
+.DS_Store
+
+# raw data contains reviewer usernames; share privately
+reviews_2023-2026.csv
+
+# labeling-agent scratch and run logs (not needed to reproduce)
+cleaned/batches/tmp_*/
+cleaned/batches/remaining/
+cleaned/experiments_run.log
+*.tmp
