@@ -67,9 +67,10 @@ python src/demo.py --pool recommendation/pool.json --version C
 Open http://127.0.0.1:8000. C is the preview method. See [the recommender guide](docs/RECOMMENDATION.md)
 or the [中文版运行与评分说明](docs/RECOMMENDATION.zh-CN.md) for the candidate data, scoring rules, and evaluation workflow.
 
-Class balance: the Perceptron uses class weighting; KNN and MLP were re-run with random oversampling inside
-each training fold (`knn_bal`, `mlp_bal`). Balancing helps the MLP (0.30 → 0.34 / 0.35 → 0.40) but BoW +
-Perceptron stays best. See METHODOLOGY section 4, step 4.
+Class balance: the Perceptron uses class weighting, and KNN and MLP use oversampling (`knn_bal`, `mlp_bal`).
+The balanced MLP holds out original reviews for early stopping before oversampling its training subset.
+Its BoW results are 0.34 and 0.39 across the two tasks. BoW + Perceptron remains the highest on average.
+See METHODOLOGY section 4, step 4.
 
 ## ⚠️ Spot check: do not open the answer file
 

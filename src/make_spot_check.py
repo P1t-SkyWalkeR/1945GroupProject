@@ -8,7 +8,7 @@ Usage: python src/make_spot_check.py [n=80]
 Writes spot_check/sheet_annotator_A.csv, sheet_annotator_B.csv, spot_check/llm_labels_HIDDEN.csv
 """
 
-import sys
+import argparse
 from pathlib import Path
 
 import pandas as pd
@@ -18,10 +18,27 @@ from build_labels import DIMS
 ROOT = Path(__file__).resolve().parent.parent
 TEXT_COLS = ["comment_content", "comment_teaching", "comment_grading", "comment_workload"]
 SEED = 1945
+FILES = ("sheet_annotator_A.csv", "sheet_annotator_B.csv", "llm_labels_HIDDEN.csv")
+
+
+def spreadsheet_text(value):
+    """Neutralize formula-like text in the annotator CSV, leaving source reviews intact."""
+    if isinstance(value, str) and (
+        value.startswith(("\t", "\r", "\n"))
+        or value.lstrip(" \t\r\n\ufeff").startswith(("=", "+", "-", "@", "＝", "＋", "－", "＠"))
+    ):
+        return "'" + value
+    return value
 
 
 def main() -> None:
-    n = int(sys.argv[1]) if len(sys.argv) > 1 else 80
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("n", type=int, nargs="?", default=80)
+    parser.add_argument("--output-dir", type=Path, default=ROOT / "spot_check")
+    args = parser.parse_args()
+    n, out = args.n, args.output_dir
+    if any((out / name).exists() for name in FILES):
+        parser.error("Sample files already exist. Use --output-dir for a new sample.")
     df = pd.read_csv(ROOT / "cleaned" / "reviews_clean.csv", keep_default_na=False)
     lab = pd.read_csv(ROOT / "cleaned" / "review_labels.csv", keep_default_na=False)
     topics = pd.read_csv(ROOT / "cleaned" / "course_topics.csv", keep_default_na=False)
@@ -41,16 +58,16 @@ def main() -> None:
     sample = sample.sample(frac=1, random_state=SEED).reset_index(drop=True)
     sample.insert(0, "item", range(1, len(sample) + 1))
 
-    out = ROOT / "spot_check"
-    out.mkdir(exist_ok=True)
+    out.mkdir(parents=True, exist_ok=True)
     sheet = sample[["item", "hash", "course", "course_name", "instructor_names", *TEXT_COLS]].copy()
     for d in DIMS:
         sheet[d] = ""
     sheet["notes"] = ""
-    for who in ["A", "B"]:
-        sheet.to_csv(out / f"sheet_annotator_{who}.csv", index=False, encoding="utf-8-sig")
+    sheet = sheet.map(spreadsheet_text)
+    for name in FILES[:2]:
+        sheet.to_csv(out / name, index=False, encoding="utf-8-sig", mode="x")
     sample[["item", "hash", "source", "area", *DIMS, *[f"{d}_evidence" for d in DIMS]]].to_csv(
-        out / "llm_labels_HIDDEN.csv", index=False, encoding="utf-8-sig")
+        out / FILES[2], index=False, encoding="utf-8-sig", mode="x")
     print(f"sample: {len(sample)} reviews in {len(alloc)} strata; source mix {sample.source.value_counts().to_dict()}")
 
 

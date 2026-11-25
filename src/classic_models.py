@@ -9,7 +9,8 @@ Metrics         : macro-F1 and accuracy on pooled out-of-fold predictions; std o
 
 Class balance: macro-F1 rewards models that predict minority classes. The Perceptron uses
 class_weight="balanced"; sklearn's KNN and MLP have no such option, so `knn_bal` and `mlp_bal` randomly
-oversample every class in the training fold up to the size of the largest class (test folds untouched).
+oversample every class up to the size of the largest class. Balanced MLP reserves original reviews for
+early stopping before fitting preprocessing or oversampling the remaining reviews.
 The unbalanced `knn` and `mlp` are kept to show the effect of balancing.
 
 Important: the target is the LLM label, so this measures agreement with the LLM, not with the truth.
@@ -23,8 +24,8 @@ Usage: python src/classic_models.py [model ...]   # e.g. knn_bal mlp_bal; defaul
 Writes cleaned/experiments/classic_results.csv, classic_folds.csv, oof_predictions.csv
 """
 
+import argparse
 import re
-import sys
 import time
 from pathlib import Path
 
@@ -65,7 +66,8 @@ def classifiers(rep: str) -> dict:
         "knn": KNeighborsClassifier(n_neighbors=15, metric="cosine" if rep == "bow" else "minkowski", weights="distance"),
         "mlp": MLPClassifier(hidden_layer_sizes=(64,), early_stopping=True, max_iter=200, random_state=SEED),
         "knn_bal": KNeighborsClassifier(n_neighbors=15, metric="cosine" if rep == "bow" else "minkowski", weights="distance"),
-        "mlp_bal": MLPClassifier(hidden_layer_sizes=(64,), early_stopping=True, max_iter=200, random_state=SEED),
+        "mlp_bal": MLPClassifier(hidden_layer_sizes=(64,), early_stopping=False, max_iter=200,
+                                 random_state=np.random.RandomState(SEED)),
     }
 
 
@@ -78,27 +80,94 @@ def oversample(y: np.ndarray, seed: int) -> np.ndarray:
                            for c, n in zip(classes, counts)])
 
 
+def validation_split(y: np.ndarray, seed: int) -> tuple[np.ndarray, np.ndarray]:
+    """Reserve about 10% of each class, retaining singleton classes for training."""
+    rng = np.random.default_rng(seed)
+    train, validation = [], []
+    for label in np.unique(y):
+        indices = rng.permutation(np.flatnonzero(y == label))
+        count = min(len(indices) - 1, int(np.ceil(0.1 * len(indices))))
+        train.extend(indices[count:])
+        validation.extend(indices[:count])
+    return np.array(sorted(train), dtype=int), np.array(sorted(validation), dtype=int)
+
+
+def fit_features(rep, tokens, glove, train, *targets):
+    if rep == "bow":
+        fit = CountVectorizer(analyzer=lambda x: x, min_df=2, binary=True).fit([tokens[i] for i in train])
+        return tuple(fit.transform([tokens[i] for i in rows]) for rows in (train, *targets))
+    fit = StandardScaler().fit(glove[train])
+    return tuple(fit.transform(glove[rows]) for rows in (train, *targets))
+
+
+def balanced_mlp_predict(rep, tokens, glove, training, test, y_all, seed):
+    internal_train, internal_val = validation_split(y_all[training], seed)
+    train_rows, val_rows = training[internal_train], training[internal_val]
+    clf = classifiers(rep)["mlp_bal"]
+    y_train = y_all[train_rows]
+    sampled = oversample(y_train, seed)
+    if not len(val_rows):
+        x_train, x_test = fit_features(rep, tokens, glove, train_rows, test)
+        return clf.fit(x_train[sampled], y_train[sampled]).predict(x_test)
+
+    x_train, x_val, x_test = fit_features(rep, tokens, glove, train_rows, val_rows, test)
+    x_train, y_train = x_train[sampled], y_train[sampled]
+    classes = np.unique(y_train)
+    best_score, stale_epochs = -np.inf, 0
+    for _ in range(clf.max_iter):
+        clf.partial_fit(x_train, y_train, classes=classes)
+        score = clf.score(x_val, y_all[val_rows])
+        stale_epochs = stale_epochs + 1 if score < best_score + clf.tol else 0
+        if score > best_score:
+            best_score = score
+            best_weights = [layer.copy() for layer in clf.coefs_]
+            best_biases = [layer.copy() for layer in clf.intercepts_]
+        if stale_epochs > clf.n_iter_no_change:
+            break
+    clf.coefs_, clf.intercepts_ = best_weights, best_biases
+    return clf.predict(x_test)
+
+
+def update_results(path, current, only, keys):
+    """Replace selected model rows while retaining the existing order of their cases."""
+    if not only or not path.exists():
+        return current
+    old = pd.read_csv(path, keep_default_na=False, dtype=str)
+    previous = old.set_index(keys)
+    current = current.astype(str).set_index(keys)
+    unchanged = ~old["model"].str.split("+").str[-1].isin(only)
+    merged = pd.concat([previous.iloc[unchanged.to_numpy()], current], verify_integrity=True)
+    retained = previous.index.intersection(merged.index, sort=False)
+    added = current.index.difference(previous.index, sort=False)
+    return merged.reindex(retained.append(added)).reset_index()[old.columns]
+
+
 def main() -> None:
-    only = set(sys.argv[1:])
-    OUT.mkdir(parents=True, exist_ok=True)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("models", nargs="*")
+    parser.add_argument("--glove", type=Path, default=GLOVE)
+    parser.add_argument("--output-dir", type=Path, default=OUT)
+    args = parser.parse_args()
+    only = set(args.models)
+    if only - classifiers("bow").keys():
+        parser.error(f"Unknown models: {sorted(only - classifiers('bow').keys())}")
+    args.output_dir.mkdir(parents=True, exist_ok=True)
     df = pd.read_csv(ROOT / "cleaned" / "reviews_clean.csv", keep_default_na=False).set_index("hash")
     labels = pd.read_csv(ROOT / "cleaned" / "review_labels.csv", keep_default_na=False).set_index("hash").loc[df.index]
     tokens = df[TEXT_COLS].apply(lambda r: tokenize(" ".join(r)), axis=1).tolist()
     groups = df.course.to_numpy()
 
     print("loading GloVe ...", flush=True)
-    kv = KeyedVectors.load_word2vec_format(str(GLOVE), binary=False)
+    kv = KeyedVectors.load_word2vec_format(str(args.glove), binary=False)
     glove = np.vstack([np.mean([kv[t] for t in ts if t in kv] or [np.zeros(kv.vector_size)], axis=0) for ts in tokens])
     oov = np.mean([sum(t not in kv for t in ts) / max(len(ts), 1) for ts in tokens])
     print(f"GloVe: {kv.vector_size}d, mean OOV token share {oov:.1%}", flush=True)
 
     folds = list(GroupKFold(n_splits=N_FOLDS).split(tokens, groups=groups))
-    feats = []  # per fold: {rep: (Xtr, Xte)}
-    for tr, te in folds:
-        vec = CountVectorizer(analyzer=lambda x: x, min_df=2, binary=True).fit([tokens[i] for i in tr])
-        sc = StandardScaler().fit(glove[tr])
-        feats.append({"bow": (vec.transform([tokens[i] for i in tr]), vec.transform([tokens[i] for i in te])),
-                      "glove": (sc.transform(glove[tr]), sc.transform(glove[te]))})
+    feats = [
+        {rep: fit_features(rep, tokens, glove, tr, te) for rep in ("bow", "glove")}
+        for tr, te in folds
+    ] if only != {"mlp_bal"} else []
 
     results, fold_rows, oof_rows = [], [], []
     for d in DIMS:
@@ -114,13 +183,16 @@ def main() -> None:
                         mtr, mte = keep[tr], keep[te]
                         if mte.sum() == 0 or len(set(y_all[tr][mtr])) < 2:
                             continue
-                        Xtr, Xte = feats[k][rep]
-                        Xk, yk = Xtr[mtr], y_all[tr][mtr]
-                        if name.endswith("_bal"):
-                            o = oversample(yk, SEED + k)
-                            Xk, yk = Xk[o], yk[o]
-                        clf = classifiers(rep)[name].fit(Xk, yk)
-                        p = clf.predict(Xte[mte])
+                        if name == "mlp_bal":
+                            p = balanced_mlp_predict(rep, tokens, glove, tr[mtr], te[mte], y_all, SEED + k)
+                        else:
+                            Xtr, Xte = feats[k][rep]
+                            Xk, yk = Xtr[mtr], y_all[tr][mtr]
+                            if name == "knn_bal":
+                                o = oversample(yk, SEED + k)
+                                Xk, yk = Xk[o], yk[o]
+                            clf = classifiers(rep)[name].fit(Xk, yk)
+                            p = clf.predict(Xte[mte])
                         pred += list(p); true += list(y_all[te][mte]); idx += list(te[mte])
                         fold_f1.append(f1_score(y_all[te][mte], p, average="macro", zero_division=0))
                         fold_rows.append({"dimension": d, "task": task, "representation": rep, "model": name,
@@ -138,15 +210,16 @@ def main() -> None:
 
     new = {"classic_results.csv": pd.DataFrame(results), "classic_folds.csv": pd.DataFrame(fold_rows),
            "oof_predictions.csv": pd.DataFrame(oof_rows)}
+    keys = {
+        "classic_results.csv": ["dimension", "task", "model"],
+        "classic_folds.csv": ["dimension", "task", "representation", "model", "fold"],
+        "oof_predictions.csv": ["hash", "dimension", "task", "model"],
+    }
     for fname, frame in new.items():
-        path = OUT / fname
-        if only and path.exists():
-            old = pd.read_csv(path, keep_default_na=False)
-            col = "model" if "model" in old.columns else None
-            old_models = old[col] if fname != "classic_folds.csv" else old["model"]
-            frame = pd.concat([old[~old_models.astype(str).str.split("+").str[-1].isin(only)], frame])
+        path = args.output_dir / fname
+        frame = update_results(path, frame, only, keys[fname])
         frame.to_csv(path, index=False)
-    res = pd.read_csv(OUT / "classic_results.csv")
+    res = pd.read_csv(args.output_dir / "classic_results.csv")
     for task in ["full", "level"]:
         print(f"\nmacro-F1, task={task}")
         print(res[res.task == task].pivot(index="dimension", columns="model", values="macro_f1").to_string())

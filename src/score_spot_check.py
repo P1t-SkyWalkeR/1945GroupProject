@@ -7,6 +7,7 @@ Usage: python src/score_spot_check.py
 Writes spot_check/spot_check_results.csv and spot_check/disagreements_with_llm.csv
 """
 
+import argparse
 from pathlib import Path
 
 import pandas as pd
@@ -18,17 +19,36 @@ ROOT = Path(__file__).resolve().parent.parent
 S = ROOT / "spot_check"
 
 
-def load(name: str) -> pd.DataFrame:
-    x = pd.read_csv(S / name, keep_default_na=False, encoding="utf-8-sig").set_index("item")
+def load(path: Path) -> pd.DataFrame:
+    if path.suffix.lower() == ".xlsx":
+        x = pd.read_excel(path, dtype=str, keep_default_na=False)
+    else:
+        x = pd.read_csv(path, dtype=str, keep_default_na=False, encoding="utf-8-sig")
+    missing_columns = {"hash", *DIMS} - set(x.columns)
+    if missing_columns:
+        raise ValueError(f"{path.name}: missing columns {sorted(missing_columns)}")
+    x["hash"] = x["hash"].str.strip()
+    if x["hash"].eq("").any() or x["hash"].duplicated().any():
+        raise ValueError(f"{path.name}: blank or duplicate review hash")
+    x = x.set_index("hash")
     for d in DIMS:
         x[d] = x[d].astype(str).str.strip().str.lower()
         bad = x[(x[d] != "") & ~x[d].isin(ALLOWED[d] | {"unknown"})]
         if len(bad):
-            raise ValueError(f"{name} {d}: invalid values at items {list(bad.index)}: {sorted(set(bad[d]))}")
+            raise ValueError(f"{path.name} {d}: invalid values at hashes {list(bad.index)}: {sorted(set(bad[d]))}")
     return x
 
 
+def align_sample(frame, expected, name):
+    missing = expected.difference(frame.index)
+    extra = frame.index.difference(expected)
+    if len(missing) or len(extra):
+        raise ValueError(f"{name}: sample mismatch ({len(missing)} missing, {len(extra)} extra hashes)")
+    return frame.reindex(expected)
+
+
 def pair(a: pd.Series, b: pd.Series) -> dict:
+    b = align_sample(b, a.index, "comparison")
     m = (a != "") & (b != "")
     if m.sum() == 0:
         return {"n": 0, "agreement": None, "kappa": None}
@@ -37,7 +57,15 @@ def pair(a: pd.Series, b: pd.Series) -> dict:
 
 
 def main() -> None:
-    A, B, L = load("sheet_annotator_A.csv"), load("sheet_annotator_B.csv"), load("llm_labels_HIDDEN.csv")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--a", type=Path, default=S / "sheet_annotator_A.csv")
+    parser.add_argument("--b", type=Path, default=S / "sheet_annotator_B.csv")
+    parser.add_argument("--answers", type=Path, default=S / "llm_labels_HIDDEN.csv")
+    parser.add_argument("--output-dir", type=Path, default=S)
+    args = parser.parse_args()
+    L = load(args.answers)
+    A = align_sample(load(args.a), L.index, args.a.name)
+    B = align_sample(load(args.b), L.index, args.b.name)
     rows, dis = [], []
     for d in DIMS:
         r = {"dimension": d}
@@ -48,11 +76,13 @@ def main() -> None:
         r["LLM_acc_on_consensus"] = round((L[d][cons] == A[d][cons]).mean(), 3) if cons.sum() else None
         rows.append(r)
         for i in A.index[cons & (L[d] != A[d])]:
-            dis.append({"item": i, "dimension": d, "human": A.at[i, d], "llm": L.at[i, d],
+            dis.append({"item": L.at[i, "item"], "hash": i, "dimension": d, "human": A.at[i, d], "llm": L.at[i, d],
                         "llm_evidence": L.at[i, f"{d}_evidence"]})
     res = pd.DataFrame(rows)
-    res.to_csv(S / "spot_check_results.csv", index=False)
-    pd.DataFrame(dis).to_csv(S / "disagreements_with_llm.csv", index=False)
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+    res.to_csv(args.output_dir / "spot_check_results.csv", index=False)
+    pd.DataFrame(dis, columns=["item", "hash", "dimension", "human", "llm", "llm_evidence"]).to_csv(
+        args.output_dir / "disagreements_with_llm.csv", index=False)
     print(res.to_string(index=False))
 
 

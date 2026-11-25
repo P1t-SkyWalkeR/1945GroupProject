@@ -119,6 +119,6 @@ python3 src/demo.py \
 
 汇报可展示一个成功匹配的例子和一个漏排例子。报告测试结果时说明，评估范围是冻结的 15 门课和 4 个测试档案。
 
-评论标签的 80 条人工抽检是另一项工作。它评估 LLM 对评论的标签，两名组员填写 `spot_check/sheet_annotator_A.csv` 和 `spot_check/sheet_annotator_B.csv`。两份表完成后，在项目的模型运行环境中执行 `python3 src/score_spot_check.py`。详细规则见 [评论抽检说明](../spot_check/README.md)。
+评论标签的 80 条人工抽检是另一项工作。它评估 LLM 对评论的标签，两名组员分别填写 `spot_check/sheet_annotator_A.xlsx` 和 `spot_check/sheet_annotator_B.xlsx`。评分脚本也兼容已填写的 CSV。操作步骤见 [评论抽检说明](../spot_check/README.md)。
 
 [English guide](RECOMMENDATION.md) · [冻结方案](../recommendation/study_protocol.json)

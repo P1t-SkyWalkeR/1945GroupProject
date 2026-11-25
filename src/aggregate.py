@@ -19,7 +19,8 @@ Rules (docs/labeling_guide.md, docs/METHODOLOGY.md section 4 step 6 and section 
   - Profiles are numeric, because the goal is ranking and matching courses to student preferences:
       each label -> score in [0, 1] (SCORES below); {dim}_score = shrunk mean
       (sum + K * prior) / (n + K), where prior = the course-level mean (itself shrunk to the global mean).
-      {dim}_level = the label nearest to the score; {dim}_disputed = std of review scores >= DISPUTE_STD.
+      Factual display levels come directly from consistent labels. Other levels summarize the shrunk
+      score. A factual disagreement or large score dispersion sets the disputed flag.
   - A profile with <= 2 reviews is flagged `insufficient_evidence`.
 
 Usage: python src/aggregate.py
@@ -73,6 +74,7 @@ LEVELS = {d: {0: min(m, key=m.get), 1: next(k for k, v in m.items() if v == 0.5)
           for d, m in SCORES.items()}
 K = 2.0             # shrinkage strength, in pseudo-reviews
 DISPUTE_STD = 0.35  # e.g. reviews split between 0 and 1 give std 0.5; 0 vs 0.5 gives 0.25
+FACTUAL_DIMS = {"group_work", "participation", "recording"}
 STRUCTURED = ["rating_content", "rating_teaching", "rating_grading", "rating_workload",
               "has_midterm", "has_final", "has_quiz", "has_assignment", "has_essay", "has_project",
               "has_attendance", "has_reading", "has_presentation"]
@@ -169,7 +171,12 @@ def main() -> None:
             by_sem = {s: round(x[d].map(SCORES[d]).mean(), 2) for s, x in known.groupby("semester")}
             if len(sc):
                 score = (sc.sum() + K * prior.get((course, d), prior[(None, d)])) / (len(sc) + K)
-                level, disputed = LEVELS[d][round(score * 2)], bool(len(sc) >= 2 and sc.std(ddof=0) >= DISPUTE_STD)
+                if d in FACTUAL_DIMS:
+                    disputed = len(counts) > 1
+                    level = "conflicting" if disputed else next(iter(counts))
+                else:
+                    level = LEVELS[d][round(score * 2)]
+                    disputed = bool(len(sc) >= 2 and sc.std(ddof=0) >= DISPUTE_STD)
             else:
                 score, level, disputed = None, "unknown", False
             top = counts.most_common(1)[0][0] if counts else None
