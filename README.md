@@ -65,7 +65,7 @@ python src/demo.py --pool recommendation/pool.json --version C
 ```
 
 Open http://127.0.0.1:8000. C is the preview method. See [the recommender guide](docs/RECOMMENDATION.md)
-for the candidate data, scoring rules, and evaluation workflow.
+or the [中文版运行与评分说明](docs/RECOMMENDATION.zh-CN.md) for the candidate data, scoring rules, and evaluation workflow.
 
 Class balance: the Perceptron uses class weighting; KNN and MLP were re-run with random oversampling inside
 each training fold (`knn_bal`, `mlp_bal`). Balancing helps the MLP (0.30 → 0.34 / 0.35 → 0.40) but BoW +
