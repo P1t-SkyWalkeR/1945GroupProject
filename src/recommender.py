@@ -36,7 +36,7 @@ TOPIC_LABELS = {
 }
 
 
-def version_weights(include_teaching=False):
+def version_weights(include_teaching=True):
     if include_teaching:
         return {
             "A": {"assessment": 1},
@@ -79,7 +79,7 @@ def hard_filter(course, profile):
     return failures
 
 
-def rank(pool, profile, version, include_teaching=False):
+def rank(pool, profile, version, include_teaching=True):
     """Return full eligible ranking and audited exclusions for one version."""
     validate_profile(profile)
     weights = version_weights(include_teaching)[version]

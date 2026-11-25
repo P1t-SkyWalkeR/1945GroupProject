@@ -155,7 +155,10 @@ def main():
     model = parser.add_mutually_exclusive_group(required=True)
     model.add_argument("--version", choices="ABC", help="Preview an explicit method.")
     model.add_argument("--selection", type=Path, help="Use the method frozen by evaluation.")
-    parser.add_argument("--include-teaching", action="store_true", help="For previews using the teaching variant.")
+    parser.add_argument(
+        "--include-teaching", action=argparse.BooleanOptionalAction, default=True,
+        help="Include teaching clarity in methods B and C.",
+    )
     args = parser.parse_args()
     pool_bytes = args.pool.read_bytes()
     version, include_teaching = args.version, args.include_teaching

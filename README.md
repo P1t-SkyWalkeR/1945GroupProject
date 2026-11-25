@@ -45,7 +45,7 @@ the LLM, not with the truth — that is what the human spot check is for.
 Two teammates independently label a stratified sample of 80 reviews; we compute Cohen's kappa between them
 and against the LLM. See [`spot_check/README.md`](spot_check/README.md).
 
-## Status (2026-11-24)
+## Status (2026-11-25)
 
 | Step | Status | Main output |
 |---|---|---|
@@ -55,13 +55,13 @@ and against the LLM. See [`spot_check/README.md`](spot_check/README.md).
 | Course + instructor profiles | done (415 profiles) | `cleaned/course_profiles.csv` |
 | Classic model experiment | done (best: BoW + Perceptron, macro-F1 ≈ 0.39 / 0.43) | `cleaned/experiments/` |
 | Human spot check | **waiting for two annotators** | `spot_check/` |
-| Recommender (methods A / B / C) | local prototype, candidate pool pending team confirmation | `src/demo.py`, `recommendation/preview_pool.json` |
-| Recommendation evaluation | blind review and scoring workflow ready; human judgments pending | `src/evaluate.py`, `recommendation/profiles.json` |
+| Recommender (methods A / B / C) | local prototype; 15-course Spring 2026 / CC25 pool frozen | `src/demo.py`, `recommendation/pool.json` |
+| Recommendation evaluation | frozen protocol and blind review packets ready; human judgments pending | `src/evaluate.py`, `recommendation/study_protocol.json` |
 
 Run the prototype from the repository root with Python 3.11 or newer:
 
 ```bash
-python src/demo.py --pool recommendation/preview_pool.json --version C
+python src/demo.py --pool recommendation/pool.json --version C
 ```
 
 Open http://127.0.0.1:8000. C is the preview method. See [the recommender guide](docs/RECOMMENDATION.md)

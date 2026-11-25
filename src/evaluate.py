@@ -6,12 +6,18 @@ import hashlib
 import json
 import statistics
 from collections import Counter
+from html import escape
 from pathlib import Path
 
-from recommender import ANSWERS, ASSESSMENTS, TOPIC_LABELS, metrics, rank, select_version, validate_profile
+from build_recommendation_pool import CLEANED, read_csv
+from recommender import ANSWERS, ASSESSMENTS, TOPIC_LABELS, metrics, rank, select_version, validate_profile, version_weights
 
 
 RANKING_CODE = Path(__file__).with_name("recommender.py")
+REVIEW_FIELDS = {
+    "comment_content": "Content", "comment_teaching": "Teaching",
+    "comment_grading": "Grading", "comment_workload": "Workload",
+}
 
 
 def digest(data):
@@ -44,9 +50,30 @@ def load_selection(path, pool_bytes, profile_bytes=None):
     return selection
 
 
+def verify_protocol(data, pool_bytes, profile_bytes):
+    protocol = json.loads(data)
+    expected = {
+        "pool_sha256": digest(pool_bytes),
+        "profiles_sha256": digest(profile_bytes),
+        "ranking_sha256": digest(RANKING_CODE.read_bytes()),
+        "reviews_sha256": digest((CLEANED / "reviews_clean.csv").read_bytes()),
+    }
+    for key, value in expected.items():
+        if protocol[key] != value:
+            raise ValueError(f"Study input changed after freezing: {key}.")
+    include_teaching = protocol["include_teaching"]
+    if not isinstance(include_teaching, bool) or protocol["weights"] != version_weights(include_teaching):
+        raise ValueError("Study weights differ from the ranking implementation.")
+    return protocol
+
+
 def prepare(pool, profiles, path):
-    path.mkdir(parents=True, exist_ok=True)
     courses = sorted(pool["courses"], key=lambda c: c["course_code"])
+    originals = {row["hash"]: row for row in read_csv("reviews_clean.csv")}
+    missing = {h for course in courses for h in course["review_ids"]} - originals.keys()
+    if missing:
+        raise ValueError(f"{len(missing)} original reviews are missing from the evidence snapshot.")
+    path.mkdir(parents=True, exist_ok=True)
     fields = ["profile_id", "course_code", "hard_status", "fit", "notes"]
     existing = [name for name in ("evidence.md", "judgments_a.csv", "judgments_b.csv", "judgments_adjudicated.csv") if (path / name).exists()]
     if existing:
@@ -62,7 +89,7 @@ def prepare(pool, profiles, path):
         f'# Blind assessment · {pool["term_name"]} / {pool["cohort"]}',
         "",
         "Judge every course against each profile independently. Complete A and B before reading the other sheet.",
-        "Use the sources and original excerpts below. The third reviewer resolves disagreements in the adjudicated sheet before rankings are revealed.",
+        "Use the sources and unscored original reviews below. The third reviewer resolves disagreements in the adjudicated sheet before rankings are revealed.",
         "",
         "- hard_status is pass, fail or unresolved. Use pass if no required constraint applies.",
         "- fit is 2 for evidence supporting all stated soft preferences with all required conditions met; 1 for some; 0 for none or a confirmed hard failure.",
@@ -87,14 +114,15 @@ def prepare(pool, profiles, path):
             c["description"], "",
             f'[Official CC schedule]({c["official_url"]}) · [USTSPACE reviews]({c["review_url"]})', "",
         ])
-        for k, field in c["assessment"].items():
-            note = f' [Assessment evidence]({field["source"]})' if field["source"] else ""
-            lines.append(f'- {ASSESSMENTS[k]} · {field["note"]}{note}')
-        for k in ("workload", "teaching"):
-            for item in c[k]["examples"]:
-                quoted = " ".join(item["quote"].split())
-                lines.append(f'> {quoted} · review {item["review_id"]}')
-        lines.append(f'Review IDs for full original text in cleaned/reviews_clean.csv · {", ".join(c["review_ids"])}')
+        for field in dict.fromkeys(item["source"] for item in c["assessment"].values() if item["verified"]):
+            lines.append(f'- [Official assessment outline]({field})')
+        for h in c["review_ids"]:
+            lines.extend(["", f'#### Review {h}'])
+            for field, label in REVIEW_FIELDS.items():
+                comment = originals[h][field].strip()
+                if comment:
+                    lines.append(f'> **{label}** · {escape(" ".join(comment.split()))}')
+                    lines.append(">")
     with (path / "evidence.md").open("x", encoding="utf-8") as out:
         out.write("\n".join(lines) + "\n")
 
@@ -156,6 +184,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--pool", type=Path, required=True)
     parser.add_argument("--profiles", type=Path, required=True)
+    parser.add_argument("--protocol", type=Path, help="Check the frozen study inputs and method weights.")
     steps = parser.add_subparsers(dest="step", required=True)
     packet = steps.add_parser("prepare")
     packet.add_argument("--split", choices=("development", "test"), required=True)
@@ -168,9 +197,11 @@ def main():
         score.add_argument("--output", type=Path, required=True)
         score.add_argument("--selection", type=Path, required=True)
         if step == "develop":
-            score.add_argument("--include-teaching", action="store_true")
+            score.add_argument("--include-teaching", action=argparse.BooleanOptionalAction, default=None)
     args = parser.parse_args()
     pb, prb = args.pool.read_bytes(), args.profiles.read_bytes()
+    protocol_bytes = args.protocol.read_bytes() if args.protocol else None
+    protocol = verify_protocol(protocol_bytes, pb, prb) if protocol_bytes is not None else None
     pool = json.loads(pb)
     groups = read_profiles(prb)
     courses = pool["courses"]
@@ -182,6 +213,8 @@ def main():
     selected = None
     if args.step == "test":
         selected = load_selection(args.selection, pb, prb)
+        if selected.get("protocol_sha256") != (digest(protocol_bytes) if protocol_bytes is not None else None):
+            parser.error("Use the same study protocol as development.")
     elif args.selection.exists():
         parser.error("The selection file already exists. Preserve it and use a new path for a new experiment.")
     if args.output.exists():
@@ -190,7 +223,14 @@ def main():
     profiles = groups[split]
     judgments = load_judgments(args.judgments, profiles, courses)
     raters = [load_judgments(path, profiles, courses) for path in (args.rater_a, args.rater_b)]
-    include_teaching = selected["include_teaching"] if selected else args.include_teaching
+    if selected:
+        include_teaching = selected["include_teaching"]
+    elif protocol:
+        include_teaching = protocol["include_teaching"]
+        if args.include_teaching is not None and args.include_teaching != include_teaching:
+            parser.error("The requested teaching setting differs from the frozen study.")
+    else:
+        include_teaching = args.include_teaching if args.include_teaching is not None else True
     results = {}
     for version in "ABC":
         rows = []
@@ -203,6 +243,7 @@ def main():
             "version": select_version(results), "include_teaching": include_teaching,
             "pool_sha256": digest(pb), "profiles_sha256": digest(prb),
             "ranking_sha256": digest(RANKING_CODE.read_bytes()),
+            "protocol_sha256": digest(protocol_bytes) if protocol_bytes is not None else None,
             "development_profile_ids": [p["id"] for p in groups["development"]],
         }
         write_json(args.selection, selected)

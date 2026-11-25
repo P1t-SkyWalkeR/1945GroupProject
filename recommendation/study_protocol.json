@@ -1,0 +1,42 @@
+{
+  "study_id": "spring2026-cc25-v1",
+  "frozen_on_hkt": "2026-11-25",
+  "term_code": "2530",
+  "academic_term": "2025-26 Spring",
+  "cohort": "CC25",
+  "candidate_count": 15,
+  "review_count": 74,
+  "development_profile_ids": [
+    "DEV01",
+    "DEV02",
+    "DEV03",
+    "DEV04"
+  ],
+  "test_profile_ids": [
+    "TEST01",
+    "TEST02",
+    "TEST03",
+    "TEST04"
+  ],
+  "include_teaching": true,
+  "weights": {
+    "A": {
+      "assessment": 1
+    },
+    "B": {
+      "assessment": 0.6,
+      "workload": 0.3,
+      "teaching": 0.1
+    },
+    "C": {
+      "assessment": 0.45,
+      "workload": 0.225,
+      "teaching": 0.075,
+      "topic": 0.25
+    }
+  },
+  "pool_sha256": "7a72f8e72d31ec0c8df1e28b5afaf706b20495682cc02460cf84bcd8c3275f3f",
+  "profiles_sha256": "ea9b843606ae97e1bf9d0ef577dc3507220dd04a6a23ad22a22d7a1733a9a13d",
+  "ranking_sha256": "121722cdc01955633c3dbfd904f3b03c267aa34ad0a288485b7f126ffcee4257",
+  "reviews_sha256": "0c66955fa59c7bf7da9cbda6e6af8b5923ca44700b70dd983dd266bf3c8b86b0"
+}
