@@ -3,16 +3,19 @@
 Inputs
   cleaned/reviews_clean.csv, cleaned/review_instructor_map.csv, cleaned/review_labels.csv
   cleaned/course_topics.csv                      course-level topic categories and keywords
-  cleaned/review/instructor_fill.csv             instructor_in_text -> instructor, for reviews with no instructor
+  cleaned/review/instructor_fill.csv             confirmed review names and aliases
   cleaned/review/instructor_name_variants.csv    optional; variant -> canonical name (applied only if the file exists)
+  cleaned/review/semester_instructors.json       pinned course and semester lecture rosters
 
 Outputs
   cleaned/review_instructor_labels.csv   one row per (review, instructor)
   cleaned/conflicts.csv                  one row per (semester, course, instructor, dimension) with disagreeing labels
-  cleaned/course_profiles.csv            one row per (course, instructor)
+  cleaned/course_profiles.csv            instructor profiles and unresolved evidence grouped by semester
 
 Rules (docs/labeling_guide.md, docs/METHODOLOGY.md section 4 step 6 and section 5)
   - `unknown` labels never vote.
+  - Every teacher-specific label is allocated once. Evidence may identify a different owner from the
+    review-wide instructor. An unresolved label remains attached to its original course and semester.
   - Conflict: within one (semester, course, instructor), >= 2 different non-unknown labels for a dimension.
     adjacent = all labels within one step on the ordinal scale; opposite = otherwise.
   - Conflicts are listed for data-quality reporting only; they are not resolved label by label.
@@ -33,10 +36,10 @@ from pathlib import Path
 import pandas as pd
 
 from build_labels import DIMS
+from instructor_attribution import TEACHER_DIMS, UNKNOWN, resolve_reviews
 
 ROOT = Path(__file__).resolve().parent.parent
 C = ROOT / "cleaned"
-UNKNOWN = "Unknown instructor"
 MIN_REVIEWS = 3
 
 # Ordinal scales used to classify conflicts. Mixed-type values (conditional_mixed, varies) sit in the
@@ -85,35 +88,45 @@ def conflict_type(dim: str, labels: set[str]) -> str:
     return "opposite" if max(ranks) - min(ranks) >= 2 else "adjacent"
 
 
-def resolve_instructors(df: pd.DataFrame, labels: pd.DataFrame) -> pd.DataFrame:
-    """One row per (review, instructor), with missing instructors filled from the review text."""
-    imap = pd.read_csv(C / "review_instructor_map.csv", keep_default_na=False)
-    fill = pd.read_csv(C / "review" / "instructor_fill.csv", keep_default_na=False)
-    fill = {(r.course, r.instructor_in_text): (r.resolved_instructor, r.method) for r in fill.itertuples()}
-    text = labels.set_index("hash").instructor_in_text
-    rows = []
-    for r in imap.itertuples():
-        if r.instructor != UNKNOWN:
-            rows.append((r.hash, r.instructor, "registered"))
-            continue
-        name = text.get(r.hash, "")
-        resolved, method = fill.get((r.course, name), ("", "unresolved")) if name else ("", "no_name_in_text")
-        if name and (r.course, name) not in fill:
-            raise ValueError(f"{r.hash}: instructor_in_text {name!r} for {r.course} missing from instructor_fill.csv")
-        if resolved:
-            rows += [(r.hash, n.strip(), f"filled_{method}") for n in resolved.split(";")]
-        else:
-            rows.append((r.hash, UNKNOWN, "registered"))
-    out = pd.DataFrame(rows, columns=["hash", "instructor", "instructor_source"])
+REVIEW_KEYS = ["hash", "course", "course_name", "semester"]
+EVIDENCE_COLS = [f"{d}_evidence" for d in DIMS]
 
-    variants = C / "review" / "instructor_name_variants.csv"
-    if variants.exists():
-        v = pd.read_csv(variants, keep_default_na=False)
-        mapping = dict(zip(v.variant, v.canonical))
-        changed = out.instructor.isin(mapping)
-        out.loc[changed, "instructor_source"] += "+name_variant_merged"
-        out["instructor"] = out.instructor.replace(mapping)
-    return out.drop_duplicates(["hash", "instructor"])
+
+def attributed_rows(source, resolutions):
+    """Keep one review-level payload and allocate each teacher dimension to its own owner."""
+    rows = []
+    empty = {**dict.fromkeys(STRUCTURED + EVIDENCE_COLS, ""), **dict.fromkeys(DIMS, "unknown")}
+    for record in source.to_dict("records"):
+        resolved = resolutions[record["hash"]]
+        primary = resolved["owner"] or UNKNOWN
+        identity = {
+            **{key: record[key] for key in REVIEW_KEYS},
+            "semester_lecturers": "; ".join(resolved["semester_lecturers"]),
+            "enrolled_instructors": "; ".join(resolved["enrolled_instructors"]),
+        }
+        parts = {}
+
+        def part(owner, reason):
+            return parts.setdefault(owner, {
+                "instructor": owner,
+                "instructor_source": reason or "unresolved",
+                "attribution_scope": "instructor" if owner != UNKNOWN else "unresolved",
+                "review_payload": owner == primary,
+                **identity, **empty,
+                **{f"{d}_attribution": "" for d in TEACHER_DIMS},
+            })
+
+        base = part(primary, resolved["reason"])
+        base.update({key: record[key] for key in STRUCTURED})
+        for d in DIMS:
+            if d not in TEACHER_DIMS:
+                base[d], base[f"{d}_evidence"] = record[d], record[f"{d}_evidence"]
+        for d, (owner, reason) in resolved["targets"].items():
+            item = part(owner or UNKNOWN, reason)
+            item[d], item[f"{d}_evidence"] = record[d], record[f"{d}_evidence"]
+            item[f"{d}_attribution"] = reason or "unresolved"
+        rows.extend(parts.values())
+    return pd.DataFrame(rows)
 
 
 def main() -> None:
@@ -121,9 +134,10 @@ def main() -> None:
     labels = pd.read_csv(C / "review_labels.csv", keep_default_na=False)
     topics = pd.read_csv(C / "course_topics.csv", keep_default_na=False).set_index("course")
 
-    long = (resolve_instructors(df, labels)
-            .merge(df[["hash", "course", "course_name", "semester", *STRUCTURED]], on="hash")
-            .merge(labels[["hash", *DIMS, *[f"{d}_evidence" for d in DIMS]]], on="hash"))
+    source = df[[*REVIEW_KEYS, *STRUCTURED]].merge(
+        labels[["hash", *DIMS, *EVIDENCE_COLS]], on="hash", validate="one_to_one",
+    )
+    long = attributed_rows(source, resolve_reviews(df, labels, C))
     long.to_csv(C / "review_instructor_labels.csv", index=False)
 
     # Conflicts within (semester, course, instructor).
@@ -145,20 +159,26 @@ def main() -> None:
             })
     conflicts = pd.DataFrame(conflicts)
     conflicts.to_csv(C / "conflicts.csv", index=False)
-    # Priors: global mean per dimension, then course mean shrunk toward it (one vote per review).
-    per_review = long.drop_duplicates(["course", "hash"])
+    # Individual teacher priors use individually attributed labels. Course-level
+    # dimensions use the original review once regardless of how many owners it has.
+    individuals = long[long.attribution_scope == "instructor"]
     prior = {}
     for d in DIMS:
-        sc = per_review[d].map(SCORES[d]).dropna()
+        pool = individuals if d in TEACHER_DIMS else source
+        sc = pool[d].map(SCORES[d]).dropna()
         glob = sc.mean()
-        for course, x in per_review.assign(_s=per_review[d].map(SCORES[d])).dropna(subset=["_s"]).groupby("course"):
+        for course, x in pool.assign(_s=pool[d].map(SCORES[d])).dropna(subset=["_s"]).groupby("course"):
             prior[(course, d)] = (x._s.sum() + K * glob) / (len(x) + K)
         prior[(None, d)] = glob
 
-    # Profiles per (course, instructor).
+    # Unresolved reviews remain scoped to their own semester.
     profiles = []
-    for (course, ins), g in long.groupby(["course", "instructor"]):
+    profile_rows = long.assign(profile_semester=long.semester.where(long.attribution_scope != "instructor", ""))
+    for (course, ins, scope, semester), g in profile_rows.groupby(
+        ["course", "instructor", "attribution_scope", "profile_semester"]
+    ):
         p = {"course": course, "course_name": g.course_name.iat[0], "instructor": ins,
+             "attribution_scope": scope, "profile_semester": semester,
              "n_reviews": g.hash.nunique(), "semesters": "; ".join(sorted(set(g.semester))),
              "evidence_status": "insufficient_evidence" if g.hash.nunique() < MIN_REVIEWS else "ok",
              "instructor_source": "; ".join(sorted(set(g.instructor_source))),
@@ -170,7 +190,10 @@ def main() -> None:
             sc = known[d].map(SCORES[d])
             by_sem = {s: round(x[d].map(SCORES[d]).mean(), 2) for s, x in known.groupby("semester")}
             if len(sc):
-                score = (sc.sum() + K * prior.get((course, d), prior[(None, d)])) / (len(sc) + K)
+                if scope == "unresolved" and d in TEACHER_DIMS:
+                    score = sc.mean()
+                else:
+                    score = (sc.sum() + K * prior.get((course, d), prior[(None, d)])) / (len(sc) + K)
                 if d in FACTUAL_DIMS:
                     disputed = len(counts) > 1
                     level = "conflicting" if disputed else next(iter(counts))

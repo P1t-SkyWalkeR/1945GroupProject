@@ -20,7 +20,9 @@ Workload and teaching clarity use the most frequent known label for that offerin
 
 For soft preferences, affirmative checkboxes and explicit group-work labels can supply student-reported evidence. An unchecked box alone leaves the answer unknown. A required condition passes only after a matching assessment is verified and recorded in `recommendation/verified_assessments.json`. The preview uses official syllabuses for that verification. In the questionnaire, presentation means a required graded presentation, and group work means that working in a group is required.
 
-To reproduce the pool from the archived dataset, rebuild to a separate file and compare it with the frozen copy:
+To reproduce the frozen pool from the archived dataset, run the following in a checkout at `b5461c5`.
+That commit contains the instructor-evidence export used for the study. A rebuild using the current
+attribution data is a new candidate snapshot and should go through a separate freeze.
 
 ```bash
 python src/build_recommendation_pool.py --archive /path/to/cc_courses_merged.json \

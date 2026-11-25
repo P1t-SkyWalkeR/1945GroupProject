@@ -15,7 +15,7 @@ This guide defines how each review is labeled. It is the single source of truth 
 9. **Only the listed instructor.** For instructor-dependent dimensions (`teaching_clarity`, `grading_leniency`, `participation`, `recording`), use only evidence about the instructor the review is filed under. Ignore statements about other instructors ("Henry's notes are clearer than hers", "I skipped my section and went to Henry's"). Course-level dimensions (topic, memorization, analytical, background) may use any evidence about the course.
 10. **Instructor named in text.** Also output `instructor_in_text`: the name of the instructor the reviewer says they were taught by, if stated (e.g. "Plato Tse was my professor"). Leave it empty if the reviewer only mentions other instructors. This is used to fill missing instructor fields.
 11. **Hearsay counts.** Second-hand statements ("I heard the grading is harsh", "another forum says the workload is light") are valid evidence, labeled the same way as first-hand experience.
-12. **Registered instructor is kept.** Reviews are attributed to the instructor in `instructor_names` as registered, even when the text suggests a different or aliased name. `instructor_in_text` is only used to fill a missing instructor field.
+12. **Keep registration metadata intact.** At aggregation, a teacher named clearly in the dimension's evidence takes priority. A review-wide instructor or sole lecturer in the same semester can support attribution when the dimension does not name a teacher. Evidence with an unclear owner remains attached to the course and semester.
 
 ## Dimensions
 

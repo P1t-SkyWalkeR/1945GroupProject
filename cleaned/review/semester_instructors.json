@@ -1,0 +1,5089 @@
+{
+  "source_archive": "https://huggingface.co/datasets/ust-archive/schedule/resolve/d35538fc2358b0460ed90c8c196049b328857689/canonical/class_records.parquet",
+  "source_sha256": "f3b51394177aacea52e8c9f6ecf8c8c86124a825236b2db79816c54f53bc7157",
+  "rosters": [
+    {
+      "course": "ACCT1010",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ACCT1010",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "CHEUNG, Kwok Yip",
+        "DAI, Ting",
+        "DENG, Jin",
+        "YI, Yi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ACCT1010",
+      "semester": "2023-24 Summer",
+      "term_code": "2340",
+      "lecturers": [],
+      "lecture_sections": 1,
+      "unnamed_sections": 1
+    },
+    {
+      "course": "ACCT1010",
+      "semester": "2024-25 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ACCT1010",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "CHEUNG, Kwok Yip",
+        "TAY, Chloe"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ACCT1010",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "CHEUNG, Kwok Yip",
+        "YI, Yi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "BIEN1010",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "WONG, Tsz Wai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "BIEN1010",
+      "semester": "2023-24 Summer",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "BIEN1010",
+      "semester": "2024-25 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "BIEN1010",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "WONG, Tsz Wai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "BIEN1010",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "LINARDI, Darwin"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "BIEN1010",
+      "semester": "2025-26 Summer",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CENG1500",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "NYEIN, Hnin Yin Yin"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CENG1500",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "NYEIN, Hnin Yin Yin"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CENG1500",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "TANG, Cindy"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CENG1600",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LAI, Yong",
+        "PAN, Yanrong",
+        "SUN, Jiawen",
+        "WANG, Shuchen",
+        "ZHANG, Lu"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CENG1600",
+      "semester": "2023-24 Spring",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CENG1600",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LAI, Yong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CENG1700",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LAM, Leung Yuk Frank"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CENG1700",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LAM, Leung Yuk Frank"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CENG1800",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "LIU, Y.S. Marshal"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CENG1800",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "LIU, Y.S. Marshal"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CENG1800",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "LIU, Y.S. Marshal"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CHEM1002",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "CHAN, Dennis Ho Wai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CHEM1002",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "CHAN, Dennis Ho Wai",
+        "CHENG, Hoi Yan",
+        "LAW, Yuk Lun"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CHEM1004",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CHEM1004",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "TSANG, Ming Wai Emily"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CHEM1004",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "TSANG, Ming Wai Emily"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CHEM1004",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "TSANG, Ming Wai Emily"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CIVL1160",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "CHAN, Yui Bun",
+        "GONG, Xingbo",
+        "HUANG, Cong",
+        "LIANG, Zhaolun",
+        "LIANG, Zhenyu",
+        "LIN, Fangzhou"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CIVL1160",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "CANLAS, Andrea Marcelino",
+        "HAN, Yingyue",
+        "HU, Thomas",
+        "JIN, Yuhang",
+        "XIAO, Shihao",
+        "XU, Weifan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CIVL1160",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "CANLAS, Andrea Marcelino",
+        "CHAN, Yui Bun",
+        "HAN, Yingyue",
+        "LYU, Yunhong",
+        "XU, Weifan",
+        "ZHAO, Zening"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CIVL1160",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "CHENG, Ip",
+        "HU, Thomas",
+        "HU, Ziqi",
+        "LI, Mingchen",
+        "LI, Shuhao",
+        "LI, Siqi",
+        "LU, Kunhan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CIVL1170",
+      "semester": "2025-26 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1001",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1001",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "LEUNG, Wai Ting"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1001",
+      "semester": "2024-25 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1001",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "LEUNG, Wai Ting"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1001",
+      "semester": "2024-25 Summer",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1001",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "LEUNG, Wai Ting"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1021",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "CHEUNG, Shing-Chi",
+        "GOLIN, Mordecai J.",
+        "LAM, Gibson",
+        "LAM, Ngok",
+        "ROSSITER, David"
+      ],
+      "lecture_sections": 15,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1021",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "NG, Wilfred Siu Hung",
+        "ROSSITER, David"
+      ],
+      "lecture_sections": 5,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1021",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "CHAN, Ki Cecia",
+        "CHEUNG, Shing-Chi",
+        "LAM, Gibson",
+        "LAM, Ngok",
+        "LUO, Qiong",
+        "ROSSITER, David",
+        "TIAN, Yongqiang"
+      ],
+      "lecture_sections": 15,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1021",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "CAO, Jialun",
+        "CHEUNG, Tsz Him",
+        "LAM, Gibson",
+        "NG, Wilfred Siu Hung",
+        "ZHANG, Jie"
+      ],
+      "lecture_sections": 5,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1021",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "WANG, Shuai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1021",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "CHEUNG, Tsz Him",
+        "LAM, Gibson",
+        "ZHANG, Jie"
+      ],
+      "lecture_sections": 6,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1021",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "CAO, Jialun",
+        "LAM, Gibson",
+        "SHE, Dongdong"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1021",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "WANG, Shuai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1021",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "BENSAOU, Brahim",
+        "CHAN, Cecia Ki",
+        "LAM, Gibson",
+        "ZHANG, Jie"
+      ],
+      "lecture_sections": 4,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1022P",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1022P",
+      "semester": "2023-24 Spring",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1022P",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "NG, Wilfred Siu Hung"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1942",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1942",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "WONG, Raymond Chi Wing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1942",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "WONG, Raymond Chi Wing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1942",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "WONG, Raymond Chi Wing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1943",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "HORNER, Andrew"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1943",
+      "semester": "2023-24 Summer",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1943",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "HORNER, Andrew"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1943",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "CHAU, Yu Foon Darin",
+        "DINH, Anh Dung",
+        "HORNER, Andrew"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1944",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "WU, Dekai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1944",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "XIAO, Huiru"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1944",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "WU, Dekai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP1944",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "NIE, Yuxiang",
+        "XIAO, Huiru",
+        "YAO, Shuangjie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP2711",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LEUNG, Wai Ting",
+        "YEUNG, Dit Yan"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP2711",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "ARYA, Sunil",
+        "SHEN, Jiasi"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP2711",
+      "semester": "2023-24 Summer",
+      "term_code": "2340",
+      "lecturers": [
+        "TAI, Chiew Lan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP2711",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LEUNG, Wai Ting",
+        "PAPADIAS, Dimitrios"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP2711",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "CHEUNG, Tsz Him",
+        "YI, Ke"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP2711",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LEUNG, Wai Ting",
+        "PAPADIAS, Dimitrios"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP2711",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "SHEN, Jiasi",
+        "YI, Ke"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "COMP2711",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "PAPADIAS, Dimitrios",
+        "PARREAUX, Lionel",
+        "ZHOU, Mingxun"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CORE1411",
+      "semester": "2024-25 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "CORE1421",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2103",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "SIU, Kam Wing"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2103",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "LI, Xuan",
+        "RAO, Deyu",
+        "SIU, Kam Wing",
+        "YU, Yan"
+      ],
+      "lecture_sections": 6,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2103",
+      "semester": "2023-24 Winter",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2103",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LI, Xuan",
+        "RAO, Deyu",
+        "SIU, Kam Wing"
+      ],
+      "lecture_sections": 5,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2103",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "YU, Yan",
+        "ZHANG, Wenwen"
+      ],
+      "lecture_sections": 6,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2103",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "DING, Fei"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2103",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LI, Xuan"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2103",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "GONG, Robin Kaiji",
+        "KELLER, Wolfgang",
+        "RAO, Deyu",
+        "SIU, Kam Wing",
+        "YU, Yan"
+      ],
+      "lecture_sections": 7,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2103",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "DING, Fei",
+        "GONG, Robin Kaiji"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2103",
+      "semester": "2025-26 Winter",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2123",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "DING, Fei",
+        "DORDAL CARRERAS, Marc",
+        "YUEN, Chi-Wa",
+        "ZHANG, Wenwen"
+      ],
+      "lecture_sections": 10,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2123",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "DING, Fei",
+        "LI, Yao Amber",
+        "YUEN, Chi-Wa",
+        "ZHANG, Wenwen"
+      ],
+      "lecture_sections": 10,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2123",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "CHEN, Zhang",
+        "DING, Fei",
+        "DORDAL CARRERAS, Marc",
+        "QIU, Zhesheng"
+      ],
+      "lecture_sections": 9,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2123",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "DING, Fei",
+        "LEE, Byoungchan",
+        "LI, Yao Amber",
+        "QIU, Zhesheng"
+      ],
+      "lecture_sections": 7,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2123",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "NG, Chi Yung"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2123",
+      "semester": "2024-25 Winter",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2123",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "CHEN, Zhang",
+        "DING, Fei",
+        "DORDAL CARRERAS, Marc",
+        "LI, Yao Amber"
+      ],
+      "lecture_sections": 9,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2123",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "DING, Fei",
+        "LEE, Byoungchan",
+        "QIU, Zhesheng",
+        "ZHANG, Wenwen"
+      ],
+      "lecture_sections": 9,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ECON2123",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "NG, Chi Yung"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ELEC1010",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "SHEN, Yajing",
+        "TANG TANG, Raymundo Saijong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ELEC1010",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "SHAO, Qiming",
+        "TANG TANG, Raymundo Saijong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ELEC1010",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "CHAN, Mansun",
+        "TANG TANG, Raymundo Saijong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ELEC1010",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "MURCH, Ross",
+        "TANG TANG, Raymundo Saijong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ELEC1010",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LI, Xiaomeng",
+        "TANG TANG, Raymundo Saijong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ELEC1010",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "GUAN, Isabel",
+        "TANG TANG, Raymundo Saijong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1110",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "CHAN, Yui Bun",
+        "CHONG, Nga Shun",
+        "LAVIGNE, Paul David"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1110",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "CHAN, Yui Bun",
+        "CHONG, Nga Shun",
+        "LAVIGNE, Paul David"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1150",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "FUNG, Grace",
+        "LAVIGNE, Paul David",
+        "WONG, Kai Sun Albert"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1150",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "FUNG, Grace",
+        "LAVIGNE, Paul David",
+        "WONG, Kai Sun Albert"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1150",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "GUAN, Isabel",
+        "WONG, Kai Sun Albert"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1150",
+      "semester": "2025-26 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1200",
+      "semester": "2023-24 Spring",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1200",
+      "semester": "2024-25 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1200",
+      "semester": "2024-25 Summer",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1200",
+      "semester": "2025-26 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1300",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1300",
+      "semester": "2024-25 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENGG1300",
+      "semester": "2025-26 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENTR1001",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "HUANG, Erwin",
+        "LEUNG, Aki"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENTR1001",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "HUANG, Erwin"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENTR1001",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "HUANG, Erwin"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENTR1001",
+      "semester": "2024-25 Winter",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1030",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "KWAN, Joseph Kai Cho",
+        "YU, Samuel Chung Toi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1030",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "YING, Qi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1030",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "YING, Qi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1030",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "YING, Qi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1080",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "SAUERWEIN, Meike"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1080",
+      "semester": "2023-24 Winter",
+      "term_code": "2320",
+      "lecturers": [
+        "SAUERWEIN, Meike"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1080",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "SAUERWEIN, Meike"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1080",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "SAUERWEIN, Meike"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1080",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "SAUERWEIN, Meike"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1080",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "SAUERWEIN, Meike"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1150",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "IM, Eun Soon"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1150",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "IM, Eun Soon"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1150",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "IM, Eun Soon"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1170",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "LAU, Kai Hon Alexis"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR1170",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "LAU, Kai Hon Alexis"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR2020",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "GU, Dasa"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR2020",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "GU, Dasa"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR2020",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "NING, Zhi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR2020",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "GU, Dasa"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ENVR2020",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "ZHANG, Yang"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "FINA1303",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LAFON-VINAIS, Veronique J A",
+        "LEUNG, Benson"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "FINA1303",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "LAFON-VINAIS, Veronique J A",
+        "LEUNG, Benson"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "FINA1303",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LAFON-VINAIS, Veronique J A",
+        "LEUNG, Benson"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "FINA1303",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "LAFON-VINAIS, Veronique J A",
+        "LEUNG, Benson"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "FINA1303",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LAFON-VINAIS, Veronique J A",
+        "LEUNG, Benson"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "FINA1303",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "LAFON-VINAIS, Veronique J A",
+        "LEUNG, Benson"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "FINA1303",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "LAFON-VINAIS, Veronique J A",
+        "LEUNG, Benson"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HART1012",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1000A",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "PAN, Ping",
+        "PUN, Wing Man Winnie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1000A",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "PAN, Ping",
+        "PUN, Wing Man Winnie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1000A",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "PAN, Ping",
+        "PUN, Wing Man Winnie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1000B",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LAU, Chun Hong",
+        "NAM, Sai Lok"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1000B",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "LAU, Chun Hong",
+        "NAM, Sai Lok"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1001B",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1010",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LI, Dechao",
+        "WANG, Yuqi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1010",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LI, Dechao",
+        "LIU, Kangdi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1010",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LI, Dechao",
+        "LI, Ge"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1030",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LI, Dechao",
+        "XIAO, Jing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1030",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "SZETO, Pui Yiu",
+        "WANG, Yuqi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1060",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "YU, Sunhao",
+        "ZHANG, Min"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1100",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "DUJUNCO, Mercedes Maria",
+        "HE, Jia"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1100",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "SHAO, YiFan",
+        "TAM, Alvin Lok-Hei"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1100",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "SHAO, YiFan",
+        "TAM, Alvin Lok-Hei"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1102",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "KAILA, Ilari",
+        "LAU, Wing Fung"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1102",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "DROSCHA, Isaac David",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1102",
+      "semester": "2023-24 Summer",
+      "term_code": "2340",
+      "lecturers": [
+        "KAILA, Ilari"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1102",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "DROSCHA, Isaac David",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1102",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "KAILA, Ilari",
+        "LAU, Wing Fung"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1102",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "KAILA, Ilari"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1102",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "KAILA, Ilari",
+        "LAU, Wing Fung"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1102",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "DROSCHA, Isaac David",
+        "LAU, Wing Fung",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1102",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "LAU, Wing Fung",
+        "LEUNG, Hin Yan Austin",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1210",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "DU, Daisy Yan",
+        "ZHOU, Jingxuan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1231",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "CHUI, Yin To",
+        "MA, Xiaolu",
+        "WANG, Yifei"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1301",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "MA, Xiaolu",
+        "ZHOU, Jingxuan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1430",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "CHANG, David Cheng",
+        "XUE, Yuyuan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1440",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LI, Chong",
+        "ZHANG, Lok Cheung Lawrence"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1440",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LI, Chong",
+        "ZHANG, Lok Cheung Lawrence"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1440",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "ZHANG, Lok Cheung Lawrence"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1520",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "CHANG, David Cheng"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1520",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "CHEN, Mian"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1639",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "MA, Jianxiong",
+        "ZHANG, Xiaoyi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1650",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "CHUI, Yin To",
+        "KWONG, Yee Ngan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1650",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "KWONG, Yee Ngan",
+        "PUN, Wing Man Winnie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1660",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "FU, Li-tsui",
+        "ZHANG, Xiaoyi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1710",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "LIU, Kok Tsun",
+        "NAM, Sai Lok"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1710",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LAU, Chun Hong",
+        "NAM, Sai Lok"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1710",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "NAM, Sai Lok",
+        "PUN, Wing Man Winnie"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1811",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "CHEN, Zhizhi",
+        "WONG, Simon Man Ho"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1920",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "NAM, Kyung-ah",
+        "WONG, Tung Tin"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA1920",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "BRYS, Waldemar",
+        "LAM, Christie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2010",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "WANG, Yuqi",
+        "ZHANG, Min"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2010",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LIN, Shuhan",
+        "ZHANG, Min"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2031",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "CHUI, Yin To",
+        "YIU, Yuk Man Carine"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2031",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "LIN, Shuhan",
+        "SZETO, Pui Yiu"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2050",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "LAM, Christie",
+        "LI, Dechao",
+        "XIAO, Jing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2101",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "DROSCHA, Isaac David",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2101",
+      "semester": "2023-24 Summer",
+      "term_code": "2340",
+      "lecturers": [
+        "DROSCHA, Isaac David"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2101",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "DROSCHA, Isaac David",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2101",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "DROSCHA, Isaac David",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2101",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "DROSCHA, Isaac David",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2104",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "KAILA, Ilari",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2104",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "KAILA, Ilari",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2104",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "KAILA, Ilari",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2104",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "KAILA, Ilari",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2104",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "SNOWDEN, Steven Dewey",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2104",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "SNOWDEN, Steven Dewey",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2105",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "DROSCHA, Isaac David",
+        "PETTY, Mandy",
+        "YU, Kai Chi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2107",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LAU, Wing Fung",
+        "PAGE, Timothy Markham"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2107",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "PAGE, Timothy Markham",
+        "ZHOU, Ziya"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2107",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "SNOWDEN, Steven Dewey",
+        "TAM, Alvin Lok-Hei"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2240",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LIU, Jianmei",
+        "ZOU, Sirong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2240",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "LIU, Jianmei",
+        "ZHENG, Yi",
+        "ZHUANG, Shiping"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2250",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LEE, Pui Lam",
+        "LI, Siya"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2300",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "LI, Siya",
+        "ZHAO, Lanxin",
+        "ZHOU, Jingxuan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2330",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "DU, Daisy Yan",
+        "ZHANG, Wanyue"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2340",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "JIN, Huan",
+        "ZOU, Sirong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2440",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2440",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "CHANG, David Cheng",
+        "LAM, Christie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2440",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LIN, Zhuyun",
+        "QIN, Kunyu"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2588",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "DERMAN, Joshua",
+        "PUN, Wing Man Winnie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2588",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "DERMAN, Joshua",
+        "PAN, Xuyan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2590",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2590",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "SHARE, Michael Barry",
+        "SHI, Yuhua"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2590",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "CABOARA, Marco",
+        "YU, Xiaocong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2621",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "KAN, Yue Ming",
+        "MA, Jianxiong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2621",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "MA, Jianxiong",
+        "WEI, Zhifei"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2632",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "CHEUNG, Siu Woo"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2632",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "CHEUNG, Siu Woo"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2635",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "JI, Xinrong",
+        "MA, Jianxiong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2635",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "JI, Xinrong",
+        "MA, Jianxiong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2638",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "JI, Xinrong",
+        "MA, Jianxiong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2640",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "HO, Virgil Kit Yiu",
+        "SHI, Yuhua"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2640",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "YU, Xiaocong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2660",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "FU, Li-tsui",
+        "LAM, Christie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2660",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "FU, Li-tsui",
+        "XUE, Yuyuan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2661",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "KWONG, Yee Ngan",
+        "NAM, Kyung-ah"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2661",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "KWONG, Yee Ngan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2661",
+      "semester": "2025-26 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2661",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "KWONG, Yee Ngan",
+        "WANG, Yifei"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2670",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "CHUI, Yin To",
+        "KWONG, Yee Ngan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2670",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "KWONG, Yee Ngan",
+        "ZHUANG, Shiping"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2680",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "KWONG, Yee Ngan",
+        "LAM, Christie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2680",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "KWONG, Yee Ngan",
+        "LAM, Christie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2680",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "JI, Xinrong",
+        "KWONG, Yee Ngan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2840",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "CHEN, Zhizhi",
+        "WONG, Simon Man Ho"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2840",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LAW, Chun Yin",
+        "WONG, Simon Man Ho"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2911",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "MISHRA, Anish",
+        "NELSON, Eric S"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2921",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2921",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "MISHRA, Anish",
+        "PROOI, Dennis"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA2921",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "SHEN, Xingxing",
+        "TSE, Plato"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3030",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "LAM, Christie",
+        "PAN, Ping"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3030",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "LAM, Christie",
+        "PAN, Ping"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3030",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LAU, Chun Hong",
+        "PAN, Ping"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3050",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "QIN, Zhen Quentin",
+        "WANG, Yuqi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3201",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "DU, Daisy Yan",
+        "ZHANG, Wanyue"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3210",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3210",
+      "semester": "2025-26 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3220",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "LEE, Chee Yong",
+        "WU, Shengqing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3430",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "HO, Virgil Kit Yiu",
+        "YU, Xiaocong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3630",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "CHEUNG, Siu Woo",
+        "LAM, Christie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3680",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "KWONG, Yee Ngan",
+        "WANG, Yifei"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3800",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "NAM, Sai Lok",
+        "PUN, Wing Man Winnie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3810",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "LAW, Chun Yin",
+        "PAN, Xuyan",
+        "WONG, Simon Man Ho"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3821",
+      "semester": "2025-26 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3900",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3900",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LAU, Chun Hong",
+        "NELSON, Eric S"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "HUMA3900",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "LO, Imi Pui Yin",
+        "TSE, Plato"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "IEDA2010",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LI, Xueqi",
+        "QIU, Xuan",
+        "WANG, Tianshi",
+        "WANG, Xiaojie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "IEDA2010",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "QIU, Xuan",
+        "WANG, Tianshi",
+        "WANG, Xiaojie",
+        "WEI, Fengxing",
+        "XU, Tianzhuang"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "IEDA2010",
+      "semester": "2023-24 Summer",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "IEDA2010",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "QIU, Xuan",
+        "WANG, Tianshi",
+        "WEI, Fengxing",
+        "YU, Xiyuan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "IEDA2010",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "LING, Yunrui",
+        "QIU, Xuan",
+        "WANG, Tianshi",
+        "WEI, Fengxing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "IEDA2010",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LING, Yunrui",
+        "QIU, Xuan",
+        "WANG, Tianshi",
+        "WEI, Fengxing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISDN2000",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "XIANG, Changying",
+        "XU, Nathan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISDN2000",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "XIANG, Changying"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1090",
+      "semester": "2024-25 Winter",
+      "term_code": "2420",
+      "lecturers": [
+        "GU, Sophie J Y",
+        "TEH, Jack Her Hock"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1090",
+      "semester": "2025-26 Winter",
+      "term_code": "2520",
+      "lecturers": [
+        "GU, Sophie J Y",
+        "TEH, Jack Her Hock"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1380",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "IEONG, Chao",
+        "JAISINGH, Jeevan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1380",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "CHAN, Wing Yan",
+        "JAISINGH, Jeevan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1380",
+      "semester": "2023-24 Summer",
+      "term_code": "2340",
+      "lecturers": [
+        "CHAN, Wing Yan",
+        "HONG, Se Joon",
+        "IEONG, Chao",
+        "XU, Yan"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1380",
+      "semester": "2023-24 Winter",
+      "term_code": "2320",
+      "lecturers": [
+        "HONG, Se Joon",
+        "WAN, On Yu"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1380",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "IEONG, Chao",
+        "JAISINGH, Jeevan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1380",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "JAISINGH, Jeevan",
+        "PANG, Ngai Cheung"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1380",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "CHAN, Wing Yan",
+        "HONG, Se Joon",
+        "IEONG, Chao",
+        "XU, Yan"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1380",
+      "semester": "2024-25 Winter",
+      "term_code": "2420",
+      "lecturers": [
+        "HONG, Se Joon",
+        "IEONG, Chao"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1380",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "IEONG, Chao",
+        "JAISINGH, Jeevan",
+        "XU, Yan"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1380",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "IEONG, Chao",
+        "JAISINGH, Jeevan",
+        "KIM, Yongsuk",
+        "PANG, Ngai Cheung"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1380",
+      "semester": "2025-26 Winter",
+      "term_code": "2520",
+      "lecturers": [
+        "CHAN, Wing Yan",
+        "HONG, Se Joon"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1500",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "GURUMURTHI, Suri",
+        "YEUNG, Ngai Sang Kenrick",
+        "ZOU, Zhilin"
+      ],
+      "lecture_sections": 4,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1500",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "GURUMURTHI, Suri",
+        "NAVALGUND, Vaishnavi",
+        "WEI, Vanessa"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1500",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "CHAU, Athena",
+        "GURUMURTHI, Suri"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1700",
+      "semester": "2023-24 Spring",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1700",
+      "semester": "2023-24 Winter",
+      "term_code": "2320",
+      "lecturers": [
+        "LAU, Ronald",
+        "LEE, Wai Hong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1700",
+      "semester": "2024-25 Winter",
+      "term_code": "2420",
+      "lecturers": [
+        "LAU, Ronald",
+        "WU, Sherry Chen"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM1700",
+      "semester": "2025-26 Winter",
+      "term_code": "2520",
+      "lecturers": [
+        "LAU, Ronald",
+        "YANG, Ran"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM2310",
+      "semester": "2023-24 Summer",
+      "term_code": "2340",
+      "lecturers": [
+        "NG, Ka Wai Tommy",
+        "TEH, Jack Her Hock"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM2310",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "NG, Ka Wai Tommy",
+        "TEH, Jack Her Hock"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM2310",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "GU, Sophie J Y",
+        "TEH, Jack Her Hock"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM2400",
+      "semester": "2023-24 Winter",
+      "term_code": "2320",
+      "lecturers": [
+        "GU, Jiaying",
+        "XU, Yan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM2400",
+      "semester": "2024-25 Winter",
+      "term_code": "2420",
+      "lecturers": [
+        "PANG, Ngai Cheung",
+        "XU, Yan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "ISOM2400",
+      "semester": "2025-26 Winter",
+      "term_code": "2520",
+      "lecturers": [
+        "IEONG, Chao",
+        "XU, Yan"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "LIFS1010",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "AMIN, Aftab",
+        "KO, Ice Wai Ping",
+        "KO, Robert Kam Ming"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "LIFS1010",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "AMIN, Aftab",
+        "KO, Ice Wai Ping",
+        "KO, Robert Kam Ming"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "LIFS1010",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "AMIN, Aftab",
+        "KO, Ice Wai Ping",
+        "KO, Robert Kam Ming"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "LIFS1010",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "AMIN, Aftab",
+        "KO, Ice Wai Ping",
+        "KO, Robert Kam Ming"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "LIFS1010",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "AMIN, Aftab",
+        "KO, Ice Wai Ping",
+        "KO, Robert Kam Ming"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "LIFS1020",
+      "semester": "2023-24 Summer",
+      "term_code": "2340",
+      "lecturers": [
+        "LAM, Yeung",
+        "TANG, Jessica Ce Mun"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "LIFS1020",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "LAM, Yeung",
+        "TANG, Jessica Ce Mun"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MARK1220",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "PUIG GARRIGO, Coral"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MARK1220",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "PUIG GARRIGO, Coral"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MARK1220",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "SALVACRUZ, Joseph"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1003",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "WU, Yueping",
+        "XU, Zili",
+        "YAO, Jing"
+      ],
+      "lecture_sections": 4,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1003",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "HE, Jialin",
+        "WU, Yueping",
+        "YAO, Jing"
+      ],
+      "lecture_sections": 4,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1003",
+      "semester": "2024-25 Spring",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1003",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "QUAN, Xueyang",
+        "WU, Yueping"
+      ],
+      "lecture_sections": 4,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1012",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LAM, Tsz Kin",
+        "TU, Xushan",
+        "YANG, Xuzhou"
+      ],
+      "lecture_sections": 4,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1012",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "XIONG, Maosheng",
+        "ZHANG, Jiarui"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1012",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LAM, Tsz Kin",
+        "MA, Samuel",
+        "YING, Jiaxi"
+      ],
+      "lecture_sections": 4,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1012",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "YAO, Jing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1013",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "BIAN, Fengmiao",
+        "CHANG, Huai-Liang",
+        "CHENG, Kam Hang",
+        "LAM, Tsz Kin",
+        "LUK, Hoi",
+        "TANG, Rong",
+        "WANG, Ke",
+        "XIONG, Maosheng",
+        "YAO, Yuan"
+      ],
+      "lecture_sections": 11,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1013",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "XIONG, Maosheng",
+        "ZHANG, Jiarui"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1013",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "BIAN, Fengmiao",
+        "CHENG, Kam Hang",
+        "CHIANG, Yik Man",
+        "JIN, Tianling",
+        "QIU, Shuang"
+      ],
+      "lecture_sections": 9,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1013",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "YAO, Jing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1013",
+      "semester": "2024-25 Summer",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1013",
+      "semester": "2024-25 Winter",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1013",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "BIAN, Fengmiao",
+        "CHENG, Kam Hang",
+        "HU, Zihao",
+        "LIU, Chenkai",
+        "LIU, Junbang",
+        "QUAN, Xueyang",
+        "TANG, Rong",
+        "YING, Jiaxi",
+        "ZHANG, Qidi"
+      ],
+      "lecture_sections": 11,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1013",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "QUAN, Xueyang"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1013",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "CHENG, Kam Hang",
+        "CHIANG, Yik Man",
+        "HUNG, Kin Ting Ken",
+        "LIU, Chenkai",
+        "LIU, Junbang",
+        "LIU, Stephen",
+        "QUAN, Xueyang",
+        "TANG, Rong",
+        "TANG, Xun",
+        "YING, Jiaxi"
+      ],
+      "lecture_sections": 11,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1020",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [],
+      "lecture_sections": 1,
+      "unnamed_sections": 1
+    },
+    {
+      "course": "MATH1023",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "FONG, Tsz Ho"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1023",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "YAN, Min"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1023",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "IP, Ivan Chi Ho"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MATH1023",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "YAN, Min"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MECH1902",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "CHEN, Qing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MECH1902",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "CHEN, Qing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MECH1902",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "CHEN, Qing"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MECH1905",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "LEE, Yi-Kuen"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MECH1905",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "LEE, Yi-Kuen"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MECH1905",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "NG, Lung Fai Moses"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MECH1905",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "LEE, Yi-Kuen"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MECH1906",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "TAO, Hong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MECH1906",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "TAO, Hong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MECH1906",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "TAO, Hong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MECH1906",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "TAO, Hong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MGMT1110",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "RAMALINGAM, Sangeetha",
+        "ZHELYAZKOV, Pavel Ivanov"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MGMT1110",
+      "semester": "2023-24 Summer",
+      "term_code": "2340",
+      "lecturers": [
+        "TSUI, Hoi Ying"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MGMT1110",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "RAMALINGAM, Sangeetha",
+        "ZHELYAZKOV, Pavel Ivanov"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MGMT1110",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "NG, Ka Man",
+        "TSUI, Ginnie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MGMT1110",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "RAMALINGAM, Sangeetha",
+        "ZHELYAZKOV, Pavel Ivanov"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MGMT1120",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "KOC, Joseph",
+        "LEUNG, Sze Nga Jessica",
+        "YOUNG, Mark"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MGMT1120",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "KOC, Joseph",
+        "LEUNG, Sze Nga Jessica",
+        "YOUNG, Mark"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MGMT1130",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "NG, Ka Man",
+        "TSUI, Yuen Ling Ginnie"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MGMT1130",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "NG, Ka Man",
+        "TSUI, Ginnie"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "MGMT1130",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "NG, Ka Man",
+        "TSUI, Ginnie"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "OCES1030",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LAM, Ka Sin Cindy",
+        "YAU, Sin Ting Cynthia"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "OCES1030",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "LAM, Ka Sin Cindy",
+        "YAU, Sin Ting Cynthia"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "OCES1030",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LAM, Ka Sin Cindy",
+        "YAU, Sin Ting Cynthia"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "OCES1030",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "LAM, Ka Sin Cindy",
+        "YAU, Sin Ting Cynthia"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "OCES1030",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LAM, Cindy",
+        "YAU, Sin Ting Cynthia"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1001",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "CHEN, Yifan",
+        "FOREMAN, Bradley Alan",
+        "QIAN, Wenjie"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1001",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "LIN, Nian"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1001",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "LIN, Nian"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1001",
+      "semester": "2025-26 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1001",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "LIN, Nian"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1002",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "SOU, Iam Keong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1002",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "ALTMAN, Michael Scott",
+        "CHEN, Tian Wen"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1002",
+      "semester": "2023-24 Summer",
+      "term_code": "2340",
+      "lecturers": [
+        "CHEN, Tian Wen"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1002",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "SOU, Iam Keong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1002",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "ALTMAN, Michael Scott",
+        "CHEN, Tian Wen"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1002",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "CHEN, Tian Wen"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1002",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "WANG, Yi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1002",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "ALTMAN, Michael Scott",
+        "CHEN, Tian Wen",
+        "MANZONI, Giorgio"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1002",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "CHEN, Tian Wen"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1003",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "CHEUNG, Man Fung",
+        "JAECK, Berthold"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1003",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "SOU, Iam Keong",
+        "WANG, Xiangrong"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1003",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "CHEUNG, Man Fung",
+        "JAECK, Berthold"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1003",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "SOU, Iam Keong",
+        "YANG, Sen"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1003",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "CHEUNG, Man Fung",
+        "WONG, Kam Sing"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1003",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "KANG, Kaifei",
+        "YANG, Sen"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1007",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "ZENG, Bei"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1007",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "HUANG, Shilin"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1007",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "HUANG, Shilin"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1111",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "NG, Yee Fai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1111",
+      "semester": "2023-24 Winter",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1111",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "NG, Yee Fai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1111",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "NG, Yee Fai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1112",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "ALTMAN, Michael Scott",
+        "AN, Tailin",
+        "CHEN, Tian Wen",
+        "CHEUNG, Man Fung",
+        "PANT, Nidhi",
+        "PO, Adrian",
+        "WANG, Yibo",
+        "ZENG, Bei"
+      ],
+      "lecture_sections": 7,
+      "unnamed_sections": 1
+    },
+    {
+      "course": "PHYS1112",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "NG, Tai Kai",
+        "PANT, Nidhi",
+        "PROKOFIEV, Kirill",
+        "XU, Qin"
+      ],
+      "lecture_sections": 4,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1112",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "ALTMAN, Michael Scott",
+        "CHEN, Tian Wen",
+        "CHEUNG, Man Fung",
+        "PANT, Nidhi",
+        "PO, Adrian",
+        "WONG, Kam Sing"
+      ],
+      "lecture_sections": 7,
+      "unnamed_sections": 1
+    },
+    {
+      "course": "PHYS1112",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "PROKOFIEV, Kirill",
+        "SONG, Xueyang",
+        "XU, Qin"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1112",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "ALTMAN, Michael Scott",
+        "CHEN, Tian Wen",
+        "CHEUNG, Man Fung",
+        "PANT, Nidhi",
+        "TSUI, Ophelia K. C.",
+        "ZHANG, Rui"
+      ],
+      "lecture_sections": 8,
+      "unnamed_sections": 1
+    },
+    {
+      "course": "PHYS1112",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "PROKOFIEV, Kirill",
+        "SAN, Yik Chuen",
+        "SONG, Xueyang",
+        "XU, Qin"
+      ],
+      "lecture_sections": 5,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1112",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "CHEN, Tian Wen",
+        "CHEUNG, Man Fung",
+        "MANZONI, Giorgio",
+        "PANT, Nidhi",
+        "WATANABE, Haruki",
+        "ZHANG, Rui"
+      ],
+      "lecture_sections": 8,
+      "unnamed_sections": 1
+    },
+    {
+      "course": "PHYS1312",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LEUNG, Pak Wo"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1312",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LEUNG, Pak Wo"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1312",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "PO, Adrian"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PHYS1312",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "PO, Adrian"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PPOL2110",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "SHARIF, Naubahar"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PPOL2110",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "SHARIF, Naubahar"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "PPOL2110",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LI, Alvin"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "RMBI1010",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "WANG, Jiying"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "RMBI1010",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "WANG, Jiying"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "RMBI1020",
+      "semester": "2024-25 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "RMBI1020",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "WANG, Jiying"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "RMBI1020",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "HO, Jason Man Wai",
+        "WEI, Vanessa"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SCIE1120",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "NAGL, Stefan",
+        "ZHU, Guang"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SCIE1120",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "ZHANG, Lisheng",
+        "ZHU, Guang"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SCIE1120",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "ZHANG, Lisheng",
+        "ZHU, Guang"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1270",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "SAUTMAN, Barry"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1270",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "SAUTMAN, Barry"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1270",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "SAUTMAN, Barry"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1300",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "PARK, Sunhee"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1300",
+      "semester": "2023-24 Spring",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1300",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "PARK, Sunhee"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1300",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "TRINH, Duc Duy"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1350",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LIN, Yi-Min"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1350",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LIN, Yi-Min"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1350",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LIN, Yi-Min"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1400",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "PATCHELL, Gerald Roe"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1420",
+      "semester": "2024-25 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1420",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "WANG, Jin"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1420",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "WANG, Jin"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1440",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "HOLZ, Carsten Andreas"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1440",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "HAN, Li"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1440",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "HOLZ, Carsten Andreas"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1440",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LEI, Yu Hsiang"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1440",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "WANG, Wen"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1510",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "HOU, Yue"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1662",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1662",
+      "semester": "2023-24 Spring",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1662",
+      "semester": "2024-25 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1662",
+      "semester": "2024-25 Spring",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1662",
+      "semester": "2024-25 Summer",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1662",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [],
+      "lecture_sections": 1,
+      "unnamed_sections": 1
+    },
+    {
+      "course": "SOSC1662",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [],
+      "lecture_sections": 1,
+      "unnamed_sections": 1
+    },
+    {
+      "course": "SOSC1700",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "HE, Wenkai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1700",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "HE, Wenkai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1700",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "HE, Wenkai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1780",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "MA, John Zhongdong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1780",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "MA, John Zhongdong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1780",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "MA, John Zhongdong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1780",
+      "semester": "2026-27 Fall",
+      "term_code": "2610",
+      "lecturers": [
+        "MA, John Zhongdong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1840",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "CAI, Yongshun"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1840",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "CAI, Yongshun"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1840",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "CAI, Yongshun"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1850",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "LEUNG, Yee Man Yvonne"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1850",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "KU, Shuk Mei Agnes",
+        "LEUNG, Yee Man Yvonne"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1850",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LEUNG, Yee Man Yvonne"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1850",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "KU, Shuk Mei Agnes"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1860",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "GIETEL-BASTEN, Stuart Arthur"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1860",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "GIETEL-BASTEN, Stuart Arthur"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1860",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "GIETEL-BASTEN, Stuart Arthur"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1860",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "GIETEL-BASTEN, Stuart Arthur"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1960",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "SHU, Annie",
+        "TAM, Kevin Kim-Pong"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1960",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "CHENG, Chen",
+        "TAM, Kevin Kim-Pong"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1960",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "TAM, Kevin Kim-Pong",
+        "WANG, Jingyi"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1960",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "CHENG, Chen",
+        "TAM, Kevin Kim-Pong"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1960",
+      "semester": "2024-25 Summer",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1960",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "WANG, Jingyi"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1960",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "HSIAO, Janet Hui-wen",
+        "TAM, Kim-Pong"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1980",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "YIK, Michelle"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1980",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "YIK, Michelle"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1980",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "YIK, Michelle"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC1980",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "YIK, Michelle"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC2130",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "GROVES, Julian Mcallister"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC2290",
+      "semester": "2023-24 Fall",
+      "term_code": "",
+      "lecturers": [],
+      "lecture_sections": 0,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC2290",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "ZHANG, Dong"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC2330",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "WONG, James K."
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC2740",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "GROVES, Julian Mcallister"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC2740",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "GROVES, Julian Mcallister"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC2740",
+      "semester": "2024-25 Summer",
+      "term_code": "2440",
+      "lecturers": [
+        "GROVES, Julian Mcallister"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC2740",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LEUNG, Yee Man Yvonne"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC2740",
+      "semester": "2025-26 Summer",
+      "term_code": "2540",
+      "lecturers": [
+        "GROVES, Julian Mcallister"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC3130",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LEUNG, Yee Man Yvonne"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC3130",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "LEUNG, Yee Man Yvonne"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC3630",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "HE, Wenkai"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC3880",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "CAMPBELL, Cameron"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SOSC3880",
+      "semester": "2025-26 Spring",
+      "term_code": "2530",
+      "lecturers": [
+        "CAMPBELL, Cameron"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SUST1000",
+      "semester": "2023-24 Fall",
+      "term_code": "2310",
+      "lecturers": [
+        "GU, Dasa",
+        "LAU, Pui Sang",
+        "SHI, Xiaoming"
+      ],
+      "lecture_sections": 3,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SUST1000",
+      "semester": "2023-24 Spring",
+      "term_code": "2330",
+      "lecturers": [
+        "SHI, Xiaoming",
+        "STEUER, Benjamin"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SUST1000",
+      "semester": "2024-25 Fall",
+      "term_code": "2410",
+      "lecturers": [
+        "LAU, Pui Sang"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SUST1000",
+      "semester": "2024-25 Spring",
+      "term_code": "2430",
+      "lecturers": [
+        "STEUER, Benjamin"
+      ],
+      "lecture_sections": 1,
+      "unnamed_sections": 0
+    },
+    {
+      "course": "SUST1000",
+      "semester": "2025-26 Fall",
+      "term_code": "2510",
+      "lecturers": [
+        "LAU, Pui Sang",
+        "SAUERWEIN, Meike"
+      ],
+      "lecture_sections": 2,
+      "unnamed_sections": 0
+    }
+  ]
+}

@@ -20,17 +20,17 @@ An LLM reads every review (all four comment columns) and labels the 12 review-le
 the labeling guide. Every label other than `unknown` must come with a verbatim quote from the review, and a
 validator rejects any quote that is not in the text. "Not mentioned" is always `unknown`, never `low`/`none`.
 
-1. **Preprocess** (`src/preprocess.py`): strip HTML, drop reviewer identity columns, split co-taught reviews,
-   mark missing instructors.
+1. **Preprocess** (`src/preprocess.py`): strip HTML, drop reviewer identity columns, record the instructors
+   listed on each review, and mark missing instructors.
 2. **Label** all 3,070 reviews (batches of LLM subagents + a completion pass), merge with exactly one label
    per review (`src/merge_batches.py`), validate (`src/build_labels.py`).
 3. **Review rounds**: corrections are never edits to the original labels; each round is a separate override
    file in `cleaned/review/`, applied in the fixed order `OVERRIDE_ORDER` in `src/merge_batches.py`.
 4. **Rule cross-check** (`src/rule_check.py`): keyword rules re-extract the four factual dimensions
    (group work, participation, recording, writing); every rule/LLM disagreement is adjudicated by hand.
-5. **Aggregate** (`src/aggregate.py`) into course + instructor profiles. Each dimension becomes a 0–1 score
-   (shrunk mean toward the course mean), a display level, an evidence count, a "disputed" flag when reviews
-   disagree strongly, and example quotes.
+5. **Aggregate** (`src/aggregate.py`) into course and instructor profiles. For teacher-specific labels, use
+   explicit attribution in the evidence, followed by a confirmed review instructor or a sole lecturer in
+   the same semester. Retain unresolved evidence under its original course and semester.
 
 ### Track 2 — classic course models (comparison experiment only)
 
@@ -52,7 +52,7 @@ and against the LLM. See [`spot_check/README.md`](spot_check/README.md).
 | Preprocess | done | `cleaned/reviews_clean.csv` |
 | LLM labeling + 3 review rounds | done, 0 validation errors | `cleaned/review_labels.csv` |
 | Rule cross-check | done (agreement 70–94%; 3 LLM errors found and fixed) | `cleaned/review/rule_*` |
-| Course + instructor profiles | done (415 profiles) | `cleaned/course_profiles.csv` |
+| Course + instructor profiles | 305 individual profiles and 129 unresolved course–semester profiles | `cleaned/course_profiles.csv` |
 | Classic model experiment | done (best: BoW + Perceptron, macro-F1 ≈ 0.39 / 0.43) | `cleaned/experiments/` |
 | Human spot check | **waiting for two annotators** | `spot_check/` |
 | Recommender (methods A / B / C) | local prototype; 15-course Spring 2026 / CC25 pool frozen | `src/demo.py`, `recommendation/pool.json` |
@@ -92,6 +92,7 @@ src/
   find_analytical_gaps.py candidates for the analytical re-check (review round 2)
   rule_check.py           keyword-rule cross-check (step 3)
   aggregate.py            course + instructor profiles, conflict list
+  build_semester_instructors.py  extract lecture rosters from the pinned schedule archive
   classic_models.py       Track 2 experiment (step 4)
   make_spot_check.py      build the spot-check sample
   score_spot_check.py     score the spot check
@@ -99,7 +100,7 @@ cleaned/
   reviews_clean.csv            cleaned reviews (no reviewer identity)
   review_labels.csv / .jsonl   final review-level labels with evidence
   review_instructor_labels.csv one row per (review, instructor)
-  course_profiles.csv          final course + instructor profiles
+  course_profiles.csv          individual instructor profiles and unresolved course–semester evidence
   course_topics.csv            course-level topic categories and keywords
   conflicts.csv                same-semester disagreements (data-quality report)
   rule_labels.csv              keyword-rule labels
