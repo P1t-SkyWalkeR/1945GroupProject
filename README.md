@@ -67,6 +67,10 @@ python src/demo.py --pool recommendation/pool.json --version C
 Open http://127.0.0.1:8000. C is the preview method. See [the recommender guide](docs/RECOMMENDATION.md)
 or the [中文版运行与评分说明](docs/RECOMMENDATION.zh-CN.md) for the candidate data, scoring rules, and evaluation workflow.
 
+For usability testing, build a self-contained preview with
+`python src/build_test_preview.py --output UST-Course-Vibe-Match-Test.html`.
+Participants can open that file directly in a browser and save a feedback JSON file.
+
 Class balance: the Perceptron uses class weighting, and KNN and MLP use oversampling (`knn_bal`, `mlp_bal`).
 The balanced MLP holds out original reviews for early stopping before oversampling its training subset.
 Its BoW results are 0.34 and 0.39 across the two tasks. BoW + Perceptron remains the highest on average.

@@ -4,6 +4,16 @@
 
 ## 1. 运行演示
 
+**发给组员或同学试用。** 把生成的 HTML 文件发过去。对方用浏览器打开文件，选一个示例或填自己的偏好，就能查看推荐。体验完点击 `Save feedback file` 下载 JSON 并发回组里。页面不会自动提交反馈。体验反馈用于检查界面和解释是否好用，正式适配评估继续使用第 3 节的盲评包。
+
+```bash
+python3 src/build_test_preview.py --output UST-Course-Vibe-Match-Test.html
+```
+
+生成的体验版默认展示 C。开发集已选出版本时，可以加 `--selection /path/to/selection.json` 生成对应版本。
+
+**在本机运行 Python 界面。**
+
 准备 Python 3.11 或更新版本，打开终端并进入 `1945GroupProject` 仓库根目录。推荐演示和推荐评分使用 Python 标准库。
 
 ```bash
