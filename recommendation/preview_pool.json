@@ -1,0 +1,1368 @@
+{
+  "term_code": "2530",
+  "term_name": "2025-26 Spring",
+  "cohort": "CC25",
+  "archive_date_hkt": "2026-11-18",
+  "archive_sha256": "8daf9a730f06faf98aabeedb46895e8e2872daff362ea9368c90a363bc1ee587",
+  "eligible_course_count": 127,
+  "matched_instructor_course_count": 36,
+  "minimum_reviews": 3,
+  "courses": [
+    {
+      "course_code": "COMP1942",
+      "title": "Exploring and Visualizing Data",
+      "term_code": "2530",
+      "instructor": "WONG, Raymond Chi Wing",
+      "cc_areas": [
+        "T"
+      ],
+      "description": "This course teaches concepts and tools for exploring and visualizing data. There are a lot of real-life decision-making problems (e.g., business, logistics, economics, marketing, finance, resource management, forecasting and engineering) which can be formulated using some existing data analysis models. Existing computer science tools such as Microsoft Excel can help us to model and solve these problems easily, and to visualize the solutions.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#COMP1942",
+      "review_url": "https://ust.space/review/COMP1942",
+      "review_count": 15,
+      "review_ids": [
+        "13EMDUW4SyiPBpgHNMnl65qGu401wYzL",
+        "20vVcIn1WqRb0L7IEIJgfxbr8YjChwJl",
+        "78hxLIhcobAZ7C44ZMuK8Z5mEL0frfHc",
+        "7giuDxBrzjvEl4O5Sf6v6aCUrdIPPzHH",
+        "7oKiIdFUBxl2CVjTLDhzL5Io4hm9DMsA",
+        "COSh2s3gpzqhPUNRmFcWEVXu9tiFlY2N",
+        "FqIkuL8k11vKe38iV8ZBzohk92MqTRbE",
+        "GEbxnRyG8g8OYLahfTp0L8QKbM97PvMv",
+        "QXFoLTjUA0uyNLF9x9yD3vbuFftfq49h",
+        "RJr2mEaDAoAWSQIuEXadvNJVdpZeLfhz",
+        "SFT29cVkSLzVQt7nmACuJBdHXRiruNEK",
+        "UYsXh7UDEEtywfVPE8S4mmSuTuuUAsPi",
+        "hICRuSjeyMbKgr1l0GE1yPEReMMzDEGu",
+        "kIdumzIIXIivAzsqiPX2alM7s4hkIAwh",
+        "zFyFWSmN6BrVsnXK1fMOg5mqYsd74AHF"
+      ],
+      "assessment": {
+        "final": {
+          "value": "yes",
+          "verified": true,
+          "note": "The Spring 2025-26 syllabus assigns 40% to the final exam.",
+          "source": "https://seng.hkust.edu.hk/sites/default/files/IMCE/UG/Course%20Syllabus/Spring_2025-26/COMP1942_Spring25-26.pdf",
+          "review_ids": []
+        },
+        "presentation": {
+          "value": "unknown",
+          "verified": false,
+          "note": "No positive review checkbox; absence is unverified.",
+          "source": "",
+          "review_ids": [
+            "RJr2mEaDAoAWSQIuEXadvNJVdpZeLfhz",
+            "GEbxnRyG8g8OYLahfTp0L8QKbM97PvMv",
+            "zFyFWSmN6BrVsnXK1fMOg5mqYsd74AHF",
+            "20vVcIn1WqRb0L7IEIJgfxbr8YjChwJl",
+            "7giuDxBrzjvEl4O5Sf6v6aCUrdIPPzHH",
+            "UYsXh7UDEEtywfVPE8S4mmSuTuuUAsPi",
+            "COSh2s3gpzqhPUNRmFcWEVXu9tiFlY2N",
+            "7oKiIdFUBxl2CVjTLDhzL5Io4hm9DMsA",
+            "13EMDUW4SyiPBpgHNMnl65qGu401wYzL",
+            "kIdumzIIXIivAzsqiPX2alM7s4hkIAwh",
+            "SFT29cVkSLzVQt7nmACuJBdHXRiruNEK",
+            "QXFoLTjUA0uyNLF9x9yD3vbuFftfq49h",
+            "78hxLIhcobAZ7C44ZMuK8Z5mEL0frfHc",
+            "FqIkuL8k11vKe38iV8ZBzohk92MqTRbE",
+            "hICRuSjeyMbKgr1l0GE1yPEReMMzDEGu"
+          ]
+        },
+        "group_project": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Student reports vary; confirmation is needed.",
+          "source": "",
+          "review_ids": [
+            "RJr2mEaDAoAWSQIuEXadvNJVdpZeLfhz",
+            "zFyFWSmN6BrVsnXK1fMOg5mqYsd74AHF",
+            "13EMDUW4SyiPBpgHNMnl65qGu401wYzL",
+            "COSh2s3gpzqhPUNRmFcWEVXu9tiFlY2N"
+          ]
+        }
+      },
+      "workload": {
+        "value": "medium",
+        "n": 12,
+        "counts": {
+          "medium": 7,
+          "low": 2,
+          "high": 3
+        },
+        "examples": [
+          {
+            "review_id": "RJr2mEaDAoAWSQIuEXadvNJVdpZeLfhz",
+            "quote": "係cc course來講合理"
+          },
+          {
+            "review_id": "20vVcIn1WqRb0L7IEIJgfxbr8YjChwJl",
+            "quote": "Very light."
+          },
+          {
+            "review_id": "7giuDxBrzjvEl4O5Sf6v6aCUrdIPPzHH",
+            "quote": "You need to assume you will take lots of time to finish the assignments and projects"
+          }
+        ]
+      },
+      "teaching": {
+        "value": "mixed",
+        "n": 15,
+        "counts": {
+          "mixed": 6,
+          "unclear": 4,
+          "clear": 5
+        },
+        "examples": [
+          {
+            "review_id": "RJr2mEaDAoAWSQIuEXadvNJVdpZeLfhz",
+            "quote": "我真係頂唔順佢d ppt，好亂"
+          },
+          {
+            "review_id": "GEbxnRyG8g8OYLahfTp0L8QKbM97PvMv",
+            "quote": "His teaching is too high-level"
+          },
+          {
+            "review_id": "COSh2s3gpzqhPUNRmFcWEVXu9tiFlY2N",
+            "quote": "He teaches well, he provides explanation on algorithms"
+          }
+        ]
+      },
+      "topics": [
+        "computing_programming",
+        "mathematics_statistics"
+      ]
+    },
+    {
+      "course_code": "ENVR1030",
+      "title": "Environment and Health",
+      "term_code": "2530",
+      "instructor": "YING, Qi",
+      "cc_areas": [
+        "T",
+        "SUS"
+      ],
+      "description": "This course is intended for UG students of all backgrounds. This course aims to introduce students to the fundamental aspects of environmental health. It will explore the factors contributing to environmental health issues from both population and community perspectives. Students will learn about the interactions between individuals, communities, and the environment, the health impacts of environmental agents, and practical applications of environmental health concepts. The course includes a series of lectures covering principles from core environmental health disciplines. It starts with foundational topics and essential tools (such as environmental epidemiology and toxicology). The course then examines specific environmental disease agents (like microbial agents and various types of radiation). Finally, it addresses applications and areas of environmental health, including water and air quality, food safety, waste management, occupational health, and injury prevention. Local, regional, and global examples will be used where applicable.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#ENVR1030",
+      "review_url": "https://ust.space/review/ENVR1030",
+      "review_count": 3,
+      "review_ids": [
+        "NJYVPojpns6hVRZ2W9jHdp9lM2U2vEHm",
+        "hCpXEFDvjrnxQxyuuuEDtHPTRd3qnJ62",
+        "p0T3dHpNzvgo7nLSKMN9jb7amFJbWblW"
+      ],
+      "assessment": {
+        "final": {
+          "value": "yes",
+          "verified": false,
+          "note": "Student review checkboxes report this assessment.",
+          "source": "",
+          "review_ids": [
+            "NJYVPojpns6hVRZ2W9jHdp9lM2U2vEHm",
+            "p0T3dHpNzvgo7nLSKMN9jb7amFJbWblW",
+            "hCpXEFDvjrnxQxyuuuEDtHPTRd3qnJ62"
+          ]
+        },
+        "presentation": {
+          "value": "unknown",
+          "verified": false,
+          "note": "No positive review checkbox; absence is unverified.",
+          "source": "",
+          "review_ids": [
+            "NJYVPojpns6hVRZ2W9jHdp9lM2U2vEHm",
+            "p0T3dHpNzvgo7nLSKMN9jb7amFJbWblW",
+            "hCpXEFDvjrnxQxyuuuEDtHPTRd3qnJ62"
+          ]
+        },
+        "group_project": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Evidence of required group work is missing.",
+          "source": "",
+          "review_ids": []
+        }
+      },
+      "workload": {
+        "value": "low",
+        "n": 3,
+        "counts": {
+          "low": 2,
+          "medium": 1
+        },
+        "examples": [
+          {
+            "review_id": "NJYVPojpns6hVRZ2W9jHdp9lM2U2vEHm",
+            "quote": "Almost zero."
+          },
+          {
+            "review_id": "hCpXEFDvjrnxQxyuuuEDtHPTRd3qnJ62",
+            "quote": "Workload is normal"
+          }
+        ]
+      },
+      "teaching": {
+        "value": "mixed",
+        "n": 1,
+        "counts": {
+          "mixed": 1
+        },
+        "examples": [
+          {
+            "review_id": "hCpXEFDvjrnxQxyuuuEDtHPTRd3qnJ62",
+            "quote": "Teaching is normal"
+          }
+        ]
+      },
+      "topics": [
+        "environment_sustainability",
+        "life_sciences_health"
+      ]
+    },
+    {
+      "course_code": "FINA1303",
+      "title": "Introduction to Financial Markets and Institutions",
+      "term_code": "2530",
+      "instructor": "LAFON-VINAIS, Veronique J A",
+      "cc_areas": [
+        "SA"
+      ],
+      "description": "A broad introduction to financial institutions and financial markets, providing students with an understanding of how financial systems work, the functions of various financial institutions and the role of financial regulation.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#FINA1303",
+      "review_url": "https://ust.space/review/FINA1303",
+      "review_count": 6,
+      "review_ids": [
+        "79Y7ATHmPcIui8uot01Rr2xncIG0g0LS",
+        "DUzefehMOj5txBZAxxINZWTbmAdgb2ER",
+        "DsQUJvlLxRSFkbSfCCobUX0zWsTmrAvC",
+        "KGCmeYhhFzgvP7VnPYILU3HIe2nMc3gj",
+        "mSc0G3rRfh36pcjHbIM4vJnox1Jjah7q",
+        "sYSkYwch1hXIL9mrMy4P9PRI3QjKOwJ6"
+      ],
+      "assessment": {
+        "final": {
+          "value": "yes",
+          "verified": false,
+          "note": "Student review checkboxes report this assessment.",
+          "source": "",
+          "review_ids": [
+            "DUzefehMOj5txBZAxxINZWTbmAdgb2ER",
+            "mSc0G3rRfh36pcjHbIM4vJnox1Jjah7q",
+            "KGCmeYhhFzgvP7VnPYILU3HIe2nMc3gj",
+            "sYSkYwch1hXIL9mrMy4P9PRI3QjKOwJ6",
+            "79Y7ATHmPcIui8uot01Rr2xncIG0g0LS",
+            "DsQUJvlLxRSFkbSfCCobUX0zWsTmrAvC"
+          ]
+        },
+        "presentation": {
+          "value": "yes",
+          "verified": false,
+          "note": "Student review checkboxes report this assessment.",
+          "source": "",
+          "review_ids": [
+            "DUzefehMOj5txBZAxxINZWTbmAdgb2ER",
+            "mSc0G3rRfh36pcjHbIM4vJnox1Jjah7q",
+            "KGCmeYhhFzgvP7VnPYILU3HIe2nMc3gj",
+            "sYSkYwch1hXIL9mrMy4P9PRI3QjKOwJ6",
+            "79Y7ATHmPcIui8uot01Rr2xncIG0g0LS",
+            "DsQUJvlLxRSFkbSfCCobUX0zWsTmrAvC"
+          ]
+        },
+        "group_project": {
+          "value": "yes",
+          "verified": false,
+          "note": "Student review labels report required group work.",
+          "source": "",
+          "review_ids": [
+            "DUzefehMOj5txBZAxxINZWTbmAdgb2ER",
+            "mSc0G3rRfh36pcjHbIM4vJnox1Jjah7q",
+            "KGCmeYhhFzgvP7VnPYILU3HIe2nMc3gj",
+            "sYSkYwch1hXIL9mrMy4P9PRI3QjKOwJ6",
+            "DsQUJvlLxRSFkbSfCCobUX0zWsTmrAvC"
+          ]
+        }
+      },
+      "workload": {
+        "value": "low",
+        "n": 6,
+        "counts": {
+          "low": 6
+        },
+        "examples": [
+          {
+            "review_id": "DUzefehMOj5txBZAxxINZWTbmAdgb2ER",
+            "quote": "This course's workload is quite light."
+          }
+        ]
+      },
+      "teaching": {
+        "value": "clear",
+        "n": 5,
+        "counts": {
+          "clear": 5
+        },
+        "examples": [
+          {
+            "review_id": "DUzefehMOj5txBZAxxINZWTbmAdgb2ER",
+            "quote": "uses relatable examples to teach us concepts"
+          }
+        ]
+      },
+      "topics": [
+        "business_finance"
+      ]
+    },
+    {
+      "course_code": "HUMA1100",
+      "title": "Music of the World",
+      "term_code": "2530",
+      "instructor": "SHAO, YiFan",
+      "cc_areas": [
+        "A"
+      ],
+      "description": "This course surveys various folk and traditional musics of the non-Western world using an ethnomusicological perspective which involves studying how people make, perform and consume music in their respective cultural contexts. Music cultures will be discussed individually in turn, while maintaining a cross-cultural or cross-regional perspective so as to discern underlying themes and processes common to many of them as well as differences and points of divergence that make each one unique.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#HUMA1100",
+      "review_url": "https://ust.space/review/HUMA1100",
+      "review_count": 3,
+      "review_ids": [
+        "FaHYJjrM2hrGrLHw5fTLygjD0Hex4OzI",
+        "GNBhmwurwZio8XujEYmP9hyw4orkXdvH",
+        "QUlBaPylQOgGGEq70og4ijD6UdVca8fl"
+      ],
+      "assessment": {
+        "final": {
+          "value": "yes",
+          "verified": true,
+          "note": "The Spring 2026 syllabus assigns 25% to an end-of-term test.",
+          "source": "https://huma.hkust.edu.hk/sites/default/files/doc/Teaching/Courses/UG/Spring2026/HUMA1100.pdf",
+          "review_ids": []
+        },
+        "presentation": {
+          "value": "unknown",
+          "verified": false,
+          "note": "No positive review checkbox; absence is unverified.",
+          "source": "",
+          "review_ids": [
+            "FaHYJjrM2hrGrLHw5fTLygjD0Hex4OzI",
+            "GNBhmwurwZio8XujEYmP9hyw4orkXdvH",
+            "QUlBaPylQOgGGEq70og4ijD6UdVca8fl"
+          ]
+        },
+        "group_project": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Evidence of required group work is missing.",
+          "source": "",
+          "review_ids": []
+        }
+      },
+      "workload": {
+        "value": "medium",
+        "n": 3,
+        "counts": {
+          "medium": 2,
+          "low": 1
+        },
+        "examples": [
+          {
+            "review_id": "FaHYJjrM2hrGrLHw5fTLygjD0Hex4OzI",
+            "quote": "Quite fair I think"
+          },
+          {
+            "review_id": "QUlBaPylQOgGGEq70og4ijD6UdVca8fl",
+            "quote": "quite chill"
+          }
+        ]
+      },
+      "teaching": {
+        "value": "unclear",
+        "n": 1,
+        "counts": {
+          "unclear": 1
+        },
+        "examples": [
+          {
+            "review_id": "QUlBaPylQOgGGEq70og4ijD6UdVca8fl",
+            "quote": "she's just reading ppt, quite boring sorry"
+          }
+        ]
+      },
+      "topics": [
+        "arts_music_film"
+      ]
+    },
+    {
+      "course_code": "HUMA1102",
+      "title": "Enjoyment of Classical Music",
+      "term_code": "2530",
+      "instructor": "DROSCHA, Isaac David",
+      "cc_areas": [
+        "A"
+      ],
+      "description": "From the power and beauty of the orchestra to masterpieces of the church and concert hall, students will gain an in-depth appreciation for the history and fundamentals of Western classical music. The listening and analytical skills demonstrated will bring about a deeper understanding of music as an art form. Previous musical training, albeit helpful, is not required.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#HUMA1102",
+      "review_url": "https://ust.space/review/HUMA1102",
+      "review_count": 9,
+      "review_ids": [
+        "4lfk5R6Z90vVkOkvX9ou7WEcKlB9bH2v",
+        "5v1lTetv7v8pjjNbox8jHVThVxfxMz08",
+        "DSFC1ZTcwO9pbs05dO2S00ezM66vQ9qs",
+        "WvRJcUAOd3rZRKQrVTqKq59nV3VPpUGt",
+        "ZIqocqeHIyZgvLblmkBTNqNgcW6knkas",
+        "de8kLk2VvuTbgvjVqReb7I3VSGStxbMl",
+        "irUnv0CHICbAVZJI4D8EEIJwXd5w1rIn",
+        "t6t4iK6jGWcL4I4mYlLTbkxihGw4sv5s",
+        "vuZw38tKNeBJCTBn6KYl3ZUxAxDwwXFa"
+      ],
+      "assessment": {
+        "final": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Student reports vary; confirmation is needed.",
+          "source": "",
+          "review_ids": [
+            "vuZw38tKNeBJCTBn6KYl3ZUxAxDwwXFa",
+            "t6t4iK6jGWcL4I4mYlLTbkxihGw4sv5s",
+            "irUnv0CHICbAVZJI4D8EEIJwXd5w1rIn",
+            "5v1lTetv7v8pjjNbox8jHVThVxfxMz08",
+            "de8kLk2VvuTbgvjVqReb7I3VSGStxbMl",
+            "DSFC1ZTcwO9pbs05dO2S00ezM66vQ9qs",
+            "4lfk5R6Z90vVkOkvX9ou7WEcKlB9bH2v",
+            "WvRJcUAOd3rZRKQrVTqKq59nV3VPpUGt",
+            "ZIqocqeHIyZgvLblmkBTNqNgcW6knkas"
+          ]
+        },
+        "presentation": {
+          "value": "unknown",
+          "verified": false,
+          "note": "No positive review checkbox; absence is unverified.",
+          "source": "",
+          "review_ids": [
+            "vuZw38tKNeBJCTBn6KYl3ZUxAxDwwXFa",
+            "t6t4iK6jGWcL4I4mYlLTbkxihGw4sv5s",
+            "irUnv0CHICbAVZJI4D8EEIJwXd5w1rIn",
+            "5v1lTetv7v8pjjNbox8jHVThVxfxMz08",
+            "de8kLk2VvuTbgvjVqReb7I3VSGStxbMl",
+            "ZIqocqeHIyZgvLblmkBTNqNgcW6knkas",
+            "DSFC1ZTcwO9pbs05dO2S00ezM66vQ9qs",
+            "4lfk5R6Z90vVkOkvX9ou7WEcKlB9bH2v",
+            "WvRJcUAOd3rZRKQrVTqKq59nV3VPpUGt"
+          ]
+        },
+        "group_project": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Evidence of required group work is missing.",
+          "source": "",
+          "review_ids": []
+        }
+      },
+      "workload": {
+        "value": "unknown",
+        "n": 6,
+        "counts": {
+          "medium": 2,
+          "low": 2,
+          "high": 2
+        },
+        "examples": [
+          {
+            "review_id": "vuZw38tKNeBJCTBn6KYl3ZUxAxDwwXFa",
+            "quote": "如果grade唔harsh，其實workload還好的"
+          },
+          {
+            "review_id": "t6t4iK6jGWcL4I4mYlLTbkxihGw4sv5s",
+            "quote": "no assignment, just have quiz in many of the lesson"
+          },
+          {
+            "review_id": "5v1lTetv7v8pjjNbox8jHVThVxfxMz08",
+            "quote": "The workload is quite heavy"
+          }
+        ]
+      },
+      "teaching": {
+        "value": "unknown",
+        "n": 5,
+        "counts": {
+          "mixed": 2,
+          "clear": 2,
+          "unclear": 1
+        },
+        "examples": [
+          {
+            "review_id": "vuZw38tKNeBJCTBn6KYl3ZUxAxDwwXFa",
+            "quote": "解釋slides都ok"
+          },
+          {
+            "review_id": "t6t4iK6jGWcL4I4mYlLTbkxihGw4sv5s",
+            "quote": "The content is good, the teaching is also good"
+          },
+          {
+            "review_id": "DSFC1ZTcwO9pbs05dO2S00ezM66vQ9qs",
+            "quote": "the whole class ends up completely lost and confused"
+          }
+        ]
+      },
+      "topics": [
+        "arts_music_film"
+      ]
+    },
+    {
+      "course_code": "HUMA1920",
+      "title": "Introduction to Moral Philosophy",
+      "term_code": "2530",
+      "instructor": "BRYS, Waldemar",
+      "cc_areas": [
+        "H"
+      ],
+      "description": "This introductory course examines various beliefs and questions underlying our moral lives. These include the relation between morality and religion, subjectivism, relativism, self-interest, the rights and wrongs of euthanasia, etc. Also, certain ethical theories claim to help us make the right moral decisions, e.g. utilitarianism. This course is a systematic exploration of such beliefs and theories, emphasizing critical thinking and reasonable justification.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#HUMA1920",
+      "review_url": "https://ust.space/review/HUMA1920",
+      "review_count": 3,
+      "review_ids": [
+        "1KDySQFThBt3HRnFfVq4k7QJcb2tveiF",
+        "1Nxb5FoQmbaJ4x0qnCtFo79cfz6IkqxK",
+        "oNXx53WNUN091fPR5NhMdpDbgXn6nQq6"
+      ],
+      "assessment": {
+        "final": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Student reports vary; confirmation is needed.",
+          "source": "",
+          "review_ids": [
+            "1KDySQFThBt3HRnFfVq4k7QJcb2tveiF",
+            "1Nxb5FoQmbaJ4x0qnCtFo79cfz6IkqxK",
+            "oNXx53WNUN091fPR5NhMdpDbgXn6nQq6"
+          ]
+        },
+        "presentation": {
+          "value": "unknown",
+          "verified": false,
+          "note": "No positive review checkbox; absence is unverified.",
+          "source": "",
+          "review_ids": [
+            "1KDySQFThBt3HRnFfVq4k7QJcb2tveiF",
+            "oNXx53WNUN091fPR5NhMdpDbgXn6nQq6",
+            "1Nxb5FoQmbaJ4x0qnCtFo79cfz6IkqxK"
+          ]
+        },
+        "group_project": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Evidence of required group work is missing.",
+          "source": "",
+          "review_ids": []
+        }
+      },
+      "workload": {
+        "value": "low",
+        "n": 3,
+        "counts": {
+          "medium": 1,
+          "low": 2
+        },
+        "examples": [
+          {
+            "review_id": "1KDySQFThBt3HRnFfVq4k7QJcb2tveiF",
+            "quote": "the workload is very acceptable for a cc course"
+          },
+          {
+            "review_id": "oNXx53WNUN091fPR5NhMdpDbgXn6nQq6",
+            "quote": "almost no workload if you pay attention during class."
+          }
+        ]
+      },
+      "teaching": {
+        "value": "unknown",
+        "n": 2,
+        "counts": {
+          "clear": 1,
+          "mixed": 1
+        },
+        "examples": [
+          {
+            "review_id": "1KDySQFThBt3HRnFfVq4k7QJcb2tveiF",
+            "quote": "He really tries to make us understand the concepts taught in class rather than just spewing stuff"
+          },
+          {
+            "review_id": "oNXx53WNUN091fPR5NhMdpDbgXn6nQq6",
+            "quote": "It would be really ineffective and boring if no one ask anything."
+          }
+        ]
+      },
+      "topics": [
+        "philosophy_religion"
+      ]
+    },
+    {
+      "course_code": "HUMA2101",
+      "title": "Enjoyment of Western Opera",
+      "term_code": "2530",
+      "instructor": "DROSCHA, Isaac David",
+      "cc_areas": [
+        "A"
+      ],
+      "description": "An examination of the historical development of western opera, and selected western operas with their related literary texts. This course will also put some emphasis on works that are related to Asian cultures, and operas that will be performed in Hong Kong. No previous knowledge of opera is required.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#HUMA2101",
+      "review_url": "https://ust.space/review/HUMA2101",
+      "review_count": 4,
+      "review_ids": [
+        "4JPYMFxmKul9by3Ovk7LwBvCKGZwLmcr",
+        "78L3t2agXHJOgiqQVQlbqPRFhPTxHEzw",
+        "QMDrrIe3HMoIFfiDqFPmjhQM0zh7mkK9",
+        "lT0irpQf2255rCb6ROSAq3U5ttR60Oa3"
+      ],
+      "assessment": {
+        "final": {
+          "value": "yes",
+          "verified": false,
+          "note": "Student review checkboxes report this assessment.",
+          "source": "",
+          "review_ids": [
+            "QMDrrIe3HMoIFfiDqFPmjhQM0zh7mkK9",
+            "lT0irpQf2255rCb6ROSAq3U5ttR60Oa3",
+            "4JPYMFxmKul9by3Ovk7LwBvCKGZwLmcr",
+            "78L3t2agXHJOgiqQVQlbqPRFhPTxHEzw"
+          ]
+        },
+        "presentation": {
+          "value": "yes",
+          "verified": true,
+          "note": "The Spring 2026 syllabus assigns 15% to a mandatory group presentation.",
+          "source": "https://huma.hkust.edu.hk/sites/default/files/doc/Teaching/Courses/UG/Spring2026/HUMA2101.pdf",
+          "review_ids": []
+        },
+        "group_project": {
+          "value": "yes",
+          "verified": true,
+          "note": "The Spring 2026 syllabus assigns 10% to a required group project.",
+          "source": "https://huma.hkust.edu.hk/sites/default/files/doc/Teaching/Courses/UG/Spring2026/HUMA2101.pdf",
+          "review_ids": []
+        }
+      },
+      "workload": {
+        "value": "unknown",
+        "n": 3,
+        "counts": {
+          "low": 1,
+          "conditional_mixed": 1,
+          "medium": 1
+        },
+        "examples": [
+          {
+            "review_id": "lT0irpQf2255rCb6ROSAq3U5ttR60Oa3",
+            "quote": "I think the workload is low even though for the group project"
+          },
+          {
+            "review_id": "4JPYMFxmKul9by3Ovk7LwBvCKGZwLmcr",
+            "quote": "The workload is very high around the midterm period"
+          },
+          {
+            "review_id": "78L3t2agXHJOgiqQVQlbqPRFhPTxHEzw",
+            "quote": "Overall, I think it is still fine."
+          }
+        ]
+      },
+      "teaching": {
+        "value": "unclear",
+        "n": 1,
+        "counts": {
+          "unclear": 1
+        },
+        "examples": [
+          {
+            "review_id": "4JPYMFxmKul9by3Ovk7LwBvCKGZwLmcr",
+            "quote": "very limited content in his lecture slides"
+          }
+        ]
+      },
+      "topics": [
+        "arts_music_film"
+      ]
+    },
+    {
+      "course_code": "HUMA2104",
+      "title": "Music Theory I: Introduction to Tonal Music",
+      "term_code": "2530",
+      "instructor": "SNOWDEN, Steven Dewey",
+      "cc_areas": [
+        "A"
+      ],
+      "description": "This course is an introduction to the fundamentals of Western music theory with an emphasis on reading and writing musical notation, ear training, and analytical listening. Students will develop an understanding of how texture, harmony, rhythm, dynamics, melodic development, and other parameters interact to create music. Examples used in the class will be drawn mostly, but not exclusively, from classical repertoire. Although prior musical training will be helpful, there are no prerequisites for the course.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#HUMA2104",
+      "review_url": "https://ust.space/review/HUMA2104",
+      "review_count": 3,
+      "review_ids": [
+        "CDIICWrfAbXjDa0kAl1CmRZPkvsNVjQi",
+        "NH20AoQ524VRfOpsKv0O6zQFoSnG3wRw",
+        "faUPJOGfqEbtZJV3M5rUGDg6rkADpmVa"
+      ],
+      "assessment": {
+        "final": {
+          "value": "yes",
+          "verified": true,
+          "note": "The Spring 2026 syllabus assigns 30% to a final exam.",
+          "source": "https://huma.hkust.edu.hk/sites/default/files/doc/Teaching/Courses/UG/Spring2026/HUMA2104.pdf",
+          "review_ids": []
+        },
+        "presentation": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Student reports vary; confirmation is needed.",
+          "source": "",
+          "review_ids": [
+            "CDIICWrfAbXjDa0kAl1CmRZPkvsNVjQi",
+            "faUPJOGfqEbtZJV3M5rUGDg6rkADpmVa",
+            "NH20AoQ524VRfOpsKv0O6zQFoSnG3wRw"
+          ]
+        },
+        "group_project": {
+          "value": "no",
+          "verified": true,
+          "note": "The assessed project is an individually composed piano piece; the full grading breakdown includes no required group project.",
+          "source": "https://huma.hkust.edu.hk/sites/default/files/doc/Teaching/Courses/UG/Spring2026/HUMA2104.pdf",
+          "review_ids": []
+        }
+      },
+      "workload": {
+        "value": "medium",
+        "n": 1,
+        "counts": {
+          "medium": 1
+        },
+        "examples": [
+          {
+            "review_id": "faUPJOGfqEbtZJV3M5rUGDg6rkADpmVa",
+            "quote": "Moderate workload for me."
+          }
+        ]
+      },
+      "teaching": {
+        "value": "unknown",
+        "n": 2,
+        "counts": {
+          "clear": 1,
+          "mixed": 1
+        },
+        "examples": [
+          {
+            "review_id": "CDIICWrfAbXjDa0kAl1CmRZPkvsNVjQi",
+            "quote": "explain the stuff in a quite clear way"
+          },
+          {
+            "review_id": "faUPJOGfqEbtZJV3M5rUGDg6rkADpmVa",
+            "quote": "I personally don't prefer his style of teaching, but I could still understand what he has demonstrated in his lecture."
+          }
+        ]
+      },
+      "topics": [
+        "arts_music_film"
+      ]
+    },
+    {
+      "course_code": "HUMA3810",
+      "title": "Taoism and the Chinese Tradition",
+      "term_code": "2530",
+      "instructor": "WONG, Simon Man Ho",
+      "cc_areas": [
+        "C-Comm",
+        "H"
+      ],
+      "description": "This course is an introduction to Taoism as a living tradition in the context of Chinese history and culture. It is a living tradition since some of its important ideas like “the soft can conquer the hard” and “not to show one’s intelligence to the fullest extent” are still present in the attitude of life of the Chinese people. To enable students to learn and appreciate the insights of Taoism directly, some scholarly researches and especially the primary texts of the Laozi and Zhuangzi will be introduced.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#HUMA3810",
+      "review_url": "https://ust.space/review/HUMA3810",
+      "review_count": 3,
+      "review_ids": [
+        "4p4OcG1QqxdR8RHlJRB0Ac1GDkqfDFWx",
+        "HyfEzit7SPZKJhg4jUmWzdNqudTW06Bw",
+        "SBDoPCjMJjIxlQnvBIQAOlB5Ks0CYkj8"
+      ],
+      "assessment": {
+        "final": {
+          "value": "yes",
+          "verified": true,
+          "note": "The Spring 2026 syllabus assigns 40% to a final examination.",
+          "source": "https://huma.hkust.edu.hk/sites/default/files/doc/Teaching/Courses/UG/Spring2026/HUMA3810.pdf",
+          "review_ids": []
+        },
+        "presentation": {
+          "value": "no",
+          "verified": true,
+          "note": "The full assessed requirements are an essay, a final exam, and attendance, participation and discussion.",
+          "source": "https://huma.hkust.edu.hk/sites/default/files/doc/Teaching/Courses/UG/Spring2026/HUMA3810.pdf",
+          "review_ids": []
+        },
+        "group_project": {
+          "value": "no",
+          "verified": true,
+          "note": "The full grading scheme assigns an essay, an exam and class participation, with no group project required.",
+          "source": "https://huma.hkust.edu.hk/sites/default/files/doc/Teaching/Courses/UG/Spring2026/HUMA3810.pdf",
+          "review_ids": []
+        }
+      },
+      "workload": {
+        "value": "low",
+        "n": 3,
+        "counts": {
+          "low": 3
+        },
+        "examples": [
+          {
+            "review_id": "HyfEzit7SPZKJhg4jUmWzdNqudTW06Bw",
+            "quote": "沒什麼workload"
+          }
+        ]
+      },
+      "teaching": {
+        "value": "clear",
+        "n": 3,
+        "counts": {
+          "clear": 3
+        },
+        "examples": [
+          {
+            "review_id": "HyfEzit7SPZKJhg4jUmWzdNqudTW06Bw",
+            "quote": "有例子輔以說明"
+          }
+        ]
+      },
+      "topics": [
+        "philosophy_religion"
+      ]
+    },
+    {
+      "course_code": "MECH1905",
+      "title": "Buildings for Contemporary Living",
+      "term_code": "2530",
+      "instructor": "LEE, Yi-Kuen",
+      "cc_areas": [
+        "S",
+        "T"
+      ],
+      "description": "This course introduces the applications of modern mechanical engineering technologies to buildings systems and how they relate to our livings. A wise design of building systems offers high convenience to the occupants. Building systems, such as structural design, water supply, safety and air conditioning are of high importance to maintain a satisfying temperature, humidity, lighting and indoor air quality for comfortable living and efficient working. The course introduces the latest trend of building design, such as intelligent, and green buildings, micro sensors, Internet of Things (IoTs), VR/AR and metaverse and AI and how to maintain the sustainability and efficiency of the whole building in terms of building duration, energy and operation. The aim of the course is to provide students fundamental understanding and latest case studies on the current technologies for attaining contemporary living, and the difficulties we are facing that we may be ready for future challenges.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#MECH1905",
+      "review_url": "https://ust.space/review/MECH1905",
+      "review_count": 4,
+      "review_ids": [
+        "0OyGQk5h3ATaytUUWbgeRijrrMn2kK6e",
+        "7N3cVGzxxgSHg66wladpaT2aByje6vpB",
+        "D1J8ZPq3SQkVZFGTxi7pHTAn0SUXG3XF",
+        "eqbUCALU0buf7CSTVfg8KEaOJFodNBns"
+      ],
+      "assessment": {
+        "final": {
+          "value": "yes",
+          "verified": true,
+          "note": "The Spring 2025-26 syllabus assigns 50% to the final examination.",
+          "source": "https://seng.hkust.edu.hk/sites/default/files/IMCE/UG/Course%20Syllabus/Spring_2025-26/MECH1905_Spring%2025-26.pdf",
+          "review_ids": []
+        },
+        "presentation": {
+          "value": "no",
+          "verified": true,
+          "note": "The full grading scheme consists of attendance and quizzes plus the midterm and final.",
+          "source": "https://seng.hkust.edu.hk/sites/default/files/IMCE/UG/Course%20Syllabus/Spring_2025-26/MECH1905_Spring%2025-26.pdf",
+          "review_ids": []
+        },
+        "group_project": {
+          "value": "no",
+          "verified": true,
+          "note": "The full grading scheme consists of attendance and quizzes plus the midterm and final.",
+          "source": "https://seng.hkust.edu.hk/sites/default/files/IMCE/UG/Course%20Syllabus/Spring_2025-26/MECH1905_Spring%2025-26.pdf",
+          "review_ids": []
+        }
+      },
+      "workload": {
+        "value": "low",
+        "n": 4,
+        "counts": {
+          "low": 3,
+          "medium": 1
+        },
+        "examples": [
+          {
+            "review_id": "D1J8ZPq3SQkVZFGTxi7pHTAn0SUXG3XF",
+            "quote": "冇功課 淨係計考試同出席率"
+          },
+          {
+            "review_id": "0OyGQk5h3ATaytUUWbgeRijrrMn2kK6e",
+            "quote": "The workload is not high."
+          }
+        ]
+      },
+      "teaching": {
+        "value": "unclear",
+        "n": 4,
+        "counts": {
+          "unclear": 4
+        },
+        "examples": [
+          {
+            "review_id": "D1J8ZPq3SQkVZFGTxi7pHTAn0SUXG3XF",
+            "quote": "完全唔知做緊乜"
+          }
+        ]
+      },
+      "topics": [
+        "engineering_technology"
+      ]
+    },
+    {
+      "course_code": "PHYS1001",
+      "title": "Physics and the Modern Society",
+      "term_code": "2530",
+      "instructor": "LIN, Nian",
+      "cc_areas": [
+        "S"
+      ],
+      "description": "This course is for students with no physics background. Course content: Principle of scientific theories and methods, Aristotle's law, Newtonian mechanics. Thermal physics, heat engine, energy crisis and global warming. Nature of waves and the physics of hearing and vision. Electricity and magnetism, electromagnetic waves and telecommunication. Relativity, quantum physics, nuclear energy and semiconductor. Developments and outlook of contemporary physics. Students without HKDSE qualifications may seek instructor’s approval for enrolment.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#PHYS1001",
+      "review_url": "https://ust.space/review/PHYS1001",
+      "review_count": 4,
+      "review_ids": [
+        "6XYYhF29hxRXJfS9Q98fI8bKB5dZnwDg",
+        "H316rNV1MlQ3Bv6yOfwUxvayy2dvIO4i",
+        "VpwYWxsHzEOy6XDigqfh3mCoNPgNSADF",
+        "zUc5tGyDTYuSoZqYbsrlJW4Xpp0TkTtk"
+      ],
+      "assessment": {
+        "final": {
+          "value": "yes",
+          "verified": false,
+          "note": "Student review checkboxes report this assessment.",
+          "source": "",
+          "review_ids": [
+            "H316rNV1MlQ3Bv6yOfwUxvayy2dvIO4i",
+            "6XYYhF29hxRXJfS9Q98fI8bKB5dZnwDg",
+            "zUc5tGyDTYuSoZqYbsrlJW4Xpp0TkTtk",
+            "VpwYWxsHzEOy6XDigqfh3mCoNPgNSADF"
+          ]
+        },
+        "presentation": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Student reports vary; confirmation is needed.",
+          "source": "",
+          "review_ids": [
+            "6XYYhF29hxRXJfS9Q98fI8bKB5dZnwDg",
+            "zUc5tGyDTYuSoZqYbsrlJW4Xpp0TkTtk",
+            "VpwYWxsHzEOy6XDigqfh3mCoNPgNSADF",
+            "H316rNV1MlQ3Bv6yOfwUxvayy2dvIO4i"
+          ]
+        },
+        "group_project": {
+          "value": "no",
+          "verified": false,
+          "note": "Student review labels report optional or individual work.",
+          "source": "",
+          "review_ids": [
+            "VpwYWxsHzEOy6XDigqfh3mCoNPgNSADF"
+          ]
+        }
+      },
+      "workload": {
+        "value": "low",
+        "n": 3,
+        "counts": {
+          "low": 2,
+          "conditional_mixed": 1
+        },
+        "examples": [
+          {
+            "review_id": "6XYYhF29hxRXJfS9Q98fI8bKB5dZnwDg",
+            "quote": "基本上係零"
+          },
+          {
+            "review_id": "zUc5tGyDTYuSoZqYbsrlJW4Xpp0TkTtk",
+            "quote": "definitely not light for the 'true' beginner in physics, but not too bad. doable course"
+          }
+        ]
+      },
+      "teaching": {
+        "value": "clear",
+        "n": 3,
+        "counts": {
+          "clear": 2,
+          "unclear": 1
+        },
+        "examples": [
+          {
+            "review_id": "H316rNV1MlQ3Bv6yOfwUxvayy2dvIO4i",
+            "quote": "very clear but you dont really need to pay attention to what he says"
+          },
+          {
+            "review_id": "VpwYWxsHzEOy6XDigqfh3mCoNPgNSADF",
+            "quote": "The powerpoint slide is messy and explain concepts in a very poor way."
+          }
+        ]
+      },
+      "topics": [
+        "physical_sciences"
+      ]
+    },
+    {
+      "course_code": "PHYS1002",
+      "title": "Introduction to Astrophysics and Astronomy",
+      "term_code": "2530",
+      "instructor": "ALTMAN, Michael Scott",
+      "cc_areas": [
+        "S"
+      ],
+      "description": "This course addresses the origin of modern astronomy, the solar system, seasons, moon & eclipses, motion & gravity, light & telescopes, star light & atoms, stars (binary, formation, evolution and death), neutron stars & black holes, normal galaxies, peculiar galaxies, dark matter, dark energy and cosmology.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#PHYS1002",
+      "review_url": "https://ust.space/review/PHYS1002",
+      "review_count": 4,
+      "review_ids": [
+        "38OAMnaceSKotShnjh6l1aHhVcRAK7S7",
+        "AIi4UNVHvCsuflN4SaCyscfhf5pBPIqe",
+        "G67ToevjHf4wD33DCVvTLDgKCpadG64H",
+        "g0qHbBfWpeKG1Uu8HXo9olAp6tE7xcpH"
+      ],
+      "assessment": {
+        "final": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Student reports vary; confirmation is needed.",
+          "source": "",
+          "review_ids": [
+            "G67ToevjHf4wD33DCVvTLDgKCpadG64H",
+            "AIi4UNVHvCsuflN4SaCyscfhf5pBPIqe",
+            "g0qHbBfWpeKG1Uu8HXo9olAp6tE7xcpH",
+            "38OAMnaceSKotShnjh6l1aHhVcRAK7S7"
+          ]
+        },
+        "presentation": {
+          "value": "unknown",
+          "verified": false,
+          "note": "No positive review checkbox; absence is unverified.",
+          "source": "",
+          "review_ids": [
+            "G67ToevjHf4wD33DCVvTLDgKCpadG64H",
+            "38OAMnaceSKotShnjh6l1aHhVcRAK7S7",
+            "AIi4UNVHvCsuflN4SaCyscfhf5pBPIqe",
+            "g0qHbBfWpeKG1Uu8HXo9olAp6tE7xcpH"
+          ]
+        },
+        "group_project": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Evidence of required group work is missing.",
+          "source": "",
+          "review_ids": []
+        }
+      },
+      "workload": {
+        "value": "unknown",
+        "n": 4,
+        "counts": {
+          "low": 2,
+          "high": 2
+        },
+        "examples": [
+          {
+            "review_id": "G67ToevjHf4wD33DCVvTLDgKCpadG64H",
+            "quote": "Fairly low."
+          },
+          {
+            "review_id": "38OAMnaceSKotShnjh6l1aHhVcRAK7S7",
+            "quote": "content covered in mid-term and exam range is enormous"
+          }
+        ]
+      },
+      "teaching": {
+        "value": "unknown",
+        "n": 2,
+        "counts": {
+          "unclear": 1,
+          "clear": 1
+        },
+        "examples": [
+          {
+            "review_id": "38OAMnaceSKotShnjh6l1aHhVcRAK7S7",
+            "quote": "not easy to understand if you are not good at physics."
+          },
+          {
+            "review_id": "AIi4UNVHvCsuflN4SaCyscfhf5pBPIqe",
+            "quote": "His explanation and delivery is clear."
+          }
+        ]
+      },
+      "topics": [
+        "physical_sciences"
+      ]
+    },
+    {
+      "course_code": "PHYS1003",
+      "title": "Energy and Related Environmental Issues",
+      "term_code": "2530",
+      "instructor": "YANG, Sen",
+      "cc_areas": [
+        "S"
+      ],
+      "description": "This course will introduce the basic concepts of the physical principles behind energy. Forms of energy (including fossil energy, nuclear energy and various forms of renewable energy) and their use for electricity generation, as well as their impacts on the environment from both global and regional perspectives will be covered. Issues related to energy conservation and related environmental issues in Hong Kong and the rest of the world will be addressed.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#PHYS1003",
+      "review_url": "https://ust.space/review/PHYS1003",
+      "review_count": 5,
+      "review_ids": [
+        "KkYVoEbyIk7uahSl2OZuEupDWLJ5mtmi",
+        "OGV2ZxOMbDWbs04YsYsn5RDGTJ9U4cYY",
+        "RKQYlPJ4TZRtETqqsJPGnR7Ag1inuupE",
+        "b00o6taVZxcr3KCFtG8KbhfLod92Di5R",
+        "tu8nNJ9xBv3yAKgfvaumo9McL9XIxRuC"
+      ],
+      "assessment": {
+        "final": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Student reports vary; confirmation is needed.",
+          "source": "",
+          "review_ids": [
+            "KkYVoEbyIk7uahSl2OZuEupDWLJ5mtmi",
+            "OGV2ZxOMbDWbs04YsYsn5RDGTJ9U4cYY",
+            "b00o6taVZxcr3KCFtG8KbhfLod92Di5R",
+            "RKQYlPJ4TZRtETqqsJPGnR7Ag1inuupE",
+            "tu8nNJ9xBv3yAKgfvaumo9McL9XIxRuC"
+          ]
+        },
+        "presentation": {
+          "value": "unknown",
+          "verified": false,
+          "note": "No positive review checkbox; absence is unverified.",
+          "source": "",
+          "review_ids": [
+            "KkYVoEbyIk7uahSl2OZuEupDWLJ5mtmi",
+            "OGV2ZxOMbDWbs04YsYsn5RDGTJ9U4cYY",
+            "tu8nNJ9xBv3yAKgfvaumo9McL9XIxRuC",
+            "b00o6taVZxcr3KCFtG8KbhfLod92Di5R",
+            "RKQYlPJ4TZRtETqqsJPGnR7Ag1inuupE"
+          ]
+        },
+        "group_project": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Evidence of required group work is missing.",
+          "source": "",
+          "review_ids": []
+        }
+      },
+      "workload": {
+        "value": "low",
+        "n": 5,
+        "counts": {
+          "low": 4,
+          "medium": 1
+        },
+        "examples": [
+          {
+            "review_id": "KkYVoEbyIk7uahSl2OZuEupDWLJ5mtmi",
+            "quote": "Super little workload"
+          },
+          {
+            "review_id": "tu8nNJ9xBv3yAKgfvaumo9McL9XIxRuC",
+            "quote": "Not bad workload."
+          }
+        ]
+      },
+      "teaching": {
+        "value": "clear",
+        "n": 4,
+        "counts": {
+          "clear": 2,
+          "unclear": 1,
+          "mixed": 1
+        },
+        "examples": [
+          {
+            "review_id": "KkYVoEbyIk7uahSl2OZuEupDWLJ5mtmi",
+            "quote": "The teaching is good and the professor has no accent."
+          },
+          {
+            "review_id": "tu8nNJ9xBv3yAKgfvaumo9McL9XIxRuC",
+            "quote": "the teaching is pretty bad and boring"
+          },
+          {
+            "review_id": "b00o6taVZxcr3KCFtG8KbhfLod92Di5R",
+            "quote": "Prof. Yang teaching is quite average, not too bad, not too good, not a ppt reader"
+          }
+        ]
+      },
+      "topics": [
+        "environment_sustainability",
+        "physical_sciences"
+      ]
+    },
+    {
+      "course_code": "PHYS1007",
+      "title": "Quantum Information for Everyone",
+      "term_code": "2530",
+      "instructor": "HUANG, Shilin",
+      "cc_areas": [
+        "S"
+      ],
+      "description": "Information cannot exist without a physical system to represent it. Quantum physics enables some fundamental new ways of information processing. In recent years, quantum information processing (QIP) has emerged as one of the “most fiercely competitive in today’s world of technology”. This course offers an introduction to the past, present and future of QIP. The theme is to explain the major ideas and issues in QIP, and how this new technology will change our understanding of information processing. The course starts from a gentle introduction to quantum theory without assuming any physics background, then moves to the key applications of QIP including quantum computing, quantum cryptography, and quantum communication. Besides theory, demonstrations and hands-on experiences with quantum hardware will also be given. Students will benefit from learning quantum information technology in an interdisciplinary environment, with knowledge and skills for comprehending the fast-paced developments in today’s technological world.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#PHYS1007",
+      "review_url": "https://ust.space/review/PHYS1007",
+      "review_count": 5,
+      "review_ids": [
+        "H7BZ9XtIEbIlYLRZ8HzRbecjQzzC82HE",
+        "Mq0SzrTKwZ6GqcCDjxlisswbHswPhu00",
+        "jM7ZseScFg25x2cAOf89yZfnPCBlhOLP",
+        "pRUBYxgjFG1mny3MugpPoIciZylURTAq",
+        "vSpnLVLhYrV60qDgB3rxSMYsZYJbXTcw"
+      ],
+      "assessment": {
+        "final": {
+          "value": "yes",
+          "verified": false,
+          "note": "Student review checkboxes report this assessment.",
+          "source": "",
+          "review_ids": [
+            "pRUBYxgjFG1mny3MugpPoIciZylURTAq",
+            "H7BZ9XtIEbIlYLRZ8HzRbecjQzzC82HE",
+            "jM7ZseScFg25x2cAOf89yZfnPCBlhOLP",
+            "Mq0SzrTKwZ6GqcCDjxlisswbHswPhu00",
+            "vSpnLVLhYrV60qDgB3rxSMYsZYJbXTcw"
+          ]
+        },
+        "presentation": {
+          "value": "unknown",
+          "verified": false,
+          "note": "No positive review checkbox; absence is unverified.",
+          "source": "",
+          "review_ids": [
+            "pRUBYxgjFG1mny3MugpPoIciZylURTAq",
+            "H7BZ9XtIEbIlYLRZ8HzRbecjQzzC82HE",
+            "jM7ZseScFg25x2cAOf89yZfnPCBlhOLP",
+            "Mq0SzrTKwZ6GqcCDjxlisswbHswPhu00",
+            "vSpnLVLhYrV60qDgB3rxSMYsZYJbXTcw"
+          ]
+        },
+        "group_project": {
+          "value": "unknown",
+          "verified": false,
+          "note": "Evidence of required group work is missing.",
+          "source": "",
+          "review_ids": []
+        }
+      },
+      "workload": {
+        "value": "low",
+        "n": 4,
+        "counts": {
+          "conditional_mixed": 1,
+          "low": 2,
+          "medium": 1
+        },
+        "examples": [
+          {
+            "review_id": "H7BZ9XtIEbIlYLRZ8HzRbecjQzzC82HE",
+            "quote": "對於理科人其實都幾chill"
+          },
+          {
+            "review_id": "jM7ZseScFg25x2cAOf89yZfnPCBlhOLP",
+            "quote": "Very light, one assignment every 2-3 weeks"
+          },
+          {
+            "review_id": "Mq0SzrTKwZ6GqcCDjxlisswbHswPhu00",
+            "quote": "OK la"
+          }
+        ]
+      },
+      "teaching": {
+        "value": "mixed",
+        "n": 5,
+        "counts": {
+          "unclear": 1,
+          "mixed": 4
+        },
+        "examples": [
+          {
+            "review_id": "pRUBYxgjFG1mny3MugpPoIciZylURTAq",
+            "quote": "his lessons feel so desultory that it felt so hard to connect what he was saying into a coherent picture"
+          },
+          {
+            "review_id": "H7BZ9XtIEbIlYLRZ8HzRbecjQzzC82HE",
+            "quote": "不過可惜係lecture 只有professor手寫notes，有時show 下lecture material，有時就手寫，就難d溫書"
+          }
+        ]
+      },
+      "topics": [
+        "computing_programming",
+        "physical_sciences"
+      ]
+    },
+    {
+      "course_code": "SOSC1270",
+      "title": "International Law",
+      "term_code": "2530",
+      "instructor": "SAUTMAN, Barry",
+      "cc_areas": [
+        "SA"
+      ],
+      "description": "Public international law (IL) is based on rules for relations among states (countries), as well as the human rights of people. It covers almost every aspect of human activity and is mainly studied by analyzing legal cases and international agreements (treaties). The topics in an introductory IL course are the same everywhere in the world. The cases used are mostly the “classics” that established the principles of IL. Most topics involve current events of world-wide importance.",
+      "official_url": "https://w5.ab.ust.hk/wcq/cgi-bin/2530/common_core/CC25#SOSC1270",
+      "review_url": "https://ust.space/review/SOSC1270",
+      "review_count": 3,
+      "review_ids": [
+        "IhSpZsjOVDOveX4eZP6HaYedayOoKYdN",
+        "X8PouhlQsKOAGh1NE2H6n3rmTp7qMzE1",
+        "mDjm9DOPyd0dQCLfd7XkVVsSx0bIGsLG"
+      ],
+      "assessment": {
+        "final": {
+          "value": "yes",
+          "verified": false,
+          "note": "Student review checkboxes report this assessment.",
+          "source": "",
+          "review_ids": [
+            "IhSpZsjOVDOveX4eZP6HaYedayOoKYdN",
+            "X8PouhlQsKOAGh1NE2H6n3rmTp7qMzE1",
+            "mDjm9DOPyd0dQCLfd7XkVVsSx0bIGsLG"
+          ]
+        },
+        "presentation": {
+          "value": "no",
+          "verified": true,
+          "note": "The Spring 2026 outlines for L1 and L2 make the research paper presentation voluntary.",
+          "source": "https://sosc.hkust.edu.hk/sites/default/files/SOSC%20course%20syllabus/Spring%202026/SOSC1270%28L1%29_International%20Law_Spring2026_0202update.pdf",
+          "review_ids": []
+        },
+        "group_project": {
+          "value": "no",
+          "verified": true,
+          "note": "Both Spring 2026 sections make the paper optional and allow individual submissions.",
+          "source": "https://sosc.hkust.edu.hk/sites/default/files/SOSC%20course%20syllabus/Spring%202026/SOSC1270%28L1%29_International%20Law_Spring2026_0202update.pdf",
+          "review_ids": []
+        }
+      },
+      "workload": {
+        "value": "low",
+        "n": 3,
+        "counts": {
+          "low": 3
+        },
+        "examples": [
+          {
+            "review_id": "IhSpZsjOVDOveX4eZP6HaYedayOoKYdN",
+            "quote": "Pretty relax!!!!!!! 0 workload."
+          }
+        ]
+      },
+      "teaching": {
+        "value": "mixed",
+        "n": 1,
+        "counts": {
+          "mixed": 1
+        },
+        "examples": [
+          {
+            "review_id": "X8PouhlQsKOAGh1NE2H6n3rmTp7qMzE1",
+            "quote": "slides could be organized better; lack of structures in my opinion"
+          }
+        ]
+      },
+      "topics": [
+        "social_sciences"
+      ]
+    }
+  ]
+}

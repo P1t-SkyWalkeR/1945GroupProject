@@ -55,7 +55,17 @@ and against the LLM. See [`spot_check/README.md`](spot_check/README.md).
 | Course + instructor profiles | done (415 profiles) | `cleaned/course_profiles.csv` |
 | Classic model experiment | done (best: BoW + Perceptron, macro-F1 ≈ 0.39 / 0.43) | `cleaned/experiments/` |
 | Human spot check | **waiting for two annotators** | `spot_check/` |
-| Recommender (methods A / B / C) and evaluation | not started | — |
+| Recommender (methods A / B / C) | local prototype, candidate pool pending team confirmation | `src/demo.py`, `recommendation/preview_pool.json` |
+| Recommendation evaluation | blind review and scoring workflow ready; human judgments pending | `src/evaluate.py`, `recommendation/profiles.json` |
+
+Run the prototype from the repository root with Python 3.11 or newer:
+
+```bash
+python src/demo.py --pool recommendation/preview_pool.json --version C
+```
+
+Open http://127.0.0.1:8000. C is the preview method. See [the recommender guide](docs/RECOMMENDATION.md)
+for the candidate data, scoring rules, and evaluation workflow.
 
 Class balance: the Perceptron uses class weighting; KNN and MLP were re-run with random oversampling inside
 each training fold (`knn_bal`, `mlp_bal`). Balancing helps the MLP (0.30 → 0.34 / 0.35 → 0.40) but BoW +

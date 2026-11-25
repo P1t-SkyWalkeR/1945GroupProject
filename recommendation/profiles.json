@@ -1,0 +1,54 @@
+{
+  "development": [
+    {
+      "id": "DEV01",
+      "description": "Prefers to avoid a final and has limited time for coursework.",
+      "assessment": {"final": "prefer_no"},
+      "workload": "low"
+    },
+    {
+      "id": "DEV02",
+      "description": "Prefers an individual assignment and is interested in computing or engineering.",
+      "assessment": {"group_project": "prefer_no"},
+      "topics": ["computing_programming", "engineering_technology"]
+    },
+    {
+      "id": "DEV03",
+      "description": "Cannot take a course with a required presentation and prefers an arts topic.",
+      "assessment": {"presentation": "require_no"},
+      "topics": ["arts_music_film"]
+    },
+    {
+      "id": "DEV04",
+      "description": "Prefers a final exam to other assessments and can manage a medium workload.",
+      "assessment": {"final": "prefer_yes"},
+      "workload": "medium"
+    }
+  ],
+  "test": [
+    {
+      "id": "TEST01",
+      "description": "Needs a course without a final exam and is interested in physical sciences.",
+      "assessment": {"final": "require_no"},
+      "topics": ["physical_sciences"]
+    },
+    {
+      "id": "TEST02",
+      "description": "Needs individual coursework and prefers courses on philosophy or society.",
+      "assessment": {"group_project": "require_no"},
+      "topics": ["philosophy_religion", "social_sciences"]
+    },
+    {
+      "id": "TEST03",
+      "description": "Prefers to avoid a presentation and wants a course they can complete with a light workload.",
+      "assessment": {"presentation": "prefer_no"},
+      "workload": "low"
+    },
+    {
+      "id": "TEST04",
+      "description": "Seeks collaborative coursework and is interested in arts, music or film.",
+      "assessment": {"group_project": "prefer_yes"},
+      "topics": ["arts_music_film"]
+    }
+  ]
+}
