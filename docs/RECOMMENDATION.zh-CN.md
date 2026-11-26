@@ -2,6 +2,68 @@
 
 正式实验使用 **2026 年春季（2025–26 Spring，学期代码 2530）CC25 的 15 门课**，纳入了 74 条与学期及授课教师匹配的评论。候选池、4 个开发档案、4 个测试档案和评分权重已冻结。演示、盲评材料和评分脚本已就绪，人工评分完成后才能产生推荐质量指标。
 
+## 新版全量 CC 工作台
+
+```bash
+python3 src/build_test_preview.py --catalog recommendation/catalog.json --catalog-design workspace --output UST-Course-Vibe-Match-Workspace.html
+```
+
+打开新版时，推荐区提示设置偏好。选择工作量、兴趣、考核软偏好或硬条件后，页面即时更新推荐。切换学期和课程体系只调整候选池，清空所有偏好或按 `Reset` 会回到初始状态。课程目录入口随时可用。
+
+兴趣区默认展示全部 14 个主题。页面上方的评论覆盖数统计的是至少有一条 USTSPACE 评论能对上完整课号、所选学期和当期授课教师的课程数。
+
+工作台支持期中考试、期末考试、计分展示和小组作业。期中软偏好可参考评论中的勾选项。期中硬条件需要对应该学期和教师的已核实大纲。
+
+<details>
+<summary>工作台概念稿与插画提示词</summary>
+
+完整概念稿和独立空状态插画由内置 ImageGen 生成。打包使用 `preview/workspace-sheets.png`。
+
+> Full-screen desktop product design concept, 1440×900, for UST Vibe Match, a usable HKUST Common Core course-matching tool for students. This is the real first-visit finder screen. Design an airy, sharp editorial workspace with a near-white cool blue background, white surfaces, midnight navy text, and disciplined saturated cobalt accent. Top slim header: simple blue three-leaf/course-sheet mark, 'UST Vibe Match', and right tabs 'Find courses' and 'Course catalog'. Below, a left-aligned 42px title 'Find your Common Core' and concise 'Choose a term and tell us what you prefer.' No giant hero. Under that a slim scope row: 'Academic term' with '2026 Fall', 'Common Core curriculum' with 'All curricula', '138 courses · 9 with matching reviews'. Work area: a 350px left preference panel with 'Preferences' and 'Reset', 'Maximum workload' has Any, Low, Medium, High segments with small bar glyphs, 'Interests' with a 'Select all' link, and three concise dropdowns for 'Final exam or final test', 'Required graded presentation', 'Required group work', initially 'No preference'. Right larger workspace heading 'Your matches'. Its main element is a substantial empty state on a very pale icy-blue surface with one small centered distinctive flat geometric white stacked-course-sheet illustration with 2 thin orbit lines, blue outlines and a tiny warm amber spot. Text 'Add a preference to see matches', 'Choose a workload, interest, or assessment preference to get up to three courses.', and secondary button 'Browse the catalog'. Absolutely zero course recommendations or visible course names in this initial state. Don't add sample listings, progress steps, fake metrics, marketing copy, large imagery, or extra panels. Think contemporary independent university publication typography meets a focused course planning tool. Intentional grid, generous but efficient spacing, subtle outlines, practical native HTML/CSS/JS controls. Show full screen, crisp readable text, straight-on no perspective.
+
+> Create a standalone small empty-state illustration that precisely matches the one in the right-hand pale-blue panel of the reference interface. Output ONLY the illustration, centered, on genuine transparent background. Three simple stacked sheets of paper in gentle isometric perspective, clean white/lavender-blue fills, 2px vivid cobalt outlines, three short pale blue lines on top paper (no real text). One thin cobalt oval orbit and one small amber dot. Compact generous margins, flat editorial geometric look, illustration occupies ~85% horizontal width; crisp on a pale ice blue #e6f0fc product interface. No grain, no gradient background, no people, no dashboard/UI, no badges or words. Horizontal landscape aspect around 2:1.
+
+</details>
+
+## 全量 CC 选课应用
+
+全量版读取 2026 年 11 月 18 日收集的港科大主校区本科课程档案，覆盖 2023 Fall 至 2026 Fall 的 7 个秋春学期。280 个不同课号合并索引，保留 851 条分学期开课记录和 5,106 项按学期保存的 USTRankings 分数。
+
+```bash
+python3 src/build_test_preview.py --catalog recommendation/catalog.json --output UST-Course-Vibe-Match-All-CC.html
+```
+
+将 HTML 保存到本机，用 Chrome 或 Safari 直接打开。先选学期和自己适用的 Common Core 课程体系。在 `Find courses` 调整偏好时，推荐会即时更新。在 `Course catalog` 可按课号、课名或 CC 类别搜索，展开查看当学期的教师、资格分类、评论匹配数量和参考评分。早期学期的目录来自历史归档。USTRankings 是课程层面的标准化分数，供查阅，可能为负值，先验分数会标记 `prior only`。
+
+兴趣区可以用 `Select all` 一次勾选全部主题，也可以用 `Clear all` 清空兴趣。两项操作都会即时更新推荐。
+
+工作量使用分段选择。推荐卡可直接查看工作量、教学清晰度、匹配评论数和兴趣标签，展开 `Match details & sources` 查看原因和证据。
+
+<details>
+<summary>封面图与生成提示词</summary>
+
+封面使用内置 ImageGen 生成的原创图形，构建时从 `preview/course-orbit.jpg` 嵌入离线 HTML。
+
+> Use case: stylized-concept. Create an original wide editorial illustration for the right side of a modern university course explorer. One sculptural open book in lilac ceramic, with clean folded pages and thin brushed-chrome orbital rings passing around it, plus a few small acid-lime accents. Use a nearly black indigo studio backdrop (#151126), soft violet rim lighting, and clear silhouettes. Aim for a refined, tactile 3D design with generous negative space. Keep the main sculpture in the horizontal middle band so it works when cropped into a wide, shallow header. Landscape. No text, letters, logos, people, UI elements, or watermark.
+
+</details>
+
+| 学期 | 目录课程数 | 有同学期、同教师匹配评论的课程数 |
+| --- | ---: | ---: |
+| 2023 Fall | 114 | 64 |
+| 2024 Spring | 108 | 48 |
+| 2024 Fall | 115 | 62 |
+| 2025 Spring | 124 | 58 |
+| 2025 Fall | 111 | 51 |
+| 2026 Spring | 141 | 47 |
+| 2026 Fall | 138 | 9 |
+
+学期选择器按日历年份显示，例如 `2024 Spring` 是 2023–24 学年的春季。CC25 从 2025 Fall 开始有记录，早期学期可选 `All curricula`、`4Y` 或 `CC22`。
+
+每个学期按所有课程体系的课号并集计数。即使没有同学期、同教师的评论，课程也仍可查阅。推荐按教师分别评分，同一课号最多出现一次，并显示该次推荐对应的教师。考核硬要求需要已核实的课程大纲，证据缺失会有提示。全量应用默认使用 C 排序。下文的盲评和选版对应独立的 15 门课实验池。
+
+如果更新了归档或评论标签，可先运行 `python3 src/build_catalog.py --archive /path/to/cc_courses_merged.json` 重建目录数据，再重新打包 HTML。
+
 ## 1. 运行演示
 
 **发给组员或同学试用。** 把生成的 HTML 文件发过去。对方用浏览器打开文件，选一个示例或填自己的偏好，就能查看推荐。体验完点击 `Save feedback file` 下载 JSON 并发回组里。页面不会自动提交反馈。体验反馈用于检查界面和解释是否好用，正式适配评估继续使用第 3 节的盲评包。

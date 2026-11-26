@@ -12,7 +12,12 @@ from recommender import ASSESSMENTS, LEVELS, TEACHING, TOPIC_LABELS
 
 ROOT = Path(__file__).resolve().parent.parent
 CLEANED = ROOT / "cleaned"
-REVIEW_FIELDS = {"final": "has_final", "presentation": "has_presentation", "group_project": "group_work"}
+REVIEW_FIELDS = {
+    "midterm": "has_midterm",
+    "final": "has_final",
+    "presentation": "has_presentation",
+    "group_project": "group_work",
+}
 
 
 def code_key(value):
@@ -142,14 +147,14 @@ def assemble(archive_bytes, term, cohort, min_reviews, limit, verified):
     }
 
 
-def read_verified(path):
+def read_verified(path, allowed_fields=ASSESSMENTS):
     if path is None:
         return {}
     verified = {}
     for row in json.loads(path.read_text(encoding="utf-8")):
         key = (code_key(row["course_code"]), row["term_code"], instructor_key(row["instructor"]))
         field = row["field"]
-        if field not in ASSESSMENTS or row["value"] not in {"yes", "no"} or not row["note"].strip():
+        if field not in allowed_fields or row["value"] not in {"yes", "no"} or not row["note"].strip():
             raise ValueError(f"Invalid verified assessment: {key} / {field}")
         if not row["source"].startswith("https://"):
             raise ValueError(f"Missing HTTPS evidence source: {key} / {field}")

@@ -1,0 +1,65 @@
+[
+  {
+    "course_code": "COMP1942",
+    "term_code": "2530",
+    "instructor": "WONG, Raymond Chi Wing",
+    "field": "midterm",
+    "value": "yes",
+    "note": "The Spring 2026 syllabus assigns 20% to a midterm exam.",
+    "source": "https://seng.hkust.edu.hk/sites/default/files/IMCE/UG/Course%20Syllabus/Spring_2025-26/COMP1942_Spring25-26.pdf"
+  },
+  {
+    "course_code": "ELEC1010",
+    "term_code": "2530",
+    "instructor": "GUAN, Isabel",
+    "field": "midterm",
+    "value": "yes",
+    "note": "The Spring 2026 syllabus assigns 30% to a midterm in week 10.",
+    "source": "https://seng.hkust.edu.hk/sites/default/files/IMCE/UG/Course%20Syllabus/Spring_2025-26/ELEC1010_Spring%202025-26.pdf"
+  },
+  {
+    "course_code": "HUMA1100",
+    "term_code": "2530",
+    "instructor": "SHAO, YiFan",
+    "field": "midterm",
+    "value": "yes",
+    "note": "The Spring 2026 syllabus assigns 20% to a multiple-choice midterm.",
+    "source": "https://huma.hkust.edu.hk/sites/default/files/doc/Teaching/Courses/UG/Spring2026/HUMA1100.pdf"
+  },
+  {
+    "course_code": "HUMA2101",
+    "term_code": "2530",
+    "instructor": "DROSCHA, Isaac David",
+    "field": "midterm",
+    "value": "yes",
+    "note": "The Spring 2026 grading scheme assigns 20% to a midterm.",
+    "source": "https://huma.hkust.edu.hk/sites/default/files/doc/Teaching/Courses/UG/Spring2026/HUMA2101.pdf"
+  },
+  {
+    "course_code": "HUMA3810",
+    "term_code": "2530",
+    "instructor": "WONG, Simon Man Ho",
+    "field": "midterm",
+    "value": "no",
+    "note": "The complete Spring 2026 grading scheme lists an essay, a final examination, and participation. It has no midterm exam.",
+    "source": "https://huma.hkust.edu.hk/sites/default/files/doc/Teaching/Courses/UG/Spring2026/HUMA3810.pdf"
+  },
+  {
+    "course_code": "MECH1905",
+    "term_code": "2530",
+    "instructor": "LEE, Yi-Kuen",
+    "field": "midterm",
+    "value": "yes",
+    "note": "The Spring 2026 course profile assigns 35% to a midterm examination.",
+    "source": "https://seng.hkust.edu.hk/sites/default/files/IMCE/UG/Course%20Syllabus/Spring_2025-26/MECH1905_Spring%2025-26.pdf"
+  },
+  {
+    "course_code": "SOSC1270",
+    "term_code": "2530",
+    "instructor": "SAUTMAN, Barry",
+    "field": "midterm",
+    "value": "no",
+    "note": "The Spring 2026 syllabus specifies one required exam, scheduled for 7 May, at the end of term.",
+    "source": "https://sosc.hkust.edu.hk/sites/default/files/SOSC%20course%20syllabus/Spring%202026/SOSC1270%28L1%29_International%20Law_Spring2026_0202update.pdf"
+  }
+]

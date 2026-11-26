@@ -76,6 +76,30 @@ The balanced MLP holds out original reviews for early stopping before oversampli
 Its BoW results are 0.34 and 0.39 across the two tasks. BoW + Perceptron remains the highest on average.
 See METHODOLOGY section 4, step 4.
 
+### Full Common Core app
+
+The full app covers the seven Fall and Spring terms in the 18 November 2026 HKUST Main
+Campus snapshot. It includes 280 distinct course codes, 851 term-specific offerings, and 5,106
+USTRankings scores. From the repository root, build the standalone page:
+
+```bash
+python3 src/build_test_preview.py --catalog recommendation/catalog.json --output UST-Course-Vibe-Match-All-CC.html
+```
+
+Open the saved HTML directly in Chrome or Safari, then select a term and your CC curriculum. Find courses
+updates with preference changes. The catalog is searchable even when a course has no matching USTSPACE
+review. The ranking considers each scheduled instructor
+using same-term attributed reviews and verified syllabi. It returns up to three distinct courses
+and names the instructor behind each match. USTRankings scores appear for reference in the catalog.
+Method C is the default app setting. The formal evaluation uses the frozen 15-course pool.
+
+Build the separate workspace layout with `--catalog-design workspace` and a distinct output filename.
+This layout starts with an empty recommendation area and updates when a student sets a preference.
+
+To rebuild the catalog from the collected schedule and rating snapshot, run
+`python3 src/build_catalog.py --archive /path/to/cc_courses_merged.json`.
+See the [Chinese guide](docs/RECOMMENDATION.zh-CN.md) for coverage and evidence limits.
+
 ## ⚠️ Spot check: do not open the answer file
 
 `spot_check/llm_labels_HIDDEN.csv` contains the LLM labels for the spot-check sample. It is committed so the

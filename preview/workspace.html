@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UST Vibe Match — Course Finder</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --page: #f4f7fc;
+      --white: #fff;
+      --ink: #131d39;
+      --muted: #4b5973;
+      --line: #cbd6e8;
+      --blue: #1748ce;
+      --blue-dark: #1239a5;
+      --ice: #e5effd;
+      --focus: #1748ce;
+      --radius: 11px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    [hidden] { display: none !important; }
+    body { margin: 0; background: var(--page); color: var(--ink); font: 15px/1.5 system-ui, sans-serif; }
+    button, input { font: inherit; }
+    button, summary { cursor: pointer; }
+    a { color: var(--blue); text-underline-offset: 3px; }
+    :focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+    h1, h2, h3, p, dl, ul { margin-top: 0; }
+    .frame { width: min(calc(100% - 64px), 1520px); margin-inline: auto; }
+    .top { border-bottom: 1px solid var(--line); }
+    .top .frame { min-height: 64px; display: flex; justify-content: space-between; align-items: stretch; gap: 15px; }
+    .brand { display: flex; align-items: center; gap: 13px; font: 700 clamp(1.08rem, 2vw, 1.65rem)/1 Georgia, serif; white-space: nowrap; }
+    .brand-mark { display: inline-flex; gap: 3px; padding-right: 13px; border-right: 1px solid var(--line); }
+    .brand-mark i { width: 11px; height: 22px; display: block; background: #1b51db; transform: skew(-13deg) rotate(-19deg); }
+    .brand-mark i:nth-child(2) { background: #2869ea; }
+    .brand-mark i:nth-child(3) { background: #69a2f4; }
+    nav { display: flex; gap: 12px; }
+    nav button { padding: 0 10px; background: none; border: 0; border-bottom: 3px solid transparent; color: var(--ink); font-size: .95rem; font-weight: 660; white-space: nowrap; }
+    nav button:hover { color: var(--blue); }
+    nav button[aria-pressed="true"] { color: var(--blue-dark); border-bottom-color: var(--blue); }
+    main { padding-block: 26px 35px; }
+    .intro { margin: 0 0 19px; }
+    h1 { margin-bottom: 5px; font: 700 clamp(2.05rem, 4.2vw, 3.35rem)/1.07 Georgia, serif; letter-spacing: -.043em; }
+    .hero-subject { white-space: nowrap; }
+    #page-intro { margin: 0; font-size: clamp(.95rem, 1.6vw, 1.16rem); color: var(--muted); }
+    h2 { margin-bottom: 7px; font: 700 clamp(1.34rem, 2.2vw, 1.92rem)/1.13 Georgia, serif; letter-spacing: -.026em; }
+    h3 { font-size: 1.05rem; line-height: 1.27; margin-bottom: 5px; }
+    .muted { color: var(--muted); }
+    .notice { margin-bottom: 13px; padding: 10px 13px; background: #fff3da; border: 1px solid #e4c68c; border-radius: 8px; }
+    .panel { border: 1px solid var(--line); background: var(--white); border-radius: var(--radius); }
+    .scope { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.22fr) minmax(0, .95fr); gap: 16px; align-items: center; padding: 12px 15px; margin-bottom: 17px; }
+    .scope-status { padding-left: 13px; margin: 0; border-left: 1px solid var(--line); }
+    #coverage { font-size: .88rem; font-weight: 650; }
+    .term-range { display: block; font-size: .77rem; }
+    fieldset { min-width: 0; }
+    .field, .workload-field { margin: 0; padding: 0; border: 0; color: var(--ink); font-weight: 650; font-size: .86rem; }
+    .field legend, .workload-field legend { margin-bottom: 5px; padding: 0; }
+    .picker { position: relative; min-width: 0; }
+    .picker > summary, input[type="search"] { display: flex; align-items: center; min-height: 35px; width: 100%; min-width: 0; padding: 6px 8px; border: 1px solid #b8c7df; border-radius: 7px; color: var(--ink); background: var(--white); font-weight: 500; font-size: .86rem; }
+    .picker > summary { justify-content: space-between; gap: 7px; list-style: none; }
+    .picker > summary::-webkit-details-marker { display: none; }
+    .picker > summary::after { content: ""; width: 6px; height: 6px; flex: 0 0 6px; margin: -3px 1px 0 0; border-bottom: 1.5px solid; border-right: 1.5px solid; transform: rotate(45deg); }
+    .picker[open] > summary, .picker > summary:hover, input[type="search"]:hover { border-color: #7191dd; }
+    .picker-options { position: absolute; z-index: 4; inset: calc(100% + 4px) 0 auto; max-height: 244px; overflow: auto; padding: 4px; border: 1px solid var(--line); border-radius: 8px; background: white; box-shadow: 0 9px 24px #1c336829; }
+    .picker-options label { display: flex; gap: 8px; align-items: center; min-height: 33px; padding: 5px 7px; border-radius: 5px; cursor: pointer; font-weight: 500; }
+    .picker-options label:hover, .picker-options label:focus-within { background: var(--ice); }
+    .picker-options label:has(:checked) { background: var(--ice); }
+    input[type="checkbox"], input[type="radio"] { accent-color: var(--blue); }
+    .picker-options input { margin: 0; }
+    .workbench { display: grid; grid-template-columns: minmax(310px, .45fr) minmax(0, 1fr); gap: 17px; align-items: stretch; }
+    .preferences { padding: 15px 17px; }
+    .section-bar, .results-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 10px; }
+    .section-bar { margin-bottom: 13px; }
+    .results-head { margin-bottom: 11px; }
+    .section-bar h2, .results-head h2 { margin: 0; }
+    .text-action, .topic-action { border: 0; padding: 2px 0; background: none; color: var(--blue-dark); font-weight: 650; font-size: .87rem; }
+    .text-action:hover, .topic-action:hover { text-decoration: underline; }
+    .workload-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .workload-grid label { position: relative; }
+    .workload-option { display: grid; justify-items: center; align-content: center; gap: 3px; min-height: 53px; border: 1px solid #b8c7df; font-weight: 580; font-size: .81rem; cursor: pointer; }
+    .workload-grid label + label .workload-option { border-left: 0; }
+    .workload-grid label:first-child .workload-option { border-radius: 8px 0 0 8px; }
+    .workload-grid label:last-child .workload-option { border-radius: 0 8px 8px 0; }
+    .workload-option:hover { background: var(--ice); }
+    .workload-grid input:checked + .workload-option { background: var(--blue); color: white; border-color: var(--blue); font-weight: 680; }
+    .workload-grid input:focus-visible + .workload-option { outline: 2px solid var(--focus); outline-offset: 2px; position: relative; z-index: 1; }
+    .load-bars { display: inline-flex; gap: 2px; align-items: end; height: 14px; }
+    .load-bars span { width: 3px; height: 6px; background: #bdcbe1; }
+    .load-bars span:nth-child(2) { height: 9px; }
+    .load-bars span:nth-child(3) { height: 13px; }
+    .load-bars[data-level="low"] span:first-child, .load-bars[data-level="medium"] span:not(:last-child), .load-bars[data-level="high"] span { background: #2e559c; }
+    .workload-grid input:checked + .workload-option .load-bars span { background: #7198f3; }
+    .workload-grid input:checked + .workload-option .load-bars[data-level="low"] span:first-child,
+    .workload-grid input:checked + .workload-option .load-bars[data-level="medium"] span:not(:last-child),
+    .workload-grid input:checked + .workload-option .load-bars[data-level="high"] span { background: white; }
+    .interests { position: relative; margin: 16px 0 13px; }
+    .interests summary { padding: 0 78px 2px 0; min-height: 25px; font-size: .9rem; }
+    .topic-action { position: absolute; top: 0; right: 0; }
+    .topic-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 8px; padding: 3px 0; margin: 4px 0 0; border: 0; }
+    .topic-list label { display: flex; align-items: center; gap: 6px; min-width: 0; padding: 4px 2px; line-height: 1.24; font-size: .81rem; cursor: pointer; overflow-wrap: anywhere; }
+    .topic-list label:hover, .topic-list label:focus-within { color: var(--blue-dark); }
+    .topic-list input { height: 15px; width: 15px; flex: 0 0 15px; margin: 0; order: -1; }
+    .topic-symbol { display: none; }
+    .form-fields { display: grid; gap: 10px; }
+    .fine { font-size: .78rem; margin: 8px 0 0; color: var(--muted); }
+    details > summary { font-weight: 640; color: var(--ink); }
+    .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0; clip-path: inset(50%); overflow: hidden; white-space: nowrap; }
+    #match-view > section { display: flex; flex-direction: column; min-width: 0; }
+    #results { flex: 1; }
+    .match-empty { min-height: 100%; display: grid; place-content: center; justify-items: center; text-align: center; padding: 22px 20px 38px; border-radius: var(--radius); background: var(--ice); }
+    .match-empty img { display: block; width: min(100%, 450px); height: auto; margin: 0 0 9px; }
+    .match-empty h3 { font: 700 clamp(1.48rem, 2.7vw, 2.44rem)/1.11 Georgia, serif; letter-spacing: -.031em; margin-bottom: 8px; }
+    .match-empty p { margin: 0 0 19px; max-width: 57ch; color: var(--muted); }
+    .browse-button { border: 1px solid var(--blue); border-radius: 8px; padding: 8px 13px; color: var(--blue-dark); background: #f4f8ff; font-size: .9rem; font-weight: 700; }
+    .browse-button:hover { background: #dceafe; }
+    #results-count, #catalog-count { margin-bottom: 0; color: var(--muted); font-size: .85rem; }
+    .course-card { padding: 13px 15px; margin-bottom: 9px; }
+    .course-code { display: inline-block; color: var(--blue-dark); font: 700 .76rem/1.45 ui-monospace, SFMono-Regular, monospace; margin: 0 0 3px; }
+    .course-card h3 { margin: 0 0 3px; font-size: 1.13rem; }
+    .meta { color: var(--muted); font-size: .84rem; margin-bottom: 6px; }
+    .metric-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; padding: 8px 0; margin: 6px 0; border-block: 1px solid var(--line); }
+    .metric + .metric { border-left: 1px solid var(--line); padding-left: 8px; }
+    .metric dt { color: var(--muted); font-size: .73rem; }
+    .metric dd { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin: 0; font-weight: 660; overflow-wrap: anywhere; }
+    .metric[data-value="unknown"] dd { color: var(--muted); font-weight: 500; }
+    .topic-matches { display: flex; flex-wrap: wrap; gap: 3px 5px; margin: 5px 0; }
+    .topic-match, .verified-tag { display: inline-block; padding: 2px 7px; background: var(--ice); color: var(--blue-dark); font-size: .77rem; border-radius: 5px; }
+    .verified-tag { background: #e7f5ec; color: #1d6033; }
+    .reason-list { margin: 6px 0; padding-left: 17px; font-size: .87rem; }
+    .reason-list li + li { margin-top: 3px; }
+    .evidence { border-top: 1px solid var(--line); padding-top: 6px; margin-top: 7px; font-size: .86rem; }
+    .evidence summary, .blocked summary { color: var(--blue-dark); }
+    .evidence p, .catalog-entry p { margin-block: 8px; }
+    .blocked, .empty { padding: 13px 15px; margin-bottom: 8px; }
+    .catalog { padding: 15px 17px; }
+    .catalog-tools { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 10px; margin-bottom: 10px; }
+    label.field { display: grid; gap: 5px; }
+    #catalog-courses { margin-top: 8px; }
+    .catalog-entry { padding: 9px 4px; border-top: 1px solid var(--line); }
+    .catalog-entry[open] { background: #f8faff; }
+    .catalog-entry .course-code { margin: 0 7px 0 2px; }
+    .catalog-area { margin-left: 8px; color: var(--muted); font-size: .8rem; }
+    .catalog-entry > :not(summary) { margin-left: 14px; }
+    .catalog-entry details { margin-top: 5px; }
+    .links { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .85rem; }
+    footer { padding: 11px 0 18px; border-top: 1px solid var(--line); font-size: .8rem; color: var(--muted); }
+    @media (min-width: 1060px) {
+      .scope .field { position: relative; padding-left: clamp(112px, 12vw, 168px); }
+      .scope .field legend { position: absolute; top: 50%; left: 0; transform: translateY(-50%); max-width: 140px; }
+    }
+    @media (max-width: 740px) {
+      .frame { width: min(calc(100% - 28px), 1520px); }
+      main { padding-block: 18px 25px; }
+      .top .frame { min-height: 54px; }
+      .section-bar { margin-bottom: 12px; }
+      .scope { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 10px; }
+      .scope-status { grid-column: 1 / -1; border: 0; padding: 0; }
+      .workbench { grid-template-columns: minmax(0, 1fr); }
+      .match-empty { min-height: 291px; padding: 14px 13px 23px; }
+      .match-empty img { width: min(73%, 320px); }
+    }
+    @media (max-width: 410px) {
+      .top .frame { gap: 3px; }
+      .brand { font-size: 1rem; gap: 4px; }
+      .brand-mark { display: none; }
+      nav { gap: 3px; }
+      nav button { padding-inline: 4px; font-size: .77rem; }
+      .catalog-tools { grid-template-columns: minmax(0, 1fr); }
+    }
+  </style>
+</head>
+<body>
+<header class="top">
+  <div class="frame">
+    <div class="brand"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>UST Vibe Match</div>
+    <nav aria-label="Main navigation">
+      <button type="button" id="open-matches" aria-pressed="true" aria-controls="match-view">Find courses</button>
+      <button type="button" id="open-catalog" aria-pressed="false" aria-controls="catalog-view">Course catalog</button>
+    </nav>
+  </div>
+</header>
+<main class="frame">
+  <div class="intro">
+    <h1 id="page-heading">Find your <span class="hero-subject">Common Core</span></h1>
+    <p id="page-intro">Choose a term and tell us what you prefer.</p>
+  </div>
+  <p id="startup-notice" class="notice" role="status">If the page stays on this message, save the HTML and open it directly in Chrome or Safari with JavaScript enabled.</p>
+  <section class="scope panel" aria-label="Term and Common Core curriculum">
+    <!-- TERM_FIELD -->
+    <!-- COHORT_FIELD -->
+    <p class="scope-status muted">
+      <span id="coverage" data-review-label="with reviews for the same term and instructor" aria-live="polite"></span>
+      <small class="term-range">Catalog coverage · <!-- TERM_RANGE --></small>
+    </p>
+  </section>
+  <div id="match-view" class="workbench">
+    <form id="preferences" class="panel preferences" autocomplete="off" aria-labelledby="preferences-heading">
+      <div class="section-bar">
+        <h2 id="preferences-heading">Preferences</h2>
+        <button type="reset" class="text-action">Reset</button>
+      </div>
+      <!-- WORKLOAD_FIELD -->
+      <div class="interests">
+        <details id="interest-picker" open>
+          <summary id="topics-summary">Interests</summary>
+          <fieldset class="topic-list">
+            <legend class="sr-only">Course interests</legend>
+            <!-- TOPIC_FIELDS -->
+          </fieldset>
+        </details>
+        <button id="select-all-topics" class="topic-action" type="button" aria-controls="interest-picker" aria-label="Select all interests">Select all</button>
+      </div>
+      <div class="form-fields"><!-- PREFERENCE_FIELDS --></div>
+      <p class="fine">Required choices need a verified syllabus.</p>
+    </form>
+    <section aria-labelledby="results-heading">
+      <div class="results-head">
+        <h2 id="results-heading">Your matches</h2>
+        <p id="results-count" role="status"></p>
+      </div>
+      <div id="results"></div>
+      <template id="initial-matches">
+        <div class="match-empty">
+          <img src="data:image/png;base64,<!-- WORKSPACE_ART -->" alt="" width="672" height="336">
+          <h3>Add a preference to see matches</h3>
+          <p>Choose a workload, interest, or assessment preference to get up to three courses.</p>
+          <button class="browse-button" type="button">Browse the catalog</button>
+        </div>
+      </template>
+    </section>
+  </div>
+  <section id="catalog-view" class="panel catalog" aria-label="Catalog results" hidden>
+    <div class="catalog-tools">
+      <label class="field">Course code or title <input type="search" id="catalog-search" placeholder="Search courses"></label>
+      <!-- AREA_FIELD -->
+    </div>
+    <p id="catalog-count" role="status"></p>
+    <div id="catalog-courses"></div>
+  </section>
+</main>
+<footer class="frame" id="snapshot"></footer>
+<script id="preview-data" type="application/json"><!-- PREVIEW_DATA --></script>
+<script>
+<!-- PREVIEW_SCRIPT -->
+</script>
+</body>
+</html>
